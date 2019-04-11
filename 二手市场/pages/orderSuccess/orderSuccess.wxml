@@ -1,0 +1,15 @@
+<!--pages/orderSuccess/orderSuccess.wxml-->
+
+<view class='all'>
+  <view>
+    <text>订单已提交，请等待商家接单</text>
+  </view>
+  <view>
+    <text>订单编号：{{orderId}}</text>
+  </view>
+
+  <view class='twoButton'>
+    <button bindtap='backIndex'>返回首页</button>
+    <button bindtap='goOrderDetail'>查看订单</button>
+  </view>
+</view>

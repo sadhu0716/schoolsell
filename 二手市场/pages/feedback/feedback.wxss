@@ -1,0 +1,49 @@
+/* pages/feedback/feedback.wxss */
+.feedbackimage{
+   
+   height: 50rpx;
+   width:50rpx;
+   position: absolute;
+   top: 45rpx;
+   left:50rpx;
+    
+}
+
+.text{
+   font-size: 40rpx;
+   position: absolute;
+   left: 120rpx;
+   top: 30rpx;
+   color: #808080
+}
+.textarea{
+   border: 1px solid #808080;
+   height: 550rpx;
+   width: 96%;
+   position: absolute;
+   top: 120rpx;
+   left: 15rpx;
+    border-radius: 10rpx;
+     font-size: 30rpx
+}
+.tip{
+    margin-top:800rpx;
+    display: flex;
+    flex-direction: row
+  
+
+}
+.texttip{
+   color: #808080;
+   font-size: 30rpx;
+   margin-left: 70rpx;
+   margin-right: 70rpx;
+   text-align: center
+   
+}
+.submitbtn{
+     width: 55%;
+      margin-top:100rpx;
+   
+
+}

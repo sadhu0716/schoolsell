@@ -1,0 +1,117 @@
+<view class='all'>
+  <view>
+    请选择首页展示图:
+  </view>
+  <view class="page" bindinput='getpicture'>
+    <view class="page__bd">
+      <view class="weui-cells">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <view class="weui-uploader">
+              <view class="weui-uploader__hd">
+                <view class="weui-uploader__title"></view>
+                <view class="weui-uploader__info">{{Thumbnail.length}}/1</view>
+              </view>
+              <view class="weui-uploader__bd">
+                <view class="weui-uploader__files" id="uploaderFiles">
+                  <block wx:for="{{Thumbnail}}" wx:key="*this">
+                    <view class="weui-uploader__file" bindtap="previewImage" id="{{item}}">
+                      <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                    </view>
+                  </block>
+
+                </view>
+                <view class="weui-uploader__input-box">
+                  <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    请选择商品详情图:
+  </view>
+  <view class="page" bindinput='getpicture'>
+    <view class="page__bd">
+      <view class="weui-cells">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <view class="weui-uploader">
+              <view class="weui-uploader__hd">
+                <view class="weui-uploader__title"></view>
+                <view class="weui-uploader__info">{{Detail.length}}/4</view>
+              </view>
+              <view class="weui-uploader__bd">
+                <view class="weui-uploader__files" id="uploaderFile">
+                  <block wx:for="{{Detail}}" wx:key="*this">
+                    <view class="weui-uploader__file" bindtap="previewImage1" id="{{item}}">
+                      <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                    </view>
+                  </block>
+
+                </view>
+                <view class="weui-uploader__input-box">
+                  <view class="weui-uploader__input" bindtap="chooseImage1"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='inputname'>
+    <input class='textname' placeholder='在此填写商品名称' bindinput='getcname' name="name"></input>
+  </view>
+  <view class='line'></view>
+  <view class='inputdescribe'>
+    <textarea class='textname' placeholder='在此描述你对商品' bindinput='getdescribe' name="describe">{{describe}}</textarea>
+  </view>
+  <view class='line'></view>
+
+  <view class='inputprice'>
+    <input class='textname' placeholder='在此填写商品价格' bindinput='getprice' name="price"></input>
+  </view>
+  <view class='line'></view>
+
+  <view class='count'>
+    <text class='textname'>商品数量</text>
+    <input class='inputcount' value='1' bindblur='getCount'>{{count}}</input>
+  </view>
+  <view class='line'></view>
+
+  <view class='chosekind' bindtap='clicktoselectionkind'>
+    <text class='textname' bindinput='getchose' name="kind">{{chosekind}}</text>
+    <text class='textname1'>{{smallkind}}</text>
+    <image src='../image/next.png' class='nextimage'></image>
+  </view>
+  <view class='line'></view>
+
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class='inputuertime'>
+      <text class='textname' bindinput='getusetime' name="usetime">{{choseusetime}}</text>
+      <text class='textname1'>{{array[index]}}</text>
+      <image src='../image/next.png' class='nextimage'></image>
+    </view>
+  </picker>
+  <view class='line'></view>
+
+  <picker bindchange="bindbargain" value="{{bargainindex}}" range="{{arraybargain}}">
+    <view class='inputuertime'>
+      <text class='textname' bindinput='getbargain'>是否接受砍价</text>
+      <text class='textname1'>{{arraybargain[bargainindex]}}</text>
+      <image src='../image/next.png' class='nextimage'></image>
+    </view>
+  </picker>
+  <view class='line'></view>
+
+
+
+
+  <button class='releasebtn' type='warn' bindtap='clicktorelease'>{{submitbtn}}</button>
+
+</view>

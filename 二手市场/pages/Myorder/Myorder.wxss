@@ -1,0 +1,190 @@
+/* pages/Myorder/Myorder.wxss */
+
+.allpage {
+  width: 100%;
+  height: 1215rpx;
+  /* background-color: #f0f0f0 */
+}
+
+.top-nav {
+  width: 100%;
+  height: 80rpx;
+  background-color: #ffffe0;
+}
+
+.scroll-views {
+  height: 100%;
+}
+
+.swiper-items {
+  /* height: 100%; */
+}
+
+.top-nav-bar {
+  font-size: 30rpx;
+  color: #808080;
+}
+
+.textbar {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.active {
+  border-bottom: 1px solid #f00;
+}
+
+.bttom-nav {
+  height: 100%;
+}
+
+.part {
+  width: 99%;
+  /* height: 700rpx; */
+  margin-top: 10rpx;
+  /* border: 1px solid blue; */
+  background-color: whitesmoke;
+  /* border-radius: 10%; *//* position: absolute */
+}
+
+.orderID {
+  float: left;
+}
+
+.parttop {
+  height: 15%;
+  text-align: right;
+  /* background-color: #f0f0f0; */
+}
+
+.line {
+  width: 100%;
+  height: 1rpx;
+  background-color: gray;
+}
+
+.partmid {
+  position: relative;
+  background-color: #f0f0f0;
+  margin-top: 10rpx;
+  border: 1px solid whitesmoke
+}
+
+.image {
+  height: 150rpx;
+  width: 150rpx;
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+}
+
+.textlength {
+  position: absolute;
+  width: 550rpx;
+  /* height: 550rpx; */
+  left: 180rpx;
+  /* right: 100rpx; */
+  top: 0rpx;
+  /* border: 1px solid red */
+  
+}
+
+.name {
+  position: absolute;
+  left: 0rpx;
+  top: 20rpx
+}
+
+.price {
+  position: absolute;
+  right: 160rpx;
+  top: 20rpx
+}
+
+.count {
+  position: absolute;
+  right: 160rpx;
+  top: 80rpx;
+}
+
+.partbttom {
+  height: 25%;
+  /* margin-top: 10rpx; */
+  background-color: #f0f0f0;
+  width: 100%
+}
+
+.btn {
+  margin-top: 210rpx;
+  position: absolute;
+  right: 20rpx;
+  border-radius: 15%;
+  width: 220rpx;
+}
+.btncomment{
+  margin-top: 210rpx;
+  position: absolute;
+  right: 20rpx;
+  border-radius: 15%;
+  width: 220rpx;
+}
+
+.btnjubao {
+ /* margin-top: 210rpx; */
+  position: absolute;
+  right: 5rpx;
+  top: 40rpx;
+  border-radius: 15%;
+  width: 120rpx;
+}
+
+.reference {
+  position: relative;
+  /* border: 1px solid yellow; */
+  width: 100;
+  height: 300rpx;
+   background-color: #f0f0f0;
+}
+
+.orderdate {
+  position: absolute;
+  top: 0rpx;
+  /* left: -10rpx; */
+}
+
+.orderaddress {
+  position: absolute;
+  top: 30rpx;
+  /* right: 500rpx */
+}
+
+.orderaddress1 {
+  position: absolute;
+  top: 60rpx;
+  /* right: 500rpx */
+}
+
+.orderaddress2 {
+  position: absolute;
+  top: 90rpx;
+  /* right: 500rpx */
+}
+
+.orderaddress3 {
+  position: absolute;
+  top: 120rpx;
+  /* right: 400rpx */
+}
+
+.orderaddress4 {
+  position: absolute;
+  top: 150rpx;
+  /* right: 400rpx */
+}
+.hide{
+display: none;
+}
+.show{
+display: block;
+}

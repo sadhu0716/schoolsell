@@ -1,0 +1,67 @@
+<view class='pageall'>
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>{{topname1}}</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>{{topname2}}</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>{{topname3}}</view>
+    
+</view> 
+
+
+<swiper current="{{currentData}}" class='swiper'  duration="300" bindchange="bindchange" style="height:{{winHeight - 31}}px">
+<!-- 出售中 -->
+  <swiper-item class="swiper-items">
+  <scroll-view scroll-y="true" class='scroll-views'>
+  <!-- <view class='swiper_con' >  -->
+   <view class='group' wx:for="{{sell}}" wx:key="{{only}}">
+   <view wx:if="{{sell[index]!=null}}">
+    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?time=new Date()' class='image'></image>
+    <text class='textname top-nav-bar '>{{item.Cname}}</text>
+    <text class='textprice top-nav-bar '>¥{{item.price}}</text>
+   <text class='textcount top-nav-bar '>x{{item.count}}</text>
+    <button class='changbtn top-nav-bar ' bindtap='cilcktochang' data-index="{{index}}" id="{{item.cID}}">{{topbtnname}}</button>
+ 
+   </view>
+   </view>
+  <!-- </view>   -->
+  </scroll-view>
+  </swiper-item> 
+  
+<!-- 下架 -->
+  <swiper-item class="swiper-items">
+  <scroll-view scroll-y="true" class='scroll-views'>
+  <view class='swiper_con' wx:for="{{sell}}" wx:key="{{only}}">
+  <view wx:if="{{sell[index]!=null}}">
+   <view class='group' >
+    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
+    <text class='textname top-nav-bar '>{{item.Cname}}</text>
+    <text class='textprice top-nav-bar '>¥{{item.price}}</text>
+      <text class='textcount top-nav-bar '>x{{item.count}}</text>
+    <view class='btn'>
+    <button class='downbtn top-nav-bar ' bindtap='clicktodown' data-index="{{index}}" id="{{item.cID}}">{{topbtnname1}}</button>
+    </view>
+     <view class="line"></view>
+   </view>
+   </view>
+   </view>
+    </scroll-view>
+</swiper-item>
+    <!-- 审核 -->
+<swiper-item class="swiper-items">
+<scroll-view scroll-y="true" class='scroll-views'>
+  <view class='swiper_con' wx:for="{{Review}}" wx:key="{{only}}">
+  <view wx:if="{{Review[index]!=null}}">
+   <view class='group' >
+    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
+    <text class='textname top-nav-bar '>{{item.Cname}}</text>
+    <text class='textprice top-nav-bar '>¥{{item.price}}</text>
+      <text class='textcount top-nav-bar '>x{{item.count}}</text>
+     <view class="line"></view>
+   </view>
+   </view>
+   </view>
+    </scroll-view>
+</swiper-item>
+
+</swiper>
+
+</view>

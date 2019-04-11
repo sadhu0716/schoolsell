@@ -1,0 +1,45 @@
+    
+
+
+  
+
+.line{
+ width: 100%;
+  height: 2rpx;
+  background: 	black;
+}
+.textname{
+  width: 100%;
+   font-size: 30rpx;
+   color: #808080;
+   padding-top: 10rpx;
+   padding-left: 15rpx;
+   /* border: 1px solid blue */
+}
+
+ 
+.count{
+  margin-top: 10rpx;
+     width: 100%;
+  height: 70rpx;
+  background-color: 	#FFFFFF;
+  position: relative
+}
+.input{
+  
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  width: 40%;
+  text-align: center;
+   /* border: 1px solid black */
+}
+
+
+.releasebtn{
+  width: 70%;
+  height: 100rpx;
+  margin-left: 110rpx;
+  margin-top: 80rpx;
+  /* border: 1px solid red */
+}

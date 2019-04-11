@@ -1,0 +1,50 @@
+<!--pages/report/report.wxml-->
+
+<!-- <view class='all'> -->
+  
+  <view class='text'>
+    请选择图片:
+  </view>
+    <view class="page" bindinput='getpicture'>
+    <view class="page__bd">
+      <view class="weui-cells">
+        <view class="weui-cell">
+          <view class="weui-cell__bd">
+            <view class="weui-uploader">
+              <view class="weui-uploader__hd">
+                <view class="weui-uploader__title"></view>
+                <view class="weui-uploader__info">{{Detail.length}}/4</view>
+              </view>
+              <view class="weui-uploader__bd">
+                <view class="weui-uploader__files" id="uploaderFile">
+                  <block wx:for="{{Detail}}" wx:key="*this">
+                    <view class="weui-uploader__file" bindtap="previewImage1" id="{{item}}">
+                      <image class="weui-uploader__img" src="{{item}}" mode="aspectFill" />
+                    </view>
+                  </block>
+
+                </view>
+                <view class="weui-uploader__input-box">
+                  <view class="weui-uploader__input" bindtap="chooseImage1"></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <text class='text'>商品名称：{{goodsName}}</text>
+  </view>
+
+  <form class='textBox' bindsubmit='reportBox'>
+    <text class='text'>举报描述：</text>
+    <textarea class='reportText text' placeholder='请描述你的举报理由，我们将会在查清后处理' name='report' bindinput='textInput' value='{{form_info}}'></textarea>
+  </form>
+  <!-- <view class='btn'> -->
+  <button bindtap='submit' type="primary" class='submit'>提交</button>
+ 
+  <!-- </view> -->
+<!-- </view> -->

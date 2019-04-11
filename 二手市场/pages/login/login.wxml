@@ -1,0 +1,38 @@
+<form>
+<view class="container"> 
+  <view class="login-icon">
+    <image class="login-img" src="../image/1.png"></image>
+  </view>
+  <view class="login-from">
+ 
+    <!--账号-->
+    <view class="inputView">
+      <image class="nameImage" src="../image/3.png"></image>
+      <label class="loginLab">用户名</label>
+      <input class="inputText" placeholder="请输入用户名" bindinput="numberInput" data-id="{{item.username}}" />
+    </view>
+    <view class="line"></view>
+ 
+    <!--密码-->
+    <view class="inputView">
+      <image class="keyImage" src="../image/2.png"></image>
+      <label class="loginLab">密码</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" data-id="{{item.password}}"/>
+    </view>
+   
+ 
+    <!--按钮-->
+    <view class="loginBtnView">
+      <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login" >登录</button>
+    </view>
+    
+    <view class='label'> 
+       <label class='label_02' bindtap='register'>还没账号？注册</label>
+    </view>
+  </view>
+
+  <view class='image1'>
+    <image class='image' src='../image/wx.png' bindtap='wxlogin'></image>
+  </view>
+ </view> 
+</form>
