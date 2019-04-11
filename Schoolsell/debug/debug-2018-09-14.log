@@ -1,0 +1,868 @@
+[2018-09-14 22:49:56] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/AdministratorMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/BigkindMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/ChatreportMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/CommodityMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/FeedbackMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/JubaoMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/OrderMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/OrdercommodityMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/PictureMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/ShopcarMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/SmallkindMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/UserMapper.class]
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2018-09-14 22:49:57] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-09-14 22:49:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/AdministratorMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/BigkindMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/ChatreportMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/CommodityMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/FeedbackMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/JubaoMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/OrderMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/OrdercommodityMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/PictureMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/ShopcarMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/SmallkindMapper.xml]'
+[2018-09-14 22:49:59] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/UserMapper.xml]'
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1690f06d
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1607317500 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:50:28] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-14 22:50:28] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 1122@qq.com(String)
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@476da3f2
+[2018-09-14 22:50:28] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65] from current transaction
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca80a65]
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@197ff08d
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@64e6c04d
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3905c81c
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@24d156d0
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3cefad57
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@731fb58d
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@27f18c32
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7741ebb5
+[2018-09-14 22:50:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:50:29] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:29] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7659325f] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:50:29] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1919334476 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:50:29] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==>  Preparing: select count(*) from chatreport where acceptid = ? and isbrowse=? 
+[2018-09-14 22:50:29] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==> Parameters: 1122@qq.com(String), false(Boolean)
+[2018-09-14 22:50:29] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- <==      Total: 1
+[2018-09-14 22:50:29] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7659325f]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6957654c] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1737524758 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2078161158 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@125d108b]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1398807216 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6957654c]
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@125d108b]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@125d108b]
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d] from current transaction
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@125d108b]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@125d108b]
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d] from current transaction
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d] from current transaction
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2018-09-14 22:50:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ae3333d]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@325155c4
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@325155c4' to type 'boolean[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@63d108e1
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@63d108e1' to type 'byte[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@198021c4
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@198021c4' to type 'char[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@7fb63423
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@7fb63423' to type 'double[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@47f1a164
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@47f1a164' to type 'float[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@2c0c3f7b
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@2c0c3f7b' to type 'int[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@349ab53f
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@349ab53f' to type 'long[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@7ac388a3
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@7ac388a3' to type 'short[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@30f3fc1e
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@30f3fc1e' to type 'BigDecimal[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@7d49fa9c
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@7d49fa9c' to type 'BigInteger[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@1c9b9b47
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@1c9b9b47' to type 'Boolean[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@7a7b8ee7
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@7a7b8ee7' to type 'Byte[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@55479eba
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@55479eba' to type 'Character[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@67681394
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@67681394' to type 'Double[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@27e9ed9d
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@27e9ed9d' to type 'Float[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@1435331
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@1435331' to type 'Integer[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@6898bfed
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@6898bfed' to type 'Long[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@4fcbe5d9
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@4fcbe5d9' to type 'Short[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@27266cb8
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@27266cb8' to type 'String[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@3c6769b6
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@3c6769b6' to type 'Class[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@112dce00
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@112dce00' to type 'Date[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@158febfe
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@158febfe' to type 'Calendar[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@6d809baa
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@6d809baa' to type 'java.io.File[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@4685ba25
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@4685ba25' to type 'java.sql.Date[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@2d405520
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@2d405520' to type 'java.sql.Time[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@11b5d8e5
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@11b5d8e5' to type 'java.sql.Timestamp[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@5cbbe135
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@5cbbe135' to type 'java.net.URL[]'
+[2018-09-14 22:50:30] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@733f2cc3]
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2120393385 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:50:34] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:34] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:34] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@733f2cc3]
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@733f2cc3]
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@733f2cc3]
+[2018-09-14 22:50:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@733f2cc3]
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@eff0431]
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1301588544 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:50:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@eff0431]
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@eff0431]
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@eff0431]
+[2018-09-14 22:50:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@eff0431]
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5454c2ce]
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@776648454 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:50:37] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:37] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:37] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5454c2ce]
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5454c2ce]
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5454c2ce]
+[2018-09-14 22:50:37] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5454c2ce]
+[2018-09-14 22:50:41] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:41] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ec2713e] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:50:41] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@185937833 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:50:41] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- ==>  Preparing: select chatid, sendid, acceptid, context, `date`, isbrowse from chatreport where acceptid = ? and isbrowse=? 
+[2018-09-14 22:50:41] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- ==> Parameters: 1122@qq.com(String), false(Boolean)
+[2018-09-14 22:50:41] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- <==      Total: 3
+[2018-09-14 22:50:41] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ec2713e]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73db4d49] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2134277710 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35c2b2fb]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@652496711 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1857956812 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73db4d49]
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae] from current transaction
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35c2b2fb]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35c2b2fb]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35c2b2fb]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35c2b2fb]
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae] from current transaction
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae] from current transaction
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-14 22:50:43] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:43] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2370caae]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e10d119] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1951087030 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f567023]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1959123573 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6e10d119]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1396002448 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f] from current transaction
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f567023]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f567023]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f567023]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f567023]
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f] from current transaction
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f] from current transaction
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-14 22:50:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1da05f7f]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@392493367 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39213901]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@698535278 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39213901]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39213901]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39213901]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39213901]
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: OPPO(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: vivo(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 魅族(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 4
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 三星(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 手机配件(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 5
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 荣耀(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf] from current transaction
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他品牌(String)
+[2018-09-14 22:50:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240cfedf]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1789105213 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: OPPO(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: vivo(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 魅族(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 4
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 三星(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 手机配件(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 5
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 荣耀(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9] from current transaction
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他品牌(String)
+[2018-09-14 22:50:54] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:54] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@41f8f5c9]
+[2018-09-14 22:50:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd35820] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1108656074 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cd35820]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fb21bf4]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@213755967 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1008101822 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fb21bf4]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fb21bf4]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fb21bf4]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@fb21bf4]
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7] from current transaction
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7] from current transaction
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7] from current transaction
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-14 22:51:01] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:01] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47e38ea7]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@321948841 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ba24228]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1899208532 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ba24228]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ba24228]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ba24228]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ba24228]
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: OPPO(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: vivo(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 魅族(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 4
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 三星(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 手机配件(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 5
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 荣耀(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43] from current transaction
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他品牌(String)
+[2018-09-14 22:51:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6749df43]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@303539990 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: OPPO(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: vivo(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 魅族(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 4
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 三星(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 手机配件(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 5
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 荣耀(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35] from current transaction
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他品牌(String)
+[2018-09-14 22:51:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7382a35]
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4369c3d9]
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@333724065 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:51:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-14 22:51:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4369c3d9]
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4369c3d9]
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4369c3d9]
+[2018-09-14 22:51:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4369c3d9]
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@527040a7]
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1931826530 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:51:15] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:15] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:15] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@527040a7]
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@527040a7]
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@527040a7]
+[2018-09-14 22:51:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@527040a7]
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c228763]
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1733262908 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:51:16] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:16] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-14 22:51:16] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c228763]
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c228763]
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c228763]
+[2018-09-14 22:51:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c228763]
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d793db4]
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1841246789 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:51:19] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:19] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:19] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d793db4]
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d793db4]
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d793db4]
+[2018-09-14 22:51:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d793db4]
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635ef2c3]
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@635733478 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will be managed by Spring
+[2018-09-14 22:51:20] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-14 22:51:20] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-14 22:51:20] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635ef2c3]
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635ef2c3]
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635ef2c3]
+[2018-09-14 22:51:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635ef2c3]
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b0d2dcc]
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1299963796 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:51:22] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-14 22:51:22] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-14 22:51:22] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b0d2dcc]
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b0d2dcc]
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b0d2dcc]
+[2018-09-14 22:51:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b0d2dcc]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f33f41e] was not registered for synchronization because synchronization is not active
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1742773701 wrapping com.mysql.jdbc.JDBC4Connection@1690f06d] will not be managed by Spring
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c5e1493]
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f33f41e]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1492155972 wrapping com.mysql.jdbc.JDBC4Connection@197ff08d] will be managed by Spring
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@978404086 wrapping com.mysql.jdbc.JDBC4Connection@476da3f2] will be managed by Spring
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c5e1493]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c5e1493]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c5e1493]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c5e1493]
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617] from current transaction
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617] from current transaction
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617] from current transaction
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-14 22:51:27] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:27] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f8f7617]
+[2018-09-14 22:51:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:51:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:52:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:52:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:53:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:53:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:54:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:54:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:55:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:55:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:56:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:56:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:57:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:57:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:58:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:58:58] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:59:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1690f06d: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@476da3f2: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@197ff08d: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@64e6c04d: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3905c81c: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@24d156d0: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3cefad57: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@731fb58d: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@27f18c32: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7741ebb5: (connection evicted)
+[2018-09-14 22:59:32] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

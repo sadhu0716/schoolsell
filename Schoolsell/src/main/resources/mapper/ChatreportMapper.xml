@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.ChatreportMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Chatreport">
+    <id column="chatid" jdbcType="INTEGER" property="chatid" />
+    <result column="sendid" jdbcType="VARCHAR" property="sendid" />
+    <result column="acceptid" jdbcType="VARCHAR" property="acceptid" />
+    <result column="context" jdbcType="VARCHAR" property="context" />
+    <result column="date" jdbcType="VARCHAR" property="date" />
+    <result column="isbrowse" jdbcType="BIT" property="isbrowse" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from chatreport
+    where chatid = #{chatid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Chatreport">
+    insert into chatreport (chatid, sendid, acceptid,
+      context, `date` ,isbrowse)
+    values (#{chatid,jdbcType=INTEGER}, #{sendid,jdbcType=VARCHAR}, #{acceptid,jdbcType=VARCHAR},
+      #{context,jdbcType=VARCHAR}, #{date,jdbcType=VARCHAR},#{isbrowse,jdbcType=BIT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Chatreport">
+    update chatreport
+    set sendid = #{sendid,jdbcType=VARCHAR},
+      acceptid = #{acceptid,jdbcType=VARCHAR},
+      context = #{context,jdbcType=VARCHAR},
+      `date` = #{date,jdbcType=VARCHAR}
+      isbrowse = #{isbrowse,jdbcType=BIT}
+    where chatid = #{chatid,jdbcType=INTEGER}
+  </update>
+
+  <update id="updateIsbrowse">
+    update chatreport
+    set  isbrowse = #{isbrowse}
+    where chatid = #{chatid}
+  </update>
+  <update id="updateIsbrowseBysendidandacceptid">
+    update chatreport
+    set  isbrowse = 1
+    where sendid = #{sendid} and acceptid = #{accepid}
+  </update>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select chatid, sendid, acceptid, context, `date`, isbrowse
+    from chatreport
+    where chatid = #{chatid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select chatid, sendid, acceptid, context, `date`, isbrowse
+    from chatreport
+  </select>
+  <select id="selectByAccpetid" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select chatid, sendid, acceptid, context, `date`, isbrowse
+    from chatreport
+    where acceptid = #{accpetid,jdbcType=VARCHAR}
+  </select>
+  <select id="selectByAccpetidAndisBrowse" resultMap="BaseResultMap">
+    select chatid, sendid, acceptid, context, `date`, isbrowse
+    from chatreport
+    where acceptid = #{acceptid} and isbrowse=#{isbrowse}
+  </select>
+  <select id="chatAmountByacceptidAndisbrowse" resultType="java.lang.Integer">
+    select count(*)
+    from chatreport
+    where acceptid = #{acceptid} and isbrowse=#{isbrowse}
+  </select>
+
+</mapper>

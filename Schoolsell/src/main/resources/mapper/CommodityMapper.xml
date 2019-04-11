@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.CommodityMapper">
+    <resultMap id="BaseResultMap" type="com.schoolsell.entity.Commodity">
+        <id column="cID" jdbcType="INTEGER" property="cid" />
+        <result column="cPrice" jdbcType="DECIMAL" property="cprice" />
+        <result column="bargain" jdbcType="BIT" property="bargain" />
+        <result column="useTime" jdbcType="VARCHAR" property="usetime" />
+        <result column="cDescription" jdbcType="VARCHAR" property="cdescription" />
+        <result column="isChecked" jdbcType="INTEGER" property="ischecked" />
+        <result column="sellerID" jdbcType="VARCHAR" property="sellerid" />
+        <result column="cName" jdbcType="VARCHAR" property="cname" />
+        <result column="kName" jdbcType="VARCHAR" property="kname" />
+        <result column="thumbnail" jdbcType="VARCHAR" property="thumbnail" />
+        <result column="cCount" jdbcType="INTEGER" property="ccount" />
+    </resultMap>
+    <delete flushCache="true" id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from commodity
+    where cID = #{cid,jdbcType=INTEGER}
+  </delete>
+    <insert flushCache="true" id="insert" keyProperty="cid" parameterType="com.schoolsell.entity.Commodity" useGeneratedKeys="true">
+    insert into commodity (cID, cPrice, bargain, 
+      useTime, cDescription, isChecked, 
+      sellerID, cName, kName, 
+      thumbnail, cCount)
+    values (#{cid,jdbcType=INTEGER}, #{cprice,jdbcType=DECIMAL}, #{bargain,jdbcType=BIT}, 
+      #{usetime,jdbcType=VARCHAR}, #{cdescription,jdbcType=VARCHAR}, #{ischecked,jdbcType=INTEGER}, 
+      #{sellerid,jdbcType=VARCHAR}, #{cname,jdbcType=VARCHAR}, #{kname,jdbcType=VARCHAR}, 
+      #{thumbnail,jdbcType=VARCHAR}, #{ccount,jdbcType=INTEGER})
+  </insert>
+    <update flushCache="true" id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Commodity">
+    update commodity
+    set cPrice = #{cprice,jdbcType=DECIMAL},
+      bargain = #{bargain,jdbcType=BIT},
+      useTime = #{usetime,jdbcType=VARCHAR},
+      cDescription = #{cdescription,jdbcType=VARCHAR},
+      isChecked = #{ischecked,jdbcType=INTEGER},
+      sellerID = #{sellerid,jdbcType=VARCHAR},
+      cName = #{cname,jdbcType=VARCHAR},
+      kName = #{kname,jdbcType=VARCHAR},
+      thumbnail = #{thumbnail,jdbcType=VARCHAR},
+      cCount = #{ccount,jdbcType=INTEGER}
+    where cID = #{cid,jdbcType=INTEGER}
+  </update>
+    <update flushCache="true" id="updateThumbnailByCommodity" parameterType="com.schoolsell.entity.Commodity">
+    update commodity
+    set thumbnail=#{thumbnail,jdbcType=VARCHAR}
+    where cID=#{cid,jdbcType=INTEGER}
+  </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, 
+    thumbnail, cCount
+    from commodity
+    where cID = #{cid,jdbcType=INTEGER}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, 
+    thumbnail, cCount
+    from commodity
+  </select>
+    <select flushCache="true" id="selectByUserIDWithCName" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName,
+    thumbnail, cCount
+    from commodity
+    where thumbnail=#{picturePath,jdbcType=VARCHAR}
+  </select>
+    <select id="selectByKName" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName,
+    thumbnail, cCount
+    from commodity
+    where kName=#{kname,jdbcType=VARCHAR}
+  </select>
+    <update id="updatemsg" parameterType="com.schoolsell.entity.Commodity">
+    update commodity
+    set cPrice = #{cprice,jdbcType=DECIMAL},
+    cCount = #{ccount,jdbcType=INTEGER}
+    where cID = #{cid,jdbcType=INTEGER}
+  </update>
+
+    <select id="selectByUserID" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, sellerID, cDescription, isChecked, cName, kName,
+    thumbnail, cCount
+    from commodity
+    where sellerID = #{sellerid,jdbcType=VARCHAR}
+  </select>
+
+    <select id="selectBycID" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, sellerID, cDescription, isChecked, cName, kName,
+    thumbnail, cCount
+    from commodity
+    where cID = #{cid,jdbcType=INTEGER}
+  </select>
+  <select id="selectByCName" resultMap="BaseResultMap">
+    select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName,
+    thumbnail, cCount
+    from commodity
+    where
+    cName like #{cname,jdbcType=VARCHAR}
+    </select>
+</mapper>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.BigkindMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Bigkind">
+    <id column="bigKindID" jdbcType="INTEGER" property="bigkindid" />
+    <result column="bigKindName" jdbcType="VARCHAR" property="bigkindname" />
+    <result column="bigKindPicture" jdbcType="VARCHAR" property="bigkindpicture" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from bigkind
+    where bigKindID = #{bigkindid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Bigkind">
+    insert into bigkind (bigKindID, bigKindName, bigKindPicture
+      )
+    values (#{bigkindid,jdbcType=INTEGER}, #{bigkindname,jdbcType=VARCHAR}, #{bigkindpicture,jdbcType=VARCHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Bigkind">
+    update bigkind
+    set bigKindName = #{bigkindname,jdbcType=VARCHAR},
+      bigKindPicture = #{bigkindpicture,jdbcType=VARCHAR}
+    where bigKindID = #{bigkindid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select bigKindID, bigKindName, bigKindPicture
+    from bigkind
+    where bigKindID = #{bigkindid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select bigKindID, bigKindName, bigKindPicture
+    from bigkind
+  </select>
+</mapper>

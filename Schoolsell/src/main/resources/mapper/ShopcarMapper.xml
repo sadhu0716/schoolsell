@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.ShopcarMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Shopcar">
+    <id column="shopCarID" jdbcType="INTEGER" property="shopcarid" />
+    <result column="userID" jdbcType="VARCHAR" property="userid" />
+    <result column="cID" jdbcType="INTEGER" property="cid" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="isFinish" jdbcType="INTEGER" property="isfinish" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from shopcar
+    where shopCarID = #{shopcarid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Shopcar">
+    insert into shopcar (shopCarID, userID, cID, 
+      amount, isFinish)
+    values (#{shopcarid,jdbcType=INTEGER}, #{userid,jdbcType=VARCHAR}, #{cid,jdbcType=INTEGER}, 
+      #{amount,jdbcType=INTEGER}, #{isfinish,jdbcType=INTEGER})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Shopcar">
+    update shopcar
+    set userID = #{userid,jdbcType=VARCHAR},
+      cID = #{cid,jdbcType=INTEGER},
+      amount = #{amount,jdbcType=INTEGER},
+      isFinish = #{isfinish,jdbcType=INTEGER}
+    where shopCarID = #{shopcarid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select shopCarID, userID, cID, amount, isFinish
+    from shopcar
+    where shopCarID = #{shopcarid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select shopCarID, userID, cID, amount, isFinish
+    from shopcar
+  </select>
+  <select id="selectByuserid" resultMap="BaseResultMap">
+    select shopCarID, userID, cID, amount,  isFinish
+    from shopcar
+    where userID= #{userid}  and isFinish=#{isfinish}
+  </select>
+</mapper>

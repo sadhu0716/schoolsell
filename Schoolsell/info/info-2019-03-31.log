@@ -1,0 +1,949 @@
+[2019-03-31 10:51:55] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 5656 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 10:51:55] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 10:51:59] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 10:51:59] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 10:51:59] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 10:51:59] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 10:51:59] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 10:52:02] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 10:52:02] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.681 seconds (JVM running for 12.601)
+[2019-03-31 11:59:45] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 8748 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 11:59:45] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 11:59:48] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 11:59:48] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 11:59:48] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 11:59:48] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 11:59:48] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 11:59:51] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 11:59:51] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 6.506 seconds (JVM running for 9.263)
+[2019-03-31 12:03:01] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 12360 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:03:01] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:03:04] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:03:04] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:03:04] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:03:04] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:03:04] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:03:07] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:03:07] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.423 seconds (JVM running for 12.157)
+[2019-03-31 12:03:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 796 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:03:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:04:28] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 12612 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:04:28] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:04:33] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:04:33] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:04:33] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:04:33] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:04:34] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:04:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:04:38] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 11.37 seconds (JVM running for 15.158)
+[2019-03-31 12:05:14] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:05:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:05:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:05:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:05:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:05:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:05:15] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:05:15] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:05:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:05:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:05:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:05:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:06:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:06:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:11:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2019-03-31 12:11:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2019-03-31 12:11:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 14164 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:11:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:11:41] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:11:41] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:11:41] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:11:41] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:11:42] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:11:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:11:47] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 11.734 seconds (JVM running for 14.501)
+[2019-03-31 12:12:22] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:12:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:12:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:12:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:12:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:12:54] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:12:54] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:12:54] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2019-03-31 12:12:55] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2019-03-31 12:21:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 11228 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:21:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:21:41] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:21:41] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:21:41] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:21:41] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:21:41] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:21:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:21:46] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 10.872 seconds (JVM running for 15.406)
+[2019-03-31 12:22:18] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:22:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:22:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:22:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:22:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:22:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:22:18] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:22:18] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:22:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:22:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:28:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:28:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:28:16] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2019-03-31 12:28:16] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2019-03-31 12:28:29] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 14128 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:28:29] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:28:34] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:28:34] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:28:34] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:28:34] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:28:34] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:28:36] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:28:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.103 seconds (JVM running for 11.828)
+[2019-03-31 12:29:01] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:29:01] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:29:01] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:29:02] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:29:02] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:29:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/SelectionKind
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.selectionKInd
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{smallkind=[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""},{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""},{"bigkindid":3,"smallkindid":9,"smallkindname":"手机","smallkindpicture":""},{"bigkindid":3,"smallkindid":10,"smallkindname":"笔记本","smallkindpicture":""}], bigkind=[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]}
+[2019-03-31 12:29:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseThumbnail
+[2019-03-31 12:29:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:29:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.CommodityRelease
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseDetail
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.commodityDetailUpload
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:29:58] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseDetail
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.commodityDetailUpload
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:29:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:30:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":4,"cdescription":"1122的","cid":57,"cname":"七风景","cprice":67,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\57.jpg","usetime":"四成新"}]
+[2019-03-31 12:30:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:32] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 5728 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:34:32] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:34:36] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:34:36] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:34:36] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:34:36] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:34:36] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:34:39] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:34:39] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 7.051 seconds (JVM running for 8.882)
+[2019-03-31 12:34:50] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:34:50] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:34:50] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:50] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:34:51] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:34:51] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:34:52] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 12:34:55] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/profilemsg
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.msgDate
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"address":"432","credibility":10,"idnumber":"367567877654565434","ischecked":-1,"password":"123","phonenumber":"15378675645","profilephoto":"H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\1122@qq.com.jpg","realname":"王小小","userid":"1122@qq.com","username":"小王"}
+[2019-03-31 12:35:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/MyReleasemsg
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.MyReleasemsg
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:35:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/MyReleasemsg
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.MyReleasemsg
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":8,"cdescription":"1122的第一份商品","cid":55,"cname":"九风景","cprice":46,"ischecked":1,"kname":"英语","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\55.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:35:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/MyReleaseObtained
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.MyReleaseObtained
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=1}
+[2019-03-31 12:35:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/MyReleasemsg
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.MyReleasemsg
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:36:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/getShopCar
+[2019-03-31 12:36:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:15] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ShopCarControl.getShopCar
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/chatlist
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.chatlist
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:36:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"}]
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":3,"smallkindid":9,"smallkindname":"手机","smallkindpicture":""},{"bigkindid":3,"smallkindid":10,"smallkindname":"笔记本","smallkindpicture":""}]
+[2019-03-31 12:36:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:36:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""}]
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:36:27] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/browsegoods
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.browsegoods
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"}]
+[2019-03-31 12:36:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""}]
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:36:33] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/getCommodityinfo
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.getCommodityinfo
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{commodityDetail=Commodity [Hash = 885932017, cid=51, cprice=45, bargain=true, usetime=六成新, cdescription=3344的第三份商品, ischecked=2, sellerid=3344@qq.com, cname=三风景, kname=篮球, thumbnail=H:\Code\Schoolsell\target\classes\static\thumbnail\51.jpg, ccount=5, serialVersionUID=1], detailPic=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.YwGA0LPx7SSL1d4d9f8e062650fbb8a98714697bf735.jpg]}
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/getStoreCredit
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.getStoreCredit
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{credit=10}
+[2019-03-31 12:36:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""}]
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 12:36:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:36:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""}]
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 12:36:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/getCommodityinfo
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.getCommodityinfo
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{commodityDetail=Commodity [Hash = 1928233343, cid=50, cprice=56, bargain=true, usetime=四成新, cdescription=3344的第二份商品, ischecked=2, sellerid=3344@qq.com, cname=二风景, kname=英语, thumbnail=H:\Code\Schoolsell\target\classes\static\thumbnail\50.jpg, ccount=7, serialVersionUID=1], detailPic=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.WYvzk2K1bCwRd4adef7c0fa987872884674aba886049.jpg]}
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/getStoreCredit
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.getStoreCredit
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{credit=10}
+[2019-03-31 12:36:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/chatInterface
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.chatInterface
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:消息已标记为false
+[2019-03-31 12:36:57] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://localhost:8080/schoolsell/profilemsg
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 0:0:0:0:0:0:0:1
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.msgDate
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"address":"432","credibility":10,"idnumber":"367567877654565434","ischecked":-1,"password":"123","phonenumber":"15378675645","profilephoto":"H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\1122@qq.com.jpg","realname":"王小小","userid":"1122@qq.com","username":"小王"}
+[2019-03-31 12:37:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""}]
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 12:37:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:37:05] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/SelectionKind
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.selectionKInd
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{smallkind=[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""},{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""},{"bigkindid":3,"smallkindid":9,"smallkindname":"手机","smallkindpicture":""},{"bigkindid":3,"smallkindid":10,"smallkindname":"笔记本","smallkindpicture":""}], bigkind=[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]}
+[2019-03-31 12:56:14] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:56:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:56:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseThumbnail
+[2019-03-31 12:56:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:56:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:56:21] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.CommodityRelease
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseDetail
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:56:22] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.commodityDetailUpload
+[2019-03-31 12:56:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:56:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/releaseDetail
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.commodityDetailUpload
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=执行成功}
+[2019-03-31 12:56:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:57:05] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 10896 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 12:57:05] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 12:57:08] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:57:08] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 12:57:08] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 12:57:08] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 12:57:08] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 12:57:11] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 12:57:11] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.327 seconds (JVM running for 11.043)
+[2019-03-31 12:57:23] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 12:57:23] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 12:57:23] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 12:57:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 12:57:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 12:57:26] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:57:34] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 12:57:34] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"1122的","cid":58,"cname":"七风景","cprice":78,"ischecked":1,"kname":"手机","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg","usetime":"四成新"}]
+[2019-03-31 12:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 12:58:11] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2019-03-31 12:58:12] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2019-03-31 13:09:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 10104 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 13:09:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 13:09:41] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:09:41] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 13:09:41] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 13:09:41] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 13:09:41] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 13:09:44] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:09:44] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 9.886 seconds (JVM running for 12.456)
+[2019-03-31 13:09:59] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 13:09:59] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 13:09:59] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 13:09:59] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"1122的","cid":58,"cname":"七风景","cprice":78,"ischecked":1,"kname":"手机","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg","usetime":"四成新"}]
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 13:10:01] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 13:10:07] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:06] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 10832 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 13:20:06] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 13:20:10] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:20:10] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 13:20:10] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 13:20:10] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 13:20:10] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 13:20:12] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:20:13] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.035 seconds (JVM running for 11.206)
+[2019-03-31 13:20:17] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-31 13:20:17] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-31 13:20:17] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:17] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-31 13:20:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-31 13:20:18] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:19] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"},{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"1122的","cid":58,"cname":"七风景","cprice":78,"ischecked":1,"kname":"手机","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:20] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 13:20:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""}]
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/browsegoods
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.browsegoods
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:35] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""}]
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:36] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/browsegoods
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.browsegoods
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:37] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"smallkindid":5,"smallkindname":"编程","smallkindpicture":""},{"bigkindid":1,"smallkindid":6,"smallkindname":"英语","smallkindpicture":""}]
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":6,"cdescription":"3344的第一份商品","cid":49,"cname":"一风景","cprice":14,"ischecked":2,"kname":"编程","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"3344的第二份商品","cid":50,"cname":"二风景","cprice":56,"ischecked":2,"kname":"英语","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 13:20:39] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""}]
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:40] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/browsegoods
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.browsegoods
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"}]
+[2019-03-31 13:20:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"smallkindid":7,"smallkindname":"篮球","smallkindpicture":""},{"bigkindid":2,"smallkindid":8,"smallkindname":"足球","smallkindpicture":""}]
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":5,"cdescription":"3344的第三份商品","cid":51,"cname":"三风景","cprice":45,"ischecked":2,"kname":"篮球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg","usetime":"六成新"},{"bargain":true,"ccount":6,"cdescription":"3344的第四份商品","cid":52,"cname":"四风景","cprice":76,"ischecked":1,"kname":"足球","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"1122的第二份商品","cid":56,"cname":"十风景","cprice":56,"ischecked":1,"kname":"足球","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg","usetime":"四成新"}]
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":1,"bigkindname":"学习","bigkindpicture":""},{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"电子","bigkindpicture":""}]
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[]
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg, 49, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg, 50, wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg, 51]}}
+[2019-03-31 13:20:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":3,"smallkindid":9,"smallkindname":"手机","smallkindpicture":""},{"bigkindid":3,"smallkindid":10,"smallkindname":"笔记本","smallkindpicture":""}]
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"1122的","cid":58,"cname":"七风景","cprice":78,"ischecked":1,"kname":"手机","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"}]
+[2019-03-31 13:20:44] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/browsegoods
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.browsegoods
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"}]
+[2019-03-31 13:20:46] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/smallkind
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.getSmallkind
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":3,"smallkindid":9,"smallkindname":"手机","smallkindpicture":""},{"bigkindid":3,"smallkindid":10,"smallkindname":"笔记本","smallkindpicture":""}]
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/bigkindAllByID
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigkindByID
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":9,"cdescription":"3344的第五份商品","cid":53,"cname":"五风景","cprice":88,"ischecked":1,"kname":"手机","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg","usetime":"四成新"},{"bargain":true,"ccount":7,"cdescription":"1122的","cid":58,"cname":"七风景","cprice":78,"ischecked":1,"kname":"手机","sellerid":"1122@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg","usetime":"四成新"},{"bargain":true,"ccount":4,"cdescription":"3344的第六份商品","cid":54,"cname":"六风景","cprice":86,"ischecked":1,"kname":"笔记本","sellerid":"3344@qq.com","thumbnail":"H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg","usetime":"八成新"}]
+[2019-03-31 13:20:47] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-31 13:21:11] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 14112 (H:\Code\Schoolsell\target\classes started by xinyun in H:\Code\Schoolsell)
+[2019-03-31 13:21:11] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-31 13:21:15] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:21:15] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-31 13:21:15] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-31 13:21:15] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-31 13:21:15] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-31 13:21:19] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-31 13:21:19] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 9.13 seconds (JVM running for 11.089)

@@ -1,0 +1,42 @@
+[2018-09-02 20:26:10] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 5845 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell)
+[2018-09-02 20:26:10] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-02 20:26:14] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-09-02 20:26:14] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-09-02 20:26:14] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2018-09-02 20:26:14] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xinyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-09-02 20:26:14] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-09-02 20:26:16] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-09-02 20:26:16] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.658 seconds (JVM running for 10.603)
+[2018-09-02 20:26:22] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-09-02 20:26:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2018-09-02 20:26:22] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2018-09-02 20:27:36] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2018-09-02 20:27:36] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2018-09-02 21:11:17] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 6086 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell)
+[2018-09-02 21:11:17] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-02 21:11:19] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-09-02 21:11:19] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-09-02 21:11:19] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2018-09-02 21:11:19] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xinyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-09-02 21:11:19] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-09-02 21:11:21] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-09-02 21:11:21] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 5.614 seconds (JVM running for 7.185)
+[2018-09-02 21:11:59] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-09-02 21:11:59] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2018-09-02 21:12:00] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2018-09-02 21:20:03] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2018-09-02 21:20:03] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
+[2018-09-02 21:20:12] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 6138 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell)
+[2018-09-02 21:20:12] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-02 21:20:14] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-09-02 21:20:14] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-09-02 21:20:14] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2018-09-02 21:20:14] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xinyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-09-02 21:20:15] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-09-02 21:20:16] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-09-02 21:20:16] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 5.681 seconds (JVM running for 6.848)
+[2018-09-02 21:20:34] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2018-09-02 21:20:34] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2018-09-02 21:20:34] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2018-09-02 21:24:15] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2018-09-02 21:24:15] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.
