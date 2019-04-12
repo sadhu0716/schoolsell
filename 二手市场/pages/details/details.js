@@ -71,7 +71,7 @@ Page({
 
     // var detaildata = JSON.stringify(this.data)
     wx.navigateTo({
-      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail,
+      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail + '&sellerID=' + this.data.sellerid,
     })
     console.log("详细页面的值：" + this.data.name)
   },
@@ -214,6 +214,7 @@ Page({
     // var price = that.data.price;
     app.globalData.name = that.data.name;
     app.globalData.price = that.data.price;
+
     wx.navigateTo({
       url: "../bargain/bargain",
     })

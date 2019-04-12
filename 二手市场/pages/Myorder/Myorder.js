@@ -73,7 +73,7 @@ Page({
 
     var that = this
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/order',
+      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/getOrderByBuyerID',
       method: 'GET',
       data: {
         "buyerID": that.data.userID,

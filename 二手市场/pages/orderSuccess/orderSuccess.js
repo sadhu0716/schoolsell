@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    orderId:'aaaaaaaaa'
+    orderId:'a'
   },
   backIndex:function(e){
     wx.switchTab({
@@ -21,6 +21,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this;
+    console.log("订单ID：" + options.orderID)
+    that.setData({
+      orderId: options.orderID
+    });
   
   },
 

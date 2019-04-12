@@ -1,11 +1,12 @@
 var app = getApp();
+var utils = require("../../utils/util.js");
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    sellerID:'',
     cid: 0,
     name: '',
     num: 1,
@@ -59,22 +60,46 @@ Page({
   },
   buybtn: function() { //下单
     var self = this;
-    wx.requestPayment({
-      timeStamp: '',
-      nonceStr: '',
-      package: '',
-      signType: '',
-      paySign: '',
-      'success': function(res) {
-        console.log('success')
-      },
-      'fail': function(res) {
-        console.log('fail')
-      }
-    });
+    // wx.requestPayment({
+    //   timeStamp: '',
+    //   nonceStr: '',
+    //   package: '',
+    //   signType: '',
+    //   paySign: '',
+    //   'success': function(res) {
+    //     console.log('success')
+    //   },
+    //   'fail': function(res) {
+    //     console.log('fail')
+    //   }
+    // });
     // 给服务器提交订单信息，生成待付款订单
     wx.request({
       url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/orderSuccess',
+      method: 'GET',
+      data: {
+        "orderDate": utils.datetimeFormat_1(new Date()),
+        "buyerID": app.appData.userinfo.userID,
+        "sellerID": self.data.sellerID,
+        "address": self.data.useraddress,
+        "buyerPhone": self.data.userphone,
+        "buyerName": self.data.username,
+        "cid": self.data.cid,
+        "amount": self.data.num,
+        "cName": self.data.name,
+        "cPrice": self.data.price
+      },
+      success: function (res) {
+        var orderID = res.data.orderID;
+        wx.showToast({
+          title: '下单成功',
+          duration: 2000
+        });
+        wx.navigateTo({
+          url: '../orderSuccess/orderSuccess?orderID=' + orderID,
+        })
+      }
+
     })
     console.log("self.data数据为" + JSON.stringify(self.data));
   },
@@ -133,7 +158,7 @@ Page({
     // console.log("上个界面传值："+options.detaildata)
     // console.log("全部数据！！"+this.data.bean)
     this.setData({
-
+      sellerID: options.sellerID,
       name: options.name,
       num: options.num,
       price: options.price,

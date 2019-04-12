@@ -56,7 +56,7 @@ Page({
   },
   buybtn: function () {
     var self = this;
-    wx.requestPayment({
+    /*wx.requestPayment({
       timeStamp: '',
       nonceStr: '',
       package: '',
@@ -68,7 +68,7 @@ Page({
       'fail': function (res) {
         console.log('fail')
       }
-    });
+    });*/
     // 给服务器提交订单信息，生成待付款订单
     wx.request({
       url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/',
