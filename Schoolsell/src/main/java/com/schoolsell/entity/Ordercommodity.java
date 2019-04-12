@@ -1,6 +1,8 @@
 package com.schoolsell.entity;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class Ordercommodity implements Serializable {
     private Integer ocid;
@@ -11,11 +13,30 @@ public class Ordercommodity implements Serializable {
 
     private Integer amount;
 
-    private Long cprice;
+    private BigDecimal cprice;
 
     private String cname;
 
     private Boolean bargain;
+
+    public Ordercommodity(Integer orderid, Integer cid, Integer amount, BigDecimal cprice, String cname, Boolean bargain) {
+        this.orderid = orderid;
+        this.cid = cid;
+        this.amount = amount;
+        this.cprice = cprice;
+        this.cname = cname;
+        this.bargain = bargain;
+    }
+
+    public Ordercommodity(Integer ocid, Integer orderid, Integer cid, Integer amount, BigDecimal cprice, String cname, Boolean bargain) {
+        this.ocid = ocid;
+        this.orderid = orderid;
+        this.cid = cid;
+        this.amount = amount;
+        this.cprice = cprice;
+        this.cname = cname;
+        this.bargain = bargain;
+    }
 
     private static final long serialVersionUID = 1L;
 
@@ -51,11 +72,11 @@ public class Ordercommodity implements Serializable {
         this.amount = amount;
     }
 
-    public Long getCprice() {
+    public BigDecimal getCprice() {
         return cprice;
     }
 
-    public void setCprice(Long cprice) {
+    public void setCprice(BigDecimal cprice) {
         this.cprice = cprice;
     }
 

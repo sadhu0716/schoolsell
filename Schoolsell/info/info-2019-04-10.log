@@ -1,0 +1,7 @@
+[2019-04-10 12:04:45] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Starting SchoolsellApplicationTests on DESKTOP-12K0HGL with PID 7688 (started by xinyun in H:\Code\isRunning\server\war_schoolsell\Schoolsell)
+[2019-04-10 12:04:45] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- No active profile set, falling back to default profiles: default
+[2019-04-10 12:04:56] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Started SchoolsellApplicationTests in 12.083 seconds (JVM running for 14.986)
+[2019-04-10 12:04:57] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-10 12:04:58] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-10 12:05:00] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown initiated...
+[2019-04-10 12:05:00] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Shutdown completed.

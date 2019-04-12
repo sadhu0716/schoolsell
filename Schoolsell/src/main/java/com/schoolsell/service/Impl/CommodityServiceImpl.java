@@ -42,6 +42,7 @@ public class CommodityServiceImpl implements CommodityService {
      * 添加商品具体信息和缩略图
      * @param commodity
      * @return
+     * @Transactional 注解的作用:事务管理。当发生异常时终止数据库操作，回滚到上一次操作记录处。并且此次insert不会添加到数据库
      */
     @Transactional
     @Override

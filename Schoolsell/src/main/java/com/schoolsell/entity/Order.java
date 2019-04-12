@@ -1,16 +1,17 @@
 package com.schoolsell.entity;
 
 import java.io.Serializable;
+import java.sql.Timestamp;
 import java.util.Date;
 
 public class Order implements Serializable {
     private Integer orderid;
 
-    private Date orderdate;
+    private Timestamp orderdate;
 
     private Integer state;
 
-    private Date enddate;
+    private Timestamp enddate;
 
     private Boolean isonline;
 
@@ -28,6 +29,34 @@ public class Order implements Serializable {
 
     private String sellername;
 
+    public Order(Integer orderid, Timestamp orderdate, Integer state, Timestamp enddate, Boolean isonline, String buyerid, String sellerid, String address, String buyerphone, String sellerphone, String buyername, String sellername) {
+        this.orderid = orderid;
+        this.orderdate = orderdate;
+        this.state = state;
+        this.enddate = enddate;
+        this.isonline = isonline;
+        this.buyerid = buyerid;
+        this.sellerid = sellerid;
+        this.address = address;
+        this.buyerphone = buyerphone;
+        this.sellerphone = sellerphone;
+        this.buyername = buyername;
+        this.sellername = sellername;
+    }
+
+    public Order(Timestamp orderdate, Integer state, Boolean isonline, String buyerid, String sellerid, String address, String buyerphone, String sellerphone, String buyername, String sellername) {
+        this.orderdate = orderdate;
+        this.state = state;
+        this.isonline = isonline;
+        this.buyerid = buyerid;
+        this.sellerid = sellerid;
+        this.address = address;
+        this.buyerphone = buyerphone;
+        this.sellerphone = sellerphone;
+        this.buyername = buyername;
+        this.sellername = sellername;
+    }
+
     private static final long serialVersionUID = 1L;
 
     public Integer getOrderid() {
@@ -38,11 +67,11 @@ public class Order implements Serializable {
         this.orderid = orderid;
     }
 
-    public Date getOrderdate() {
+    public Timestamp getOrderdate() {
         return orderdate;
     }
 
-    public void setOrderdate(Date orderdate) {
+    public void setOrderdate(Timestamp orderdate) {
         this.orderdate = orderdate;
     }
 
@@ -54,11 +83,11 @@ public class Order implements Serializable {
         this.state = state;
     }
 
-    public Date getEnddate() {
+    public Timestamp getEnddate() {
         return enddate;
     }
 
-    public void setEnddate(Date enddate) {
+    public void setEnddate(Timestamp enddate) {
         this.enddate = enddate;
     }
 

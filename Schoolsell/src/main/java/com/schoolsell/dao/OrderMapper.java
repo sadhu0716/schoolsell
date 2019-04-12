@@ -8,16 +8,18 @@ import java.sql.SQLException;
 import java.util.List;
 @Component
 public interface OrderMapper {
-    int deleteByPrimaryKey(Integer orderid);
+    int deleteByPrimaryKey(Integer orderid) throws SQLException;
 
-    int insert(Order record);
+    int insert(Order record) throws SQLException;
 
-    Order selectByPrimaryKey(Integer orderid);
+    Order selectByPrimaryKey(Integer orderid) throws SQLException;
 
-    List<Order> selectAll();
+    List<Order> selectAll() throws SQLException;
 
-    int updateByPrimaryKey(Order record);
+    int updateByPrimaryKey(Order record) throws SQLException;
 
     List<Order> selectBybuyerID(@Param("buyerID") String buyerID) throws SQLException;
+
+    List<Order> selectBySellerID(@Param("sellerID") String sellerID) throws SQLException;
 
 }

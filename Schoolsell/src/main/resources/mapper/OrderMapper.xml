@@ -19,13 +19,13 @@
     delete from `order`
     where orderID = #{orderid,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.schoolsell.entity.Order">
+  <insert id="insert" parameterType="com.schoolsell.entity.Order" useGeneratedKeys="true" keyProperty="orderid">
     insert into `order` (orderID, orderDate, `state`,
       endDate, isOnline, buyerID, 
       sellerID, address, buyerPhone, 
       sellerPhone, buyerName, sellerName
       )
-    values (#{orderid,jdbcType=INTEGER}, #{orderdate,jdbcType=TIMESTAMP}, #{state,jdbcType=INTEGER}, 
+    values (#{orderid,jdbcType=INTEGER}, #{orderdate,jdbcType=TIMESTAMP}, #{state,jdbcType=INTEGER},
       #{enddate,jdbcType=TIMESTAMP}, #{isonline,jdbcType=BIT}, #{buyerid,jdbcType=VARCHAR}, 
       #{sellerid,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{buyerphone,jdbcType=VARCHAR}, 
       #{sellerphone,jdbcType=VARCHAR}, #{buyername,jdbcType=VARCHAR}, #{sellername,jdbcType=VARCHAR}
@@ -58,10 +58,16 @@
     from `order`
   </select>
   <select id="selectBybuyerID" resultMap="BaseResultMap">
-  select orderID, isOnline, orderDate, endDate, buyerID, sellerID, `state`, address,
-  buyerPhone, sellerPhone, buyerName, sellerName
+  select orderID, orderDate, `state`, endDate, isOnline, buyerID, sellerID, address,
+    buyerPhone, sellerPhone, buyerName, sellerName
   from `order`
   where buyerID = #{buyerID,jdbcType=VARCHAR}
+  </select>
+  <select id="selectBySellerID" resultMap="BaseResultMap">
+    select orderID, isOnline, orderDate, endDate, buyerID, sellerID, `state`, address,
+  buyerPhone, sellerPhone, buyerName, sellerName
+  from `order`
+  where sellerID = #{sellerID,jdbcType=VARCHAR}
   </select>
 
 </mapper>
