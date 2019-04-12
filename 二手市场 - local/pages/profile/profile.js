@@ -43,7 +43,7 @@ Page({
     var that=this
     console.log("userID:"+that.data.userID)
     wx.request({          //获取用户信息
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/profilemsg',
+      url: 'http://127.0.0.1:8080/schoolsell/profilemsg',
       method: 'GET',
       data: {
         "userID": this.data.userID

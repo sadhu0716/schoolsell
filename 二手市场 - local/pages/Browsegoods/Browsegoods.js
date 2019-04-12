@@ -31,7 +31,7 @@ Page({
   onShow: function () {
     var that=this
      wx.request({
-       url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/browsegoods',
+       url: 'http://127.0.0.1:8080/schoolsell/browsegoods',
        method:"GET",
        data:{
          "kName":that.data.kname

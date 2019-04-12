@@ -3,7 +3,7 @@
 <scroll-view scroll-y="true" class='all'>
   <view class='msgList' bindtap='navmsgList' wx:for="{{msgList}}" id="{{item.name}}" >
     <view class='image-user'  >
-      <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getimage/{{item.name}}.jpg' class='image'></image>
+      <image src='http://localhost:8080/getimage/{{item.name}}.jpg' class='image'></image>
       <text>{{item.name}}</text>
     </view>
     <view class='imageRight'>

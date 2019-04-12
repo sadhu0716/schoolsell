@@ -2,7 +2,7 @@
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
-      <image src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommoditydetail/{{item}}" data-src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommoditydetail/{{item}}" bindtap="previewImage"></image>
+      <image src="http://localhost:8080/getCommoditydetail/{{item}}" data-src="http://localhost:8080/getCommoditydetail/{{item}}" bindtap="previewImage"></image>
     </swiper-item>
   </block>
 </swiper>
@@ -50,7 +50,7 @@
   </view>
   <view style='text-align:center'>商品图片</view>
   <block wx:for-items="{{detailImg}}" wx:key="name">
-    <image class="image_detail" src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommoditydetail/{{item}}" />
+    <image class="image_detail" src="http://localhost:8080/getCommoditydetail/{{item}}" />
   </block>
   <view class="temp"></view>
 </scroll-view>

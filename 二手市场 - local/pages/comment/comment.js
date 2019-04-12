@@ -69,7 +69,7 @@ Page({
   onShow: function() {
     var that = this
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/goodscomment',
+      url: 'http://127.0.0.1:8080/schoolsell/goodscomment',
       method: 'GET',
       data: {
         'orderid': that.data.orderid
@@ -155,7 +155,7 @@ Page({
     //提交评论信息
     var that = this
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/comment',
+      url: 'http://127.0.0.1:8080/schoolsell/comment',
       method: "GET",
       data: {
         "value": value,
@@ -183,7 +183,7 @@ Page({
     changstate:function(res){
       var that = this
       wx.request({
-        url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/commentupdatestate',
+        url: 'http://127.0.0.1:8080/schoolsell/commentupdatestate',
         method: 'GET',
         data: {
           'orderid': that.data.orderid

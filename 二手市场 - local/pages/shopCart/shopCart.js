@@ -44,7 +44,7 @@ Page({
   onShow: function() {
     var self=this;
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/getShopCar?userID=' + app.appData.userinfo.userID,
+      url: 'http://localhost:8080/schoolsell/getShopCar?userID=' + app.appData.userinfo.userID,
      
       header: {
         "Content-Type": "application/json"

@@ -15,7 +15,7 @@
 <view class="navs">
   <view class='nav-url' wx:for-items="{{menus}}" wx:key="unique" id="{{item.name}}" bindtap='cilcktoBrowsedoods'>
       <view class="nav-item"  data-type="{{item.name}}" data-typeid="{{item.typeId}}">
-         <image src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getSmallkindImg/{{item.name}}.jpg" class="nav-image" />  
+         <image src="http://localhost:8080/getSmallkindImg/{{item.name}}.jpg" class="nav-image" />  
         <text class='nav-item-text '>{{item.name}}</text>
       </view>
   </view>
@@ -33,7 +33,7 @@
         <!-- <view wx:if="{{newGoods[index]!=null}}"> -->
         <view class="goods-item" bindtap='todetail' id='{{item.cID}}' data-type="{{item.name}}" data-typeid="{{item.typeId}}">
           <view class='content_item'>
-            <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg' class="goods-image" bindload="imageLoad" style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;" />
+            <image src='http://localhost:8080/getThumbnail/{{item.cID}}.jpg' class="goods-image" bindload="imageLoad" style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;" />
             <text>{{item.name}}</text>
             <view class='goods-price'>
               {{item.price}}元

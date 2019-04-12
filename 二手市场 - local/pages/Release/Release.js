@@ -219,7 +219,7 @@ Page({
         success: function(res) {
           if (res.confirm) {
             wx.uploadFile({
-              url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/releaseThumbnail',
+              url: 'http://127.0.0.1:8080/schoolsell/releaseThumbnail',
               filePath: that.data.Thumbnail[0],
               name: 'file',
               formData: {
@@ -291,7 +291,7 @@ Page({
   releaseDetail: function() { //上传商品详情图
     var that = this
     wx.uploadFile({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/releaseDetail',
+      url: 'http://127.0.0.1:8080/schoolsell/releaseDetail',
       filePath: that.data.Detail[i],
       name: 'file',
       formData: {

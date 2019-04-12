@@ -24,7 +24,7 @@ Page({
   submit: function(e) {
     var that = this
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/reportmsg',
+      url: 'http://127.0.0.1:8080/schoolsell/reportmsg',
       method: 'GET',
       data: {
         'despription': that.data.inputContent,
@@ -59,7 +59,7 @@ Page({
   releaseDetail: function(res) {
     var that = this
     wx.uploadFile({
-      url: 'http://127.0.0.1:8080/schoolsell/schoolsell-war/jubaoDetial',
+      url: 'http://127.0.0.1:8080/schoolsell/jubaoDetial',
       filePath: that.data.Detail[i],
       name: 'file',
       success: function(res) {

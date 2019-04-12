@@ -43,7 +43,7 @@ Page({
     //   success:function(res){}
     // })
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/MyReleasemsg',
+      url: 'http://127.0.0.1:8080/schoolsell/MyReleasemsg',
       method:"GET",
       data:{
         "userID":this.data.userID,
@@ -143,7 +143,7 @@ Page({
            success: function (res) {
              if (res.confirm) {
               wx.request({
-                url:'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/MyReleaseObtained',
+              url:'http://127.0.0.1:8080/schoolsell/MyReleaseObtained',
               method:"GET",
               data:{
                    "cID":id

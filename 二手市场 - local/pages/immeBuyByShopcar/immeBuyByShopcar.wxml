@@ -22,7 +22,7 @@
 
     <view class='titlePriceNum' wx:for='{{commditys}}'>
 
-      <image class="picture" src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommodityThumbnail/{{item.image}}"></image>
+      <image class="picture" src="http://localhost:8080/getCommodityThumbnail/{{item.image}}"></image>
       <view class='titlePrice'>
         <text class='textTitle'>名称: {{item.title}}</text>
         <text class='textPrice'>价格:￥{{item.price}}</text>

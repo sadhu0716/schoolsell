@@ -46,7 +46,7 @@ Page({
   onShow: function() {
     var that = this;
     wx.request({ //类别请求
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/first',
+      url: 'http://127.0.0.1:8080/schoolsell/first',
       method: 'GET',
       success: function(res) {
         var kindmsg = JSON.stringify(res.data) //stringify: json->字符串  parse:字符串->json
@@ -63,7 +63,7 @@ Page({
     })
 
     wx.request({ //商品信息，缩略图的cid和name,price请求,图片由路径+cid获取
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/firstpic',
+      url: 'http://127.0.0.1:8080/schoolsell/firstpic',
       method: "GET",
       data: {},
       success: function(res) {
@@ -94,7 +94,7 @@ Page({
     })
 
     wx.request({ //请求轮播图
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/headline',
+      url: 'http://127.0.0.1:8080/schoolsell/headline',
       method: "GET",
       success: function(res) {
         var image = JSON.stringify(res.data.result)
@@ -123,11 +123,12 @@ Page({
   onHide: function() {
     wx.request({            //当首页进入其他页面或者在底部切换时，将请求的首页商品数量清零，即刷新
       url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/leaveFirst',
-      method:"GET",
-      success:function(res){
-          console.log("离开首页是否清零:"+res.data.result)
+      method: "GET",
+      success: function (res) {
+        console.log("离开首页是否清零:" + res.data.result)
       }
     })
+
   },
   /**
    * 生命周期函数--监听页面卸载
@@ -202,7 +203,7 @@ Page({
   getRequest: function(e) {
     var that = e
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/firstpic',
+      url: 'http://127.0.0.1:8080/schoolsell/firstpic',
       method: "GET",
       data: {},
       success: function(res) {

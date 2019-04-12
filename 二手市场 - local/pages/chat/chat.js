@@ -40,7 +40,7 @@ Page({
               });
               self.changeMsglistCache('accpet');
               wx.request({
-                url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/chatInterface?userid=' + app.appData.userinfo.userID + '&otherid=' + self.data.acceptid,
+                url: 'http://localhost:8080/schoolsell/chatInterface?userid=' + app.appData.userinfo.userID + '&otherid=' + self.data.acceptid,
                 header: {
                   "Content-Type": "application/json"
                 }, success: function (res) {
@@ -198,7 +198,7 @@ Page({
         //console.log("现在的newList的值为"+self.data.newsList);
         //给服务器发送sendid与acceptid，让服务器包含这两个字段的记录的isbrose=true；
           wx.request({
-            url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/chatInterface?userid=' + app.appData.userinfo.userID +'&otherid='+self.data.acceptid,
+            url: 'http://localhost:8080/schoolsell/chatInterface?userid=' + app.appData.userinfo.userID +'&otherid='+self.data.acceptid,
             header: {
               "Content-Type": "application/json"
             }, success: function (res) {
@@ -352,7 +352,7 @@ Page({
             };
             var list = [];
             list = that.data.newsList;
-            var temp = { 'context': that.data.context, 'date': utils.datetimeFormat_1(new Date()), 'type': 1, 'sendid': app.appData.userinfo.userID, acceptid: that.data.acceptid};
+            var temp = { 'context': that.data.context, 'date': utils.formatTime(new Date()), 'type': 1, 'sendid': app.appData.userinfo.userID, acceptid: that.data.acceptid};
             list.push(temp);
             that.setData({
             

@@ -56,22 +56,22 @@ Page({
   },
   buybtn: function () {
     var self = this;
-    wx.requestPayment({
-      timeStamp: '',
-      nonceStr: '',
-      package: '',
-      signType: '',
-      paySign: '',
-      'success': function (res) {
-        console.log('success')
-      },
-      'fail': function (res) {
-        console.log('fail')
-      }
-    });
+    // wx.requestPayment({
+    //   timeStamp: '',
+    //   nonceStr: '',
+    //   package: '',
+    //   signType: '',
+    //   paySign: '',
+    //   'success': function (res) {
+    //     console.log('success')
+    //   },
+    //   'fail': function (res) {
+    //     console.log('fail')
+    //   }
+    // });
     // 给服务器提交订单信息，生成待付款订单
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/',
+      url: 'http://localhost:8080/schoolsell/',
     })
     console.log("self.data数据为" + JSON.stringify(self.data));
   },
@@ -108,7 +108,7 @@ self.setData({
     //   cid: options.cid,
     // });
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/profilemsg',
+      url: 'http://localhost:8080/profilemsg',
       data: {
         "userID": app.appData.userinfo.userID
       },

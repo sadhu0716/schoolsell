@@ -73,7 +73,7 @@ Page({
 
     var that = this
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/order',
+      url: 'http://127.0.0.1:8080/schoolsell/getOrderByBuyerID',
       method: 'GET',
       data: {
         "buyerID": that.data.userID,
@@ -366,7 +366,7 @@ Page({
         if (res.confirm) {
           console.log("用户点击确定")
           wx.request({
-            url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/totakegoods',
+            url: 'http://127.0.0.1:8080/schoolsell/totakegoods',
             method: 'GET',
             data: {
               'orderid': orderid
@@ -394,7 +394,7 @@ Page({
       title: '是否确认发货',
       success: function(res) {
        wx.request({
-         url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/tosendgoods',
+         url: 'http://127.0.0.1:8080/schoolsell/tosendgoods',
          method:'GET',
          data:{
            'orderid':orderid

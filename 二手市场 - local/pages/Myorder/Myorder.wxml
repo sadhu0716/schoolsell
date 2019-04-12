@@ -23,7 +23,7 @@
             <view class='line'></view>
             <view wx:for="{{alloreder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
               <!-- <view wx:if="{{daifukuanorder[index].commoditymsg[index]!=null}}"> -->
-              <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
               <view class='textlength'>
                 <text class='name top-nav-bar'>{{item.Cname}}</text>
                 <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
@@ -60,7 +60,7 @@
             <view class='line'></view>
             <view wx:for="{{daifukuanorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
               <!-- <view wx:if="{{daifukuanorder[index].commoditymsg[index]!=null}}"> -->
-              <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
               <view class='textlength'>
                 <text class='name top-nav-bar'>{{item.Cname}}</text>
                 <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
@@ -97,7 +97,7 @@
             <view class='line'></view>
             <view wx:for="{{daishouhuoorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
               <!-- <view wx:if="{{daishouhuoorder[index].commoditymsg[index]!=null}}"> -->
-              <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
               <view class='textlength'>
                 <text class='name top-nav-bar'>{{item.Cname}}</text>
                 <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
@@ -134,7 +134,7 @@
             <view class='line'></view>
             <view wx:for="{{daifahuoorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
               <!-- <view wx:if="{{daifahuoorder[index].commoditymsg[index]!=null}}"> -->
-              <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
               <view class='textlength'>
                 <text class='name top-nav-bar'>{{item.Cname}}</text>
                 <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
@@ -174,7 +174,7 @@
             <view class='line'></view>
             <view wx:for="{{daipinglunorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
               <!-- <view wx:if="{{daipinglunorder[index].commoditymsg[index]!=null}}"> -->
-              <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
               <view class='textlength'>
                 <text class='name top-nav-bar'>{{item.Cname}}</text>
                 <text class='price top-nav-bar'>¥{{item.Cprice}}</text>

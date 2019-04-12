@@ -36,7 +36,7 @@ Page({
   onShow: function() {
     var that = this;
     wx.request({              //小类别导航请求
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/smallkind',
+      url: 'http://127.0.0.1:8080/schoolsell/smallkind',
       method: 'GET',
       data:{
         'bigkindID':that.data.bigkindID
@@ -56,7 +56,7 @@ Page({
     })
 
     wx.request({      //商品信息，缩略图的cid和name,price请求,图片由路径+cid获取
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/bigkindAllByID',
+      url: 'http://127.0.0.1:8080/schoolsell/bigkindAllByID',
       method: "GET",
       data: {
         'bigkindID': that.data.bigkindID
@@ -163,7 +163,7 @@ Page({
   getRequest: function (e) {
     var that = e
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/bigkindAllByID',
+      url: 'http://127.0.0.1:8080/schoolsell/bigkindAllByID',
       method: "GET",
       data: {
         'bigkindID':that.data.bigkindID

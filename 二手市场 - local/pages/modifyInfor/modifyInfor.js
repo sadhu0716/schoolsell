@@ -90,7 +90,7 @@ Page({
     }
      else{
         wx.request({
-          url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/modifyInfor',
+          url: 'http://127.0.0.1:8080/schoolsell/modifyInfor',
           method:'GET',
           data:{
             "userID": this.data.testData.userID,

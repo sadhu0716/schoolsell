@@ -81,7 +81,7 @@ Page({
     } else {
       var that=this
       wx.request({
-        url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/feedback',
+        url: 'http://127.0.0.1:8080/schoolsell/feedback',
         method: 'GET',
         data: {
           "feedbackID": this.data.userID,

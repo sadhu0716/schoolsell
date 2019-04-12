@@ -14,7 +14,7 @@
   <!-- <view class='swiper_con' >  -->
    <view class='group' wx:for="{{sell}}" wx:key="{{only}}">
    <view wx:if="{{sell[index]!=null}}">
-    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?time=new Date()' class='image'></image>
+    <image src='http://localhost:8080/getThumbnail/{{item.cID}}.jpg?time=new Date()' class='image'></image>
     <text class='textname top-nav-bar '>{{item.Cname}}</text>
     <text class='textprice top-nav-bar '>¥{{item.price}}</text>
    <text class='textcount top-nav-bar '>x{{item.count}}</text>
@@ -32,7 +32,7 @@
   <view class='swiper_con' wx:for="{{sell}}" wx:key="{{only}}">
   <view wx:if="{{sell[index]!=null}}">
    <view class='group' >
-    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
+    <image src='http://localhost:8080/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
     <text class='textname top-nav-bar '>{{item.Cname}}</text>
     <text class='textprice top-nav-bar '>¥{{item.price}}</text>
       <text class='textcount top-nav-bar '>x{{item.count}}</text>
@@ -51,7 +51,7 @@
   <view class='swiper_con' wx:for="{{Review}}" wx:key="{{only}}">
   <view wx:if="{{Review[index]!=null}}">
    <view class='group' >
-    <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
+    <image src='http://localhost:8080/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' class='image'></image>
     <text class='textname top-nav-bar '>{{item.Cname}}</text>
     <text class='textprice top-nav-bar '>¥{{item.price}}</text>
       <text class='textcount top-nav-bar '>x{{item.count}}</text>

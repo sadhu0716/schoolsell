@@ -54,7 +54,7 @@ Page({
       'amount': self.data.num
     };
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/addShopCar?userid=' + app.appData.userinfo.userID + '&cid=' + self.data.cid + '&amount=' + self.data.num,
+      url: 'http://localhost:8080/schoolsell/addShopCar?userid=' + app.appData.userinfo.userID + '&cid=' + self.data.cid + '&amount=' + self.data.num,
       header: {
         "Content-Type": "application/json"
       },
@@ -71,7 +71,7 @@ Page({
 
     // var detaildata = JSON.stringify(this.data)
     wx.navigateTo({
-      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail,
+      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail+'&sellerID='+this.data.sellerid,
     })
     console.log("详细页面的值：" + this.data.name)
   },
@@ -256,7 +256,7 @@ Page({
   getPicture:function() {
     var self = this;
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/getCommodityinfo?cid=' + self.data.cid,
+      url: 'http://localhost:8080/schoolsell/getCommodityinfo?cid=' + self.data.cid,
       header: {
         "Content-Type": "application/json"
       },
@@ -282,7 +282,7 @@ Page({
   getSecondPic: function(e) {
     var self=e
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell-war/schoolsell/getStoreCredit?userid=' + self.data.sellerid,
+      url: 'http://localhost:8080/schoolsell/getStoreCredit?userid=' + self.data.sellerid,
       header: {
         "Content-Type": "application/json"
       },

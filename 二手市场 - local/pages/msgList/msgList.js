@@ -86,7 +86,7 @@ console.log("执行了msglsit页面到聊天界面的跳转方法");
   fisrtrequest:function(e){
     var self=this;
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/chatlist?userid=' + app.appData.userinfo.userID,
+      url: 'http://localhost:8080/schoolsell/chatlist?userid=' + app.appData.userinfo.userID,
       header: {
         "Content-Type": "application/json"
       },

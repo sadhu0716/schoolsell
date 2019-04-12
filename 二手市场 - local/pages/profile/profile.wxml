@@ -1,6 +1,6 @@
 <view class='header'>
   <view>
-    <image class='portrait' src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getimage/{{userID}}.jpg'></image>
+    <image class='portrait' src='http://localhost:8080/getimage/{{userID}}.jpg'></image>
   </view>
 </view>
 <view class='order'>

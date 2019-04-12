@@ -43,7 +43,7 @@ Page({
        
       var that=this
        wx.request({
-         url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/login',
+         url: 'http://127.0.0.1:8080/schoolsell/login',
          data: { 
            "userID":this.data.userID,
            "password":this.data.password
@@ -86,7 +86,7 @@ Page({
   },
   myWebsocketConnect:function(){
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/logingetmsgnum?userid=' + this.data.userID,
+      url: 'http://127.0.0.1:8080/schoolsell/logingetmsgnum?userid=' + this.data.userID,
       header: {
         "Content-Type": "application/json"
       },
@@ -105,7 +105,7 @@ Page({
 
     //连接服务器websocket
     wx.connectSocket({
-      url: 'wss://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/websocket/' + this.data.userID,
+      url: 'ws://localhost:8080/schoolsell/websocket/' + this.data.userID,
       method: "GET",
       success: function (res) {
         //成功时将isOpen变为true

@@ -13,7 +13,7 @@
           <view class='own-record' >
             <view class='own-record-content'>{{item.context}}</view>
             <view class='own-record-content-triangle'></view>
-            <image class='own-head-img' src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getimage/{{item.sendid}}.jpg'></image>
+            <image class='own-head-img' src='http://localhost:8080/getimage/{{item.sendid}}.jpg'></image>
           </view>
          <view class='kongge' id='msg{{index}}'></view>
       </block>
@@ -24,7 +24,7 @@
             <text class='chat-time'>{{item.date}}</text>
           </view>
           <view class='other-record' >
-            <image class='other-head-img' src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getimage/{{item.sendid}}.jpg'></image>
+            <image class='other-head-img' src='http://localhost:8080/getimage/{{item.sendid}}.jpg'></image>
             <view class='other-record-content-triangle'></view>
             <view class='other-record-content'>
             {{item.context}}</view>

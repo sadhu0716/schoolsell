@@ -277,7 +277,7 @@ Page({
       var card = wx.getStorageSync('card')
       var that = this
       wx.uploadFile({
-        url: "https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/register",
+        url: "http://127.0.0.1:8080/schoolsell/register",
         filePath: card,
         name: 'file',
         formData: {
