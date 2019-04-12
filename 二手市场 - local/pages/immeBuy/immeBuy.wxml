@@ -1,0 +1,62 @@
+<!--pages/orderList/orderList.wxml-->
+<scroll-view class='container' >
+  <view class='all'>
+    <view class='buyerInfo'>
+      <view class='buyerInfoThree'>
+        <text>收货人姓名：</text>
+        <input  class='buyerInfoThreeInput' bindinput='bindNamechange' value='{{username}}'></input>
+      </view>
+      <view class='buyerInfoThree'>
+        <text>收货人电话：</text>
+        <input value='{{userphone}}' bindinput='bindPhonechange' class='buyerInfoThreeInput'></input>
+      </view>
+      <view class='buyerInfoThree'>
+        <text>收货人地址：</text>
+        <input value='{{useraddress}}' bindinput='bindAddresschange' class='buyerInfoThreeInput'></input>
+      </view>
+    </view>
+    <view class='separator'></view>
+    <view style='text-align:center'>商品信息</view>
+    <view class='titlePriceNum'>
+      <image class="picture" src="{{image}}"></image>
+      <view class='titlePrice'>
+        <text class='textTitle'>名称:{{name}}</text>
+        <text class='textPrice'>单价￥:{{price}}</text>
+      </view>
+      <!-- 增加减少数量按钮 -->
+      <view class='numPartsOuter'>
+        <view class='numParts'>
+          <text class='partMinus' bindtap="minusCount">-</text>
+          <text class='partNum'>{{num}}</text>
+          <text class='partAdd' bindtap="addCount">+</text>
+        </view>
+      </view>
+    </view>
+    <view class='separator'></view>
+  </view>
+  <!-- 单选框线上线下支付 -->
+  <form bindsubmit='buybtn'>
+  <radio-group class="radio-group" bindchange="radioChange">支付方式：
+  <label class='radio' wx:for="{{radioItems}}"> 
+ <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+ 
+   </label>
+  
+  </radio-group>
+  </form>
+  <view class='bottom'>
+    <view class='totalLeft'>
+      <!-- wx:if 是否全选显示不同图标 -->
+      <!-- <icon wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" />
+      <icon wx:else type="circle" color="white" bindtap="selectAll" /> -->
+      <text>总价</text>
+
+      <!-- 总价 -->
+      <text class='totalPrice'>￥{{totalPrice}}</text>
+    </view>
+    <navigator url="../orderSuccess/orderSuccess">
+      <button class='buy' bindtap='buybtn'>下单</button>
+    </navigator>
+
+  </view>
+</scroll-view>

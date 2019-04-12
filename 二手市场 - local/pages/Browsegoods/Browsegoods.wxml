@@ -1,0 +1,17 @@
+<!--pages/Browsegoods/Browsegoods.wxml-->
+ <scroll-view scroll-y="true">
+    <view class="goods">
+      <block wx:for-items="{{newGoods}}" wx:key="name">
+      <navigator url='../details/details?cID={{item.id}}' class="goods-item">
+        <view   data-type="{{item.name}}" bindtap='todetail' id='{{item.cID}}' data-typeid="{{item.typeId}}">
+          <view class='content_item'>
+            <image src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cID}}.jpg?+ Math.random() / 9999' bindload="imageLoad"
+style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;"class="goods-image" />
+            <text>{{item.name}}</text>
+             <p>￥{{item.price}}</p> 
+          </view>
+        </view>
+        </navigator>
+      </block>
+    </view>
+  </scroll-view>

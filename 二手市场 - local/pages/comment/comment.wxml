@@ -1,0 +1,33 @@
+<!--pages/comment/comment.wxml-->
+
+<!-- <view class='all'> -->
+<scroll-view scroll-y="true">
+  <view wx:for="{{goodscomment}}" >
+    <view class='header'>
+      <image class='picture' src='https://www.ykyschoolsell.cn:8443/schoolsell-war/getThumbnail/{{item.cid}}.jpg?time=new Date()' ></image>
+      <view ></view>
+      <text class='separate'>商品名称:{{item.goodsName}}</text>
+    <!-- 评星的 -->
+    <view class="right">
+      <text class='starText'>商品评价</text>
+      <view bindtap="starTap" data-index="{{index}}" class="star" wx:for="{{userStars}}" wx:key="index">
+        <image src="{{item}}"></image>
+      </view>
+    </view>
+    </view>
+  </view>
+  <!-- 评星的 -->
+  <!-- <view class="right">
+    <text class='starText'>店家评价</text>
+    <view bindtap="starTap" data-index="{{index}}" class="star" wx:for="{{userStars}}" wx:key="index">
+
+      <image src="{{item}}"></image>
+
+    </view>
+  </view> -->
+
+  <view>
+    <button class='submit' bindtap='submit' type="primary">提交</button>
+  </view>
+</scroll-view>
+<!-- </view> -->

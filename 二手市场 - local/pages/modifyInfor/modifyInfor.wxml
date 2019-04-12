@@ -1,0 +1,10 @@
+
+<view class='order'>
+  <text class="myorder-text">请输入新的{{name}}:</text> 
+
+  <input bindinput='valueinput' class="myorderlook-text"  name='newusername'></input>
+</view>
+<button type='primary' class='btn' bindtap='OKclick'>保存</button>
+<view class="line"></view>
+
+
