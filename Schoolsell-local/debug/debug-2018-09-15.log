@@ -1,0 +1,1036 @@
+[2018-09-15 09:51:47] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/AdministratorMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/BigkindMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/ChatreportMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/CommodityMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/FeedbackMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/JubaoMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/OrderMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/OrdercommodityMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/PictureMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/ShopcarMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/SmallkindMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/com/schoolsell/dao/UserMapper.class]
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2018-09-15 09:51:49] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-09-15 09:51:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/AdministratorMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/BigkindMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/ChatreportMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/CommodityMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/FeedbackMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/JubaoMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/OrderMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/OrdercommodityMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/PictureMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/ShopcarMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/SmallkindMapper.xml]'
+[2018-09-15 09:51:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/five-ChangeTable/Schoolsell/target/classes/mapper/UserMapper.xml]'
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@32e3c32
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1218189838 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 1122@qq.com(String)
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b] from current transaction
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f0ce44b]
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@47aa946c
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@20fabcba
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4e949930
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@666b06a0
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@690bf571
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@42faec87
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@919056c
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3aa89d08
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@284f28c5
+[2018-09-15 09:52:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5888801a] was not registered for synchronization because synchronization is not active
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1555505107 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will not be managed by Spring
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==>  Preparing: select count(*) from chatreport where acceptid = ? and isbrowse=? 
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==> Parameters: 1122@qq.com(String), false(Boolean)
+[2018-09-15 09:52:49] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- <==      Total: 1
+[2018-09-15 09:52:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5888801a]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ef87e70] was not registered for synchronization because synchronization is not active
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1883217887 wrapping com.mysql.jdbc.JDBC4Connection@20fabcba] will not be managed by Spring
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2112884374 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@242526cc]
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1696083191 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ef87e70]
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@242526cc]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@242526cc]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@242526cc]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@242526cc]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad] from current transaction
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad] from current transaction
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad] from current transaction
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-15 09:52:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ccd04ad]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@12b35902
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@12b35902' to type 'boolean[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@390d9356
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@390d9356' to type 'byte[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@7d16e633
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@7d16e633' to type 'char[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@1477a678
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@1477a678' to type 'double[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@1c8486bd
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@1c8486bd' to type 'float[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@49463158
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@49463158' to type 'int[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@32b613d
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@32b613d' to type 'long[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@2a464346
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@2a464346' to type 'short[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@12cf99dd
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@12cf99dd' to type 'BigDecimal[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@6a7ba62d
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@6a7ba62d' to type 'BigInteger[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@320100d6
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@320100d6' to type 'Boolean[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@2a4529a3
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@2a4529a3' to type 'Byte[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@442a5c47
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@442a5c47' to type 'Character[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@73d7d021
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@73d7d021' to type 'Double[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@49ea793d
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@49ea793d' to type 'Float[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@4ae15992
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@4ae15992' to type 'Integer[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@5c3feced
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@5c3feced' to type 'Long[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@11247993
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@11247993' to type 'Short[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@b9dd91b
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@b9dd91b' to type 'String[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@4b703c33
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@4b703c33' to type 'Class[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@680bf934
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@680bf934' to type 'Date[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@3fe1b217
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@3fe1b217' to type 'Calendar[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@424f15b6
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@424f15b6' to type 'java.io.File[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@25629a84
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@25629a84' to type 'java.sql.Date[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@3e2210a8
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@3e2210a8' to type 'java.sql.Time[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@1707ae74
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@1707ae74' to type 'java.sql.Timestamp[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@6f1b770d
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@6f1b770d' to type 'java.net.URL[]'
+[2018-09-15 09:52:51] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1711630592 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 华为(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 小米(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 苹果(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: OPPO(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a497dd9]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1203216874 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: vivo(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 1(Integer)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 2
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 魅族(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 4
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 10
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 三星(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 手机配件(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a497dd9]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a497dd9]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a497dd9]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a497dd9]
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 5
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 荣耀(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2] from current transaction
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他品牌(String)
+[2018-09-15 09:53:06] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:06] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@579859c2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b27cc9] was not registered for synchronization because synchronization is not active
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@17639957 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will not be managed by Spring
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c641e63]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1458880647 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@374429295 wrapping com.mysql.jdbc.JDBC4Connection@20fabcba] will be managed by Spring
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c641e63]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c641e63]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c641e63]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c641e63]
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b27cc9]
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2] from current transaction
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2] from current transaction
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2] from current transaction
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-15 09:53:12] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@747997a2]
+[2018-09-15 09:53:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655e5c5]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@951685009 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@926964633 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 2(Integer)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 2(Integer)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 5
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 5
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655e5c5]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655e5c5]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04] from current transaction
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655e5c5]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655e5c5]
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 耳机(String)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 3
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04] from current transaction
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 移动电源(String)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04] from current transaction
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 音响(String)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04] from current transaction
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 游戏配件(String)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04] from current transaction
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 其他数码(String)
+[2018-09-15 09:53:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28b26b04]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b9374f] was not registered for synchronization because synchronization is not active
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1028311671 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will not be managed by Spring
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b9374f]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e06a75d]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@839294885 wrapping com.mysql.jdbc.JDBC4Connection@20fabcba] will be managed by Spring
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e06a75d]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e06a75d]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e06a75d]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e06a75d]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@513080338 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe] from current transaction
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe] from current transaction
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe] from current transaction
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-15 09:53:47] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70259efe]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1628795579 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 3(Integer)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 8
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 男装(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50633a6c]
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@711352124 wrapping com.mysql.jdbc.JDBC4Connection@20fabcba] will be managed by Spring
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 3(Integer)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 女装(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 8
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50633a6c]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50633a6c]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50633a6c]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50633a6c]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 男鞋(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 女鞋(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 行李箱(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 运动服饰(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 男包(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89] from current transaction
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 女包(String)
+[2018-09-15 09:53:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 0
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d43ba89]
+[2018-09-15 09:53:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302d5dee]
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2002480778 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:54:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where kName=? 
+[2018-09-15 09:54:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- ==> Parameters: 男鞋(String)
+[2018-09-15 09:54:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByKName] -- <==      Total: 1
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302d5dee]
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302d5dee]
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302d5dee]
+[2018-09-15 09:54:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@302d5dee]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289e6867]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@797254670 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will be managed by Spring
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind where bigKindID = ? 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- ==> Parameters: 3(Integer)
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectBybigKindID] -- <==      Total: 8
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289e6867]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289e6867]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289e6867]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@289e6867]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10004498] was not registered for synchronization because synchronization is not active
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@486305749 wrapping com.mysql.jdbc.JDBC4Connection@47aa946c] will not be managed by Spring
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ffc487e]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1520704759 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10004498]
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ffc487e]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ffc487e]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ffc487e]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ffc487e]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1979163436 wrapping com.mysql.jdbc.JDBC4Connection@32e3c32] will be managed by Spring
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067] from current transaction
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067] from current transaction
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067] from current transaction
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-15 09:54:04] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3247c067]
+[2018-09-15 09:54:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:54:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:55:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:55:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:56:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:56:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:57:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:57:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:58:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:58:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:59:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 09:59:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:00:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:00:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:01:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:01:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:02:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:02:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:03:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:03:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:04:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:04:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:05:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:05:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:06:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:06:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:07:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:07:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:08:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:08:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:09:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:09:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:10:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:10:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:11:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:11:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:12:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:12:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:13:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:13:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:14:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:14:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:15:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:15:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:16:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:16:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:17:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:17:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:18:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:18:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:19:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:19:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:20:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:20:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:21:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:21:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:22:07] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4e949930: (connection has passed maxLifetime)
+[2018-09-15 10:22:07] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@47938b10
+[2018-09-15 10:22:10] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@690bf571: (connection has passed maxLifetime)
+[2018-09-15 10:22:10] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3359790b
+[2018-09-15 10:22:16] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3aa89d08: (connection has passed maxLifetime)
+[2018-09-15 10:22:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@27bd69ca
+[2018-09-15 10:22:16] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@919056c: (connection has passed maxLifetime)
+[2018-09-15 10:22:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5317d110
+[2018-09-15 10:22:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:22:21] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@284f28c5: (connection has passed maxLifetime)
+[2018-09-15 10:22:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@36a5d07f
+[2018-09-15 10:22:29] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@32e3c32: (connection has passed maxLifetime)
+[2018-09-15 10:22:29] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2374bb02
+[2018-09-15 10:22:44] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@42faec87: (connection has passed maxLifetime)
+[2018-09-15 10:22:44] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1b1c936a
+[2018-09-15 10:22:44] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@20fabcba: (connection has passed maxLifetime)
+[2018-09-15 10:22:44] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6f8ab17f
+[2018-09-15 10:22:46] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@47aa946c: (connection has passed maxLifetime)
+[2018-09-15 10:22:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3679cf81
+[2018-09-15 10:22:48] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@666b06a0: (connection has passed maxLifetime)
+[2018-09-15 10:22:48] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3a7fabba
+[2018-09-15 10:22:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:23:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:23:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:24:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:24:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:25:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:25:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:26:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:26:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36e2ccaa] was not registered for synchronization because synchronization is not active
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@658609757 wrapping com.mysql.jdbc.JDBC4Connection@3359790b] will not be managed by Spring
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1032446311 wrapping com.mysql.jdbc.JDBC4Connection@27bd69ca] will be managed by Spring
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75124b7a]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2048794036 wrapping com.mysql.jdbc.JDBC4Connection@47938b10] will be managed by Spring
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 10
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@36e2ccaa]
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484] from current transaction
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 81(Integer)
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 26
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75124b7a]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75124b7a]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75124b7a]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75124b7a]
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484] from current transaction
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 82(Integer)
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484] from current transaction
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 83(Integer)
+[2018-09-15 10:27:11] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:11] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@61edd484]
+[2018-09-15 10:27:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:27:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:28:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:28:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:29:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:29:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:30:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:30:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:31:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:31:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:32:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:32:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:33:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:33:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:34:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:34:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:35:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:35:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:36:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:36:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:37:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:37:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:38:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:38:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 10:39:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 11:53:42] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 11:54:12] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 11:54:42] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 11:55:12] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:14:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:14:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:15:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:15:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:16:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:16:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:17:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:17:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:18:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:18:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:19:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:19:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:20:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:21:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:21:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:22:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:22:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:23:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:23:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:23:48] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@47938b10: (connection has passed maxLifetime)
+[2018-09-15 12:23:48] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@26393733
+[2018-09-15 12:24:02] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3359790b: (connection has passed maxLifetime)
+[2018-09-15 12:24:02] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2c68e4d8
+[2018-09-15 12:24:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2374bb02: (connection has passed maxLifetime)
+[2018-09-15 12:24:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@58c99330
+[2018-09-15 12:24:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:24:08] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@36a5d07f: (connection has passed maxLifetime)
+[2018-09-15 12:24:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3b0c7929
+[2018-09-15 12:24:09] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5317d110: (connection has passed maxLifetime)
+[2018-09-15 12:24:09] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4fba7fd4
+[2018-09-15 12:24:12] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@27bd69ca: (connection has passed maxLifetime)
+[2018-09-15 12:24:12] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3b66cdfa
+[2018-09-15 12:24:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:24:41] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3679cf81: (connection has passed maxLifetime)
+[2018-09-15 12:24:41] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@721d05b1
+[2018-09-15 12:24:49] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3a7fabba: (connection has passed maxLifetime)
+[2018-09-15 12:24:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3a37df20
+[2018-09-15 12:24:49] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1b1c936a: (connection has passed maxLifetime)
+[2018-09-15 12:24:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4e006b7f
+[2018-09-15 12:24:57] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6f8ab17f: (connection has passed maxLifetime)
+[2018-09-15 12:24:57] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@26fd8f35
+[2018-09-15 12:25:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:25:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:26:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:26:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:27:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:27:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:28:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:28:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:29:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:29:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:30:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:30:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:31:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:31:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:32:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:32:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:33:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:33:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:34:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:34:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:35:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:35:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:36:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:36:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:37:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:37:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:38:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:38:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:39:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:39:33] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:40:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:54:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:54:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:55:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:55:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:56:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:56:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:57:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:57:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:58:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:58:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:59:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 12:59:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:00:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:00:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:01:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:01:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:02:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:02:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:03:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:03:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:04:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:04:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:05:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:05:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:06:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:06:56] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:07:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:07:27] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@58c99330: (connection has passed maxLifetime)
+[2018-09-15 13:07:27] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@787df090
+[2018-09-15 13:07:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@26393733: (connection has passed maxLifetime)
+[2018-09-15 13:07:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@c88dceb
+[2018-09-15 13:07:34] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4fba7fd4: (connection has passed maxLifetime)
+[2018-09-15 13:07:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3d3d435
+[2018-09-15 13:26:54] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3b0c7929: (connection has passed maxLifetime)
+[2018-09-15 13:26:54] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@134a4b6a
+[2018-09-15 13:27:04] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2c68e4d8: (connection has passed maxLifetime)
+[2018-09-15 13:27:04] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6bbff6f9
+[2018-09-15 13:27:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:27:10] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3b66cdfa: (connection has passed maxLifetime)
+[2018-09-15 13:27:10] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1c0de881
+[2018-09-15 13:27:21] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4e006b7f: (connection has passed maxLifetime)
+[2018-09-15 13:27:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6da5a776
+[2018-09-15 13:27:26] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@26fd8f35: (connection has passed maxLifetime)
+[2018-09-15 13:27:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@19c5cc21
+[2018-09-15 13:27:30] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3a37df20: (connection has passed maxLifetime)
+[2018-09-15 13:27:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@76a7f310
+[2018-09-15 13:27:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@721d05b1: (connection has passed maxLifetime)
+[2018-09-15 13:27:32] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4cc667c0
+[2018-09-15 13:27:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:28:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:28:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:29:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:29:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:30:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:30:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:31:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:31:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:32:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:32:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:33:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:33:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:34:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:34:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:35:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:35:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:36:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:36:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:37:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:37:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:38:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:38:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:39:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:39:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:40:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:40:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:41:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:41:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:42:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:42:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:43:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:43:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:44:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:44:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:45:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:45:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:46:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:46:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:47:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:47:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:48:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:48:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:49:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:49:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:50:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:50:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:51:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:51:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:52:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:52:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:53:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:53:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:54:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:54:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:55:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:55:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:56:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:56:27] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@134a4b6a: (connection has passed maxLifetime)
+[2018-09-15 13:56:27] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@154ef48e
+[2018-09-15 13:56:32] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@787df090: (connection has passed maxLifetime)
+[2018-09-15 13:56:32] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@61d69b74
+[2018-09-15 13:56:34] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3d3d435: (connection has passed maxLifetime)
+[2018-09-15 13:56:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@39621557
+[2018-09-15 13:56:35] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@c88dceb: (connection has passed maxLifetime)
+[2018-09-15 13:56:35] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@342dcbde
+[2018-09-15 13:56:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:56:47] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@19c5cc21: (connection has passed maxLifetime)
+[2018-09-15 13:56:47] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1cff20ae
+[2018-09-15 13:56:50] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6bbff6f9: (connection has passed maxLifetime)
+[2018-09-15 13:56:50] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@68ee7617
+[2018-09-15 13:56:55] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1c0de881: (connection has passed maxLifetime)
+[2018-09-15 13:56:55] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@e4d5113
+[2018-09-15 13:56:55] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6da5a776: (connection has passed maxLifetime)
+[2018-09-15 13:56:55] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3d9c8f61
+[2018-09-15 13:57:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:57:18] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4cc667c0: (connection has passed maxLifetime)
+[2018-09-15 13:57:18] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@48eee9be
+[2018-09-15 13:57:25] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@76a7f310: (connection has passed maxLifetime)
+[2018-09-15 13:57:25] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3186dacb
+[2018-09-15 13:57:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:58:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:58:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:59:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 13:59:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:00:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:00:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:01:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:01:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:02:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:02:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:03:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:03:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:04:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:04:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:05:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:05:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:06:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:06:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:07:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:07:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:08:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:08:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:09:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:09:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:10:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:10:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:11:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:11:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:12:08] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@154ef48e: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@61d69b74: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@39621557: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@342dcbde: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1cff20ae: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@68ee7617: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@e4d5113: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3d9c8f61: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@48eee9be: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3186dacb: (connection evicted)
+[2018-09-15 14:12:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

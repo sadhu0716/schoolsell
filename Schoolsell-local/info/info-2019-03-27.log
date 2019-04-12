@@ -1,0 +1,62 @@
+[2019-03-27 10:48:38] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 11000 (started by xinyun in H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell)
+[2019-03-27 10:48:38] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-03-27 10:48:41] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-03-27 10:48:41] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-03-27 10:48:41] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-03-27 10:48:41] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-03-27 10:48:41] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-03-27 10:48:44] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-03-27 10:48:44] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 7.725 seconds (JVM running for 10.907)
+[2019-03-27 10:58:09] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-03-27 10:58:09] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:58:09] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/login
+[2019-03-27 10:58:09] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:58:09] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:58:09] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.weixinLogin
+[2019-03-27 10:58:09] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-03-27 10:58:10] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result=密码正确}
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/logingetmsgnum
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.ChatControl.logingetmsgnum
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"amount":0}
+[2019-03-27 10:58:10] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/first
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.KindController.bigKind
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/firstpic
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.firstpic
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/headline
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.CommodityController.headline
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{result={result=[]}}
+[2019-03-27 10:58:11] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 10:58:12] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bigkindid":2,"bigkindname":"运动","bigkindpicture":""},{"bigkindid":3,"bigkindname":"生活","bigkindpicture":""},{"bigkindid":4,"bigkindname":"户外","bigkindpicture":""},{"bigkindid":5,"bigkindname":"户外","bigkindpicture":""},{"bigkindid":7,"bigkindname":"学习","bigkindpicture":""}]
+[2019-03-27 10:58:12] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 10:58:12] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:[{"bargain":true,"ccount":0,"cdescription":"好喝","cid":2,"cname":"","cprice":1,"ischecked":1,"kname":"","sellerid":"","thumbnail":"","usetime":"100年"},{"bargain":false,"ccount":0,"cdescription":"好看","cid":36,"cname":"","cprice":66,"ischecked":0,"kname":"","sellerid":"","thumbnail":"","usetime":"四成新"},{"bargain":true,"ccount":0,"cdescription":"好看","cid":38,"cname":"","cprice":66,"ischecked":0,"kname":"","sellerid":"","thumbnail":"","usetime":"五成新"}]
+[2019-03-27 10:58:12] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/profilemsg
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : GET
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.msgDate
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:{"address":"4#786","credibility":1,"idnumber":"368790199089037809","ischecked":1,"password":"123","phonenumber":"15987989896","profilephoto":"","realname":"三","userid":"1122@qq.com","username":"张三"}
+[2019-03-27 10:59:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-03-27 21:23:17] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Starting SchoolsellApplicationTests on DESKTOP-12K0HGL with PID 14860 (started by xinyun in H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell)
+[2019-03-27 21:23:17] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- No active profile set, falling back to default profiles: default
+[2019-03-27 21:27:15] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Starting SchoolsellApplicationTests on DESKTOP-12K0HGL with PID 15436 (started by xinyun in H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell)
+[2019-03-27 21:27:15] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- No active profile set, falling back to default profiles: default
+[2019-03-27 21:27:23] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Started SchoolsellApplicationTests in 9.207 seconds (JVM running for 11.654)
+[2019-03-27 21:49:48] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Starting SchoolsellApplicationTests on DESKTOP-12K0HGL with PID 15148 (started by xinyun in H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell)
+[2019-03-27 21:49:48] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- No active profile set, falling back to default profiles: default
+[2019-03-27 21:49:56] -- [INFO ]:[com.schoolsell.SchoolsellApplicationTests] -- Started SchoolsellApplicationTests in 9.19 seconds (JVM running for 11.499)

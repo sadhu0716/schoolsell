@@ -1,0 +1,1007 @@
+[2018-09-02 20:26:10] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/AdministratorMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/BigkindMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ChatreportMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/CommodityMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/FeedbackMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/JubaoMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrderMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrdercommodityMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/PictureMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ShopcarMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/SmallkindMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/UserMapper.class]
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2018-09-02 20:26:11] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-09-02 20:26:14] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2018-09-02 20:26:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/AdministratorMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/BigkindMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ChatreportMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/CommodityMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/FeedbackMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/JubaoMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrderMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrdercommodityMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/PictureMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ShopcarMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/SmallkindMapper.xml]'
+[2018-09-02 20:26:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/UserMapper.xml]'
+[2018-09-02 20:26:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 20:26:22] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b48c76f] was not registered for synchronization because synchronization is not active
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2018-09-02 20:26:22] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@11371428
+[2018-09-02 20:26:22] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1226359176 wrapping com.mysql.jdbc.JDBC4Connection@11371428] will not be managed by Spring
+[2018-09-02 20:26:22] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-02 20:26:23] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-02 20:26:23] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 5
+[2018-09-02 20:26:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b48c76f]
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3c0ae618
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@483b719c
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@48514260
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6d141465
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@37a6f7db
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@13a8815a
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6c95b68c
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a5cfe82
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@386dd438
+[2018-09-02 20:26:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@21bbecc
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@21bbecc' to type 'boolean[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@1d5b096b
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@1d5b096b' to type 'byte[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@3b42081a
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@3b42081a' to type 'char[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@7b1ef2f
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@7b1ef2f' to type 'double[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@5883dccb
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@5883dccb' to type 'float[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@1dd686e1
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@1dd686e1' to type 'int[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@367f4f99
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@367f4f99' to type 'long[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@3e3f16ee
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@3e3f16ee' to type 'short[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@789ce066
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@789ce066' to type 'BigDecimal[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@5154801a
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@5154801a' to type 'BigInteger[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@1d9b0e2e
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@1d9b0e2e' to type 'Boolean[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@5b55f315
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@5b55f315' to type 'Byte[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@4455a7c9
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@4455a7c9' to type 'Character[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@31f4ab09
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@31f4ab09' to type 'Double[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@745b2967
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@745b2967' to type 'Float[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@e2a1a2
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@e2a1a2' to type 'Integer[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@69603598
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@69603598' to type 'Long[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@7dd8775e
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@7dd8775e' to type 'Short[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@50e57993
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@50e57993' to type 'String[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@459f2d9c
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@459f2d9c' to type 'Class[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@2d3b0c42
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@2d3b0c42' to type 'Date[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@68b53632
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@68b53632' to type 'Calendar[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@21564aa4
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@21564aa4' to type 'java.io.File[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@4cb9f795
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@4cb9f795' to type 'java.sql.Date[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@5bfc7219
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@5bfc7219' to type 'java.sql.Time[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@37ccc8bf
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@37ccc8bf' to type 'java.sql.Timestamp[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@274a231e
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@274a231e' to type 'java.net.URL[]'
+[2018-09-02 20:26:23] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2018-09-02 20:26:53] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 20:27:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@11371428: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3c0ae618: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@483b719c: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@48514260: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6d141465: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@37a6f7db: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@13a8815a: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6c95b68c: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7a5cfe82: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@386dd438: (connection evicted)
+[2018-09-02 20:27:36] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2018-09-02 21:11:17] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/AdministratorMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/BigkindMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ChatreportMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/CommodityMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/FeedbackMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/JubaoMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrderMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrdercommodityMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/PictureMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ShopcarMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/SmallkindMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/UserMapper.class]
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2018-09-02 21:11:18] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-09-02 21:11:20] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/AdministratorMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/BigkindMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ChatreportMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/CommodityMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/FeedbackMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/JubaoMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrderMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrdercommodityMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/PictureMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ShopcarMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/SmallkindMapper.xml]'
+[2018-09-02 21:11:20] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/UserMapper.xml]'
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2018-09-02 21:11:59] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@219639c0
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@400745905 wrapping com.mysql.jdbc.JDBC4Connection@219639c0] will be managed by Spring
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 112233@qq.com(String)
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a] from current transaction
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c47c40a]
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7980e495
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@732e4547
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@69afd8fc
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a699835
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6150f2e5
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@19a38293
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@565f9473
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@59f5ea34
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4cb1196d
+[2018-09-02 21:12:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322e438e] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@907133203 wrapping com.mysql.jdbc.JDBC4Connection@219639c0] will not be managed by Spring
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==>  Preparing: select count(*) from chatreport where acceptid = ? and isbrowse=? 
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==> Parameters: 112233@qq.com(String), false(Boolean)
+[2018-09-02 21:12:00] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- <==      Total: 1
+[2018-09-02 21:12:00] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@322e438e]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fbe66e4] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1803681739 wrapping com.mysql.jdbc.JDBC4Connection@7980e495] will not be managed by Spring
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 7
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fbe66e4]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a7a59f5]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@813838981 wrapping com.mysql.jdbc.JDBC4Connection@219639c0] will be managed by Spring
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-02 21:12:02] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a7a59f5]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a7a59f5]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a7a59f5]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a7a59f5]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@2cf5983c
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@2cf5983c' to type 'boolean[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@22692f66
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@22692f66' to type 'byte[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@1f8b6b89
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@1f8b6b89' to type 'char[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@2147b2d
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@2147b2d' to type 'double[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@2a0272b
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@2a0272b' to type 'float[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@69592a06
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@69592a06' to type 'int[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@2d4ac387
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@2d4ac387' to type 'long[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@ca61810
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@ca61810' to type 'short[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@f3cffd0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@f3cffd0' to type 'BigDecimal[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@2f15ed2b
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@2f15ed2b' to type 'BigInteger[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@543845b5
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@543845b5' to type 'Boolean[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@6862b1ba
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@6862b1ba' to type 'Byte[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@480119
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@480119' to type 'Character[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@b4d88e
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@b4d88e' to type 'Double[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@163720c0
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@163720c0' to type 'Float[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@6ba5bcdd
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@6ba5bcdd' to type 'Integer[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@2b252879
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@2b252879' to type 'Long[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@df3f53b
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@df3f53b' to type 'Short[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@22edf565
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@22edf565' to type 'String[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@6468f6b1
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@6468f6b1' to type 'Class[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@660c7ca5
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@660c7ca5' to type 'Date[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@39cf9242
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@39cf9242' to type 'Calendar[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@1fdd8803
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@1fdd8803' to type 'java.io.File[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@e6eb5a3
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@e6eb5a3' to type 'java.sql.Date[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@6e973860
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@6e973860' to type 'java.sql.Time[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@6d39acea
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@6d39acea' to type 'java.sql.Timestamp[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@6ea5c7bb
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@6ea5c7bb' to type 'java.net.URL[]'
+[2018-09-02 21:12:02] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2018-09-02 21:12:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:13:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:13:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:14:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:14:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:15:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:15:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:16:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:16:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:17:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:17:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:18:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:18:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:19:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:19:30] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:20:00] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@219639c0: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7980e495: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@732e4547: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@69afd8fc: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@a699835: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6150f2e5: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@19a38293: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@565f9473: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@59f5ea34: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4cb1196d: (connection evicted)
+[2018-09-02 21:20:03] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2018-09-02 21:20:12] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/AdministratorMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/BigkindMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ChatreportMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/CommodityMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/FeedbackMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/JubaoMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrderMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/OrdercommodityMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/PictureMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/ShopcarMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/SmallkindMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/com/schoolsell/dao/UserMapper.class]
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2018-09-02 21:20:13] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2018-09-02 21:20:15] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/AdministratorMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/BigkindMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ChatreportMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/CommodityMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/FeedbackMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/JubaoMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrderMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/OrdercommodityMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/PictureMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/ShopcarMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/SmallkindMapper.xml]'
+[2018-09-02 21:20:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/mapper/UserMapper.xml]'
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6d22d3c7
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1144194684 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 112233@qq.com(String)
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04] from current transaction
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25e04f04]
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@733306e0
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6ca2e44d
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@c5d0218
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@669715ca
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@113996f5
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5759546e] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1399245405 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will not be managed by Spring
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==>  Preparing: select count(*) from chatreport where acceptid = ? and isbrowse=? 
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==> Parameters: 112233@qq.com(String), false(Boolean)
+[2018-09-02 21:20:34] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- <==      Total: 1
+[2018-09-02 21:20:34] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5759546e]
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5244721b
+[2018-09-02 21:20:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7cf30c57
+[2018-09-02 21:20:35] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5e5475ea
+[2018-09-02 21:20:35] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2c773d77
+[2018-09-02 21:20:35] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4da0eec] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@169734151 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will not be managed by Spring
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 7
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4da0eec]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1525328f]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1410873524 wrapping com.mysql.jdbc.JDBC4Connection@733306e0] will be managed by Spring
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2018-09-02 21:20:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1525328f]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1525328f]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1525328f]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1525328f]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@3b1341ca
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@3b1341ca' to type 'boolean[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@4c8946e1
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@4c8946e1' to type 'byte[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@56c4af8b
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@56c4af8b' to type 'char[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@1c27969a
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@1c27969a' to type 'double[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@3d9b99c5
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@3d9b99c5' to type 'float[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@3ba37ed9
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@3ba37ed9' to type 'int[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@486836d1
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@486836d1' to type 'long[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@68dbea00
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@68dbea00' to type 'short[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@9ef036f
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@9ef036f' to type 'BigDecimal[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@299ae13d
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@299ae13d' to type 'BigInteger[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@204d8461
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@204d8461' to type 'Boolean[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@1771e182
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@1771e182' to type 'Byte[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@66f47c78
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@66f47c78' to type 'Character[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@1899fa92
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@1899fa92' to type 'Double[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@54bb1b6c
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@54bb1b6c' to type 'Float[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@4cde9d88
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@4cde9d88' to type 'Integer[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@98c3fd7
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@98c3fd7' to type 'Long[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@5e16191e
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@5e16191e' to type 'Short[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@52fa19cb
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@52fa19cb' to type 'String[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@6a70fcc1
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@6a70fcc1' to type 'Class[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@26a14df
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@26a14df' to type 'Date[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@6e6c5b74
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@6e6c5b74' to type 'Calendar[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@518914cd
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@518914cd' to type 'java.io.File[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@604e0593
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@604e0593' to type 'java.sql.Date[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@437126ab
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@437126ab' to type 'java.sql.Time[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@1594c4a1
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@1594c4a1' to type 'java.sql.Timestamp[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@3ecea972
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@3ecea972' to type 'java.net.URL[]'
+[2018-09-02 21:20:36] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2018-09-02 21:21:04] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@348274886 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where sellerID = ? and cName=? and thumbnail=? 
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: 112233@qq.com(String), 我的第一张风景图片(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String)
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 0
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15] from current transaction
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==>  Preparing: insert into commodity (cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==> Parameters: null, 66(BigDecimal), true(Boolean), 四成新(String), 好看吧(String), -1(Integer), 112233@qq.com(String), 我的第一张风景图片(String), vivo(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String), 1(Integer)
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- <==    Updates: 1
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c5e4c15]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d73a8b4] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1215379326 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will not be managed by Spring
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 112233@qq.com(String)
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@d73a8b4]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d5c8b2]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1398428301 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where sellerID = ? and cName=? and thumbnail=? 
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: 112233@qq.com(String), 我的第一张风景图片(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String)
+[2018-09-02 21:21:13] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 1
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d5c8b2]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d5c8b2]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d5c8b2]
+[2018-09-02 21:21:13] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@69d5c8b2]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@795a17fc]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2050890527 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==>  Preparing: insert into picture (pictureID, cID, picture ) values (?, ?, ? ) 
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==> Parameters: null, 64(Integer), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/commodity/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.Or2pSCXIRpn8b61b88d7f7f358e239c9194d341ed5c1.jpeg(String)
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- <==    Updates: 1
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@795a17fc]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@795a17fc]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@795a17fc]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@795a17fc]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6266ea6b] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1822496855 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will not be managed by Spring
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 112233@qq.com(String)
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6266ea6b]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78fc8006]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@15831075 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where sellerID = ? and cName=? and thumbnail=? 
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: 112233@qq.com(String), 我的第一张风景图片(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String)
+[2018-09-02 21:21:14] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 1
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78fc8006]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78fc8006]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78fc8006]
+[2018-09-02 21:21:14] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78fc8006]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a775e1f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@379292913 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==>  Preparing: insert into picture (pictureID, cID, picture ) values (?, ?, ? ) 
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==> Parameters: null, 64(Integer), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/commodity/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.NwQt7fGD5hcR02ccbc4f53c68037c73de45b7b8d0ba3.jpg(String)
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- <==    Updates: 1
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a775e1f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a775e1f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a775e1f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a775e1f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12bce64f] was not registered for synchronization because synchronization is not active
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@477825640 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will not be managed by Spring
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 112233@qq.com(String)
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12bce64f]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d460053]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1817279519 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where sellerID = ? and cName=? and thumbnail=? 
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: 112233@qq.com(String), 我的第一张风景图片(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String)
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 1
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d460053]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d460053]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d460053]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d460053]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cee179d]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@316067909 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==>  Preparing: insert into picture (pictureID, cID, picture ) values (?, ?, ? ) 
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- ==> Parameters: null, 64(Integer), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/commodity/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.nO0N2WbemAuxaa414cb99877d39f79300fb237347093.jpg(String)
+[2018-09-02 21:21:15] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.insert] -- <==    Updates: 1
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cee179d]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cee179d]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cee179d]
+[2018-09-02 21:21:15] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4cee179d]
+[2018-09-02 21:21:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:22:04] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:22:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:23:04] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@870030715 wrapping com.mysql.jdbc.JDBC4Connection@6d22d3c7] will be managed by Spring
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where sellerID = ? and cName=? and thumbnail=? 
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: 112233@qq.com(String), 我的第二张风景图片(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String)
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 0
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f] from current transaction
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==>  Preparing: insert into commodity (cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==> Parameters: null, 66(BigDecimal), true(Boolean), 五成新(String), 好看吗(String), -1(Integer), 112233@qq.com(String), 我的第二张风景图片(String), 魅族(String), /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/mySchoolsell/target/classes/static/thumbnail/112233@qq.com.jpeg(String), 1(Integer)
+[2018-09-02 21:23:12] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- <==    Updates: 1
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:12] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6bf8930f]
+[2018-09-02 21:23:34] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:24:04] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6d22d3c7: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@733306e0: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6ca2e44d: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@c5d0218: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@669715ca: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@113996f5: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5244721b: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7cf30c57: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5e5475ea: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2c773d77: (connection evicted)
+[2018-09-02 21:24:15] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)

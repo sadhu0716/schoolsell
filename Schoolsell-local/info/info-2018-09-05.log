@@ -1,0 +1,21 @@
+[2018-09-05 19:52:44] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 18544 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell)
+[2018-09-05 19:52:44] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-05 19:55:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 18569 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell)
+[2018-09-05 19:55:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-05 19:55:39] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-09-05 19:55:39] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-09-05 19:55:39] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2018-09-05 19:55:39] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xinyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-09-05 19:55:39] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-09-05 19:55:40] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2018-09-05 19:58:14] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 18600 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell)
+[2018-09-05 19:58:14] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-05 19:58:31] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on xinyundeMacBook-Pro.local with PID 18609 (/Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell/target/classes started by xinyun in /Volumes/ssd_2/All/wangrui/third-chatroom/SecondOfConcordance/schoolsell-master/Schoolsell)
+[2018-09-05 19:58:31] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2018-09-05 19:58:33] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2018-09-05 19:58:33] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2018-09-05 19:58:33] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2018-09-05 19:58:33] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xinyun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[2018-09-05 19:58:33] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2018-09-05 19:58:35] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2018-09-05 19:58:35] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 5.075 seconds (JVM running for 6.052)

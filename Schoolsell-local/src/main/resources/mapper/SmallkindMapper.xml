@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.SmallkindMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Smallkind">
+    <id column="smallKindID" jdbcType="INTEGER" property="smallkindid" />
+    <result column="smallKindName" jdbcType="VARCHAR" property="smallkindname" />
+    <result column="bigKindID" jdbcType="INTEGER" property="bigkindid" />
+    <result column="smallKindPicture" jdbcType="VARCHAR" property="smallkindpicture" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from smallkind
+    where smallKindID = #{smallkindid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Smallkind">
+    insert into smallkind (smallKindID, smallKindName, bigKindID, 
+      smallKindPicture)
+    values (#{smallkindid,jdbcType=INTEGER}, #{smallkindname,jdbcType=VARCHAR}, #{bigkindid,jdbcType=INTEGER}, 
+      #{smallkindpicture,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Smallkind">
+    update smallkind
+    set smallKindName = #{smallkindname,jdbcType=VARCHAR},
+      bigKindID = #{bigkindid,jdbcType=INTEGER},
+      smallKindPicture = #{smallkindpicture,jdbcType=VARCHAR}
+    where smallKindID = #{smallkindid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select smallKindID, smallKindName, bigKindID, smallKindPicture
+    from smallkind
+    where smallKindID = #{smallkindid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select smallKindID, smallKindName, bigKindID, smallKindPicture
+    from smallkind
+  </select>
+  <select id="selectBybigKindID" resultMap="BaseResultMap">
+    select smallKindID, smallKindName, bigKindID, smallKindPicture
+    from smallkind
+    where bigKindID = #{bigKindID,jdbcType=INTEGER}
+  </select>
+</mapper>

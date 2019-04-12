@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.JubaopictureMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Jubaopicture">
+    <id column="jubaoPictureID" jdbcType="INTEGER" property="jubaopictureid" />
+    <result column="jubaoID" jdbcType="INTEGER" property="jubaoid" />
+    <result column="photo" jdbcType="VARCHAR" property="photo" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from jubaoPicture
+    where jubaoPictureID = #{jubaopictureid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Jubaopicture">
+    insert into jubaoPicture (jubaoPictureID, jubaoID, photo
+      )
+    values (#{jubaopictureid,jdbcType=INTEGER}, #{jubaoid,jdbcType=INTEGER}, #{photo,jdbcType=VARCHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Jubaopicture">
+    update jubaoPicture
+    set jubaoID = #{jubaoid,jdbcType=INTEGER},
+      photo = #{photo,jdbcType=VARCHAR}
+    where jubaoPictureID = #{jubaopictureid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select jubaoPictureID, jubaoID, photo
+    from jubaoPicture
+    where jubaoPictureID = #{jubaopictureid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select jubaoPictureID, jubaoID, photo
+    from jubaoPicture
+  </select>
+</mapper>

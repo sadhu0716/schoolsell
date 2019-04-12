@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.PictureMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Picture">
+    <id column="pictureID" jdbcType="INTEGER" property="pictureid" />
+    <result column="cID" jdbcType="INTEGER" property="cid" />
+    <result column="picture" jdbcType="VARCHAR" property="picture" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from picture
+    where pictureID = #{pictureid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Picture">
+    insert into picture (pictureID, cID, picture
+      )
+    values (#{pictureid,jdbcType=INTEGER}, #{cid,jdbcType=INTEGER}, #{picture,jdbcType=VARCHAR}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Picture">
+    update picture
+    set cID = #{cid,jdbcType=INTEGER},
+      picture = #{picture,jdbcType=VARCHAR}
+    where pictureID = #{pictureid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select pictureID, cID, picture
+    from picture
+    where pictureID = #{pictureid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select pictureID, cID, picture
+    from picture
+  </select>
+  <select id="selectByCid" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select pictureID, cID, picture
+    from picture
+    where cID = #{cid,jdbcType=INTEGER}
+  </select>
+</mapper>

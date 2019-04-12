@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.OrdercommodityMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Ordercommodity">
+    <id column="ocID" jdbcType="INTEGER" property="ocid" />
+    <result column="orderID" jdbcType="INTEGER" property="orderid" />
+    <result column="cID" jdbcType="INTEGER" property="cid" />
+    <result column="amount" jdbcType="INTEGER" property="amount" />
+    <result column="cPrice" jdbcType="DECIMAL" property="cprice" />
+    <result column="cName" jdbcType="VARCHAR" property="cname" />
+    <result column="bargain" jdbcType="BIT" property="bargain" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from orderCommodity
+    where ocID = #{ocid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Ordercommodity">
+    insert into orderCommodity (ocID, orderID, cID, 
+      amount, cPrice, cName, 
+      bargain)
+    values (#{ocid,jdbcType=INTEGER}, #{orderid,jdbcType=INTEGER}, #{cid,jdbcType=INTEGER}, 
+      #{amount,jdbcType=INTEGER}, #{cprice,jdbcType=DECIMAL}, #{cname,jdbcType=VARCHAR}, 
+      #{bargain,jdbcType=BIT})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Ordercommodity">
+    update orderCommodity
+    set orderID = #{orderid,jdbcType=INTEGER},
+      cID = #{cid,jdbcType=INTEGER},
+      amount = #{amount,jdbcType=INTEGER},
+      cPrice = #{cprice,jdbcType=DECIMAL},
+      cName = #{cname,jdbcType=VARCHAR},
+      bargain = #{bargain,jdbcType=BIT}
+    where ocID = #{ocid,jdbcType=INTEGER}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select ocID, orderID, cID, amount, cPrice, cName, bargain
+    from orderCommodity
+    where ocID = #{ocid,jdbcType=INTEGER}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select ocID, orderID, cID, amount, cPrice, cName, bargain
+    from orderCommodity
+  </select>
+  <select id="selectByorderID" resultMap="BaseResultMap">
+    select ocID, orderID, cID, amount,cPrice,cName,bargain
+    from ordercommodity
+    where orderID = #{orderID,jdbcType=INTEGER}
+  </select>
+</mapper>

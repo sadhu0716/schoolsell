@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.AdministratorMapper">
+  <resultMap id="BaseResultMap" type="com.schoolsell.entity.Administrator">
+    <id column="Name" jdbcType="VARCHAR" property="name" />
+    <result column="Password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from administrator
+    where `Name` = #{name,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.schoolsell.entity.Administrator">
+    insert into administrator (`Name`, `Password`)
+    values (#{name,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Administrator">
+    update administrator
+    set `Password` = #{password,jdbcType=VARCHAR}
+    where `Name` = #{name,jdbcType=VARCHAR}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select `Name`, `Password`
+    from administrator
+    where `Name` = #{name,jdbcType=VARCHAR}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select `Name`, `Password`
+    from administrator
+  </select>
+</mapper>

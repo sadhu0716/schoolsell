@@ -1,0 +1,449 @@
+[2019-03-21 14:03:42] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\AdministratorMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\BigkindMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ChatreportMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\CommodityMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\FeedbackMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaoMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaopictureMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrdercommodityMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrderMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\PictureMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ShopcarMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\SmallkindMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\UserMapper.class]
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaopictureMapper' and 'com.schoolsell.dao.JubaopictureMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaopictureMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2019-03-21 14:03:43] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2019-03-21 14:03:46] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubaopicture matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\AdministratorMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\BigkindMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ChatreportMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\CommodityMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\FeedbackMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaoMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaopictureMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrdercommodityMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrderMapper.xml]'
+[2019-03-21 14:03:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\PictureMapper.xml]'
+[2019-03-21 14:03:48] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ShopcarMapper.xml]'
+[2019-03-21 14:03:48] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\SmallkindMapper.xml]'
+[2019-03-21 14:03:48] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\UserMapper.xml]'
+[2019-03-21 22:00:02] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\AdministratorMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\BigkindMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ChatreportMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\CommodityMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\FeedbackMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaoMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaopictureMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrdercommodityMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrderMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\PictureMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ShopcarMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\SmallkindMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\UserMapper.class]
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaopictureMapper' and 'com.schoolsell.dao.JubaopictureMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaopictureMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2019-03-21 22:00:03] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2019-03-21 22:00:05] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubaopicture matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\AdministratorMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\BigkindMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ChatreportMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\CommodityMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\FeedbackMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaoMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaopictureMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrdercommodityMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrderMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\PictureMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ShopcarMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\SmallkindMapper.xml]'
+[2019-03-21 22:00:05] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\UserMapper.xml]'
+[2019-03-21 22:36:58] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\AdministratorMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\BigkindMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ChatreportMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\CommodityMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\FeedbackMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaoMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\JubaopictureMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrdercommodityMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\OrderMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\PictureMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\ShopcarMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\SmallkindMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\com\schoolsell\dao\UserMapper.class]
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaopictureMapper' and 'com.schoolsell.dao.JubaopictureMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaopictureMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2019-03-21 22:37:00] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2019-03-21 22:37:03] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubaopicture matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2019-03-21 22:37:03] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\AdministratorMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\BigkindMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ChatreportMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\CommodityMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\FeedbackMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaoMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\JubaopictureMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrdercommodityMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\OrderMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\PictureMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\ShopcarMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\SmallkindMapper.xml]'
+[2019-03-21 22:37:04] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\毕设\schoolsell\myself\schoolsell-release-schoolsell-background-login\schoolsell-release-schoolsell-background-login\Schoolsell\target\classes\mapper\UserMapper.xml]'
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://localhost:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5230bbaa
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@495741180 wrapping com.mysql.jdbc.JDBC4Connection@5230bbaa] will be managed by Spring
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, profilePhoto, isChecked from user where userID = ? 
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: 1122@qq.com(String)
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 1
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e] from current transaction
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a0ec33e]
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a6499e0
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@50e6851b
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2fc879f4
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@cdacb74
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@597460fd
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7e89245a
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@27ea6b8d
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@fde946c
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4efd9ff1
+[2019-03-21 22:37:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6bb8a3]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1180676460 wrapping com.mysql.jdbc.JDBC4Connection@5230bbaa] will be managed by Spring
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==>  Preparing: select count(*) from chatreport where acceptid = ? and isbrowse=? 
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- ==> Parameters: 1122@qq.com(String), false(Boolean)
+[2019-03-21 22:37:23] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.chatAmountByacceptidAndisbrowse] -- <==      Total: 1
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6bb8a3]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6bb8a3]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6bb8a3]
+[2019-03-21 22:37:23] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e6bb8a3]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@543bdb79] was not registered for synchronization because synchronization is not active
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1526480782 wrapping com.mysql.jdbc.JDBC4Connection@50e6851b] will not be managed by Spring
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b6eff]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1180067012 wrapping com.mysql.jdbc.JDBC4Connection@7a6499e0] will be managed by Spring
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f397937]
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 5
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1845785356 wrapping com.mysql.jdbc.JDBC4Connection@5230bbaa] will be managed by Spring
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@543bdb79]
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-03-21 22:37:25] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f397937]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b6eff]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@2790c698
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@2790c698' to type 'boolean[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@130f0bca
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@130f0bca' to type 'byte[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@6781c4e3
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@6781c4e3' to type 'char[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@73755721
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@73755721' to type 'double[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@5270ebd1
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@5270ebd1' to type 'float[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@39caeb0e
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@39caeb0e' to type 'int[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@50058608
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@50058608' to type 'long[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@9900f76
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@9900f76' to type 'short[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@5c6b53f6
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@5c6b53f6' to type 'BigDecimal[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@321751ee
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@321751ee' to type 'BigInteger[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@4edeb462
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@4edeb462' to type 'Boolean[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@473ce970
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@473ce970' to type 'Byte[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@41cef682
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@41cef682' to type 'Character[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@495e4774
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@495e4774' to type 'Double[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@72989799
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@72989799' to type 'Float[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@524f97d3
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@524f97d3' to type 'Integer[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@640301fe
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@640301fe' to type 'Long[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@5fdd8fed
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@5fdd8fed' to type 'Short[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@69cfefd0
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@69cfefd0' to type 'String[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@47100c35
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@47100c35' to type 'Class[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@3b60e9d8
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@3b60e9d8' to type 'Date[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@1ed6741f
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@1ed6741f' to type 'Calendar[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@6572ae99
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@6572ae99' to type 'java.io.File[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@4d80335a
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@4d80335a' to type 'java.sql.Date[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@6158a866
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@6158a866' to type 'java.sql.Time[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@13c56601
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@13c56601' to type 'java.sql.Timestamp[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@5066b88a
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@5066b88a' to type 'java.net.URL[]'
+[2019-03-21 22:37:25] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f397937]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f397937]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b6eff]
+[2019-03-21 22:37:25] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b6eff]
+[2019-03-21 22:37:53] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-03-21 22:38:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-03-21 22:38:53] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-03-21 22:39:23] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-03-21 22:39:53] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
