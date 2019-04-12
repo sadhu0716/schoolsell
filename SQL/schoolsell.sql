@@ -83,11 +83,11 @@ CREATE TABLE `commodity` (
   `thumbnail` varchar(1024) NOT NULL,
   `cCount` int(4) NOT NULL,
   PRIMARY KEY (`cID`)
-) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=61 DEFAULT CHARSET=utf8;
 
 /*Data for the table `commodity` */
 
-insert  into `commodity`(`cID`,`cPrice`,`bargain`,`useTime`,`cDescription`,`isChecked`,`sellerID`,`cName`,`kName`,`thumbnail`,`cCount`) values (49,'14',1,'四成新','3344的第一份商品',2,'3344@qq.com','一风景','编程','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg',6),(50,'56',1,'四成新','3344的第二份商品',2,'3344@qq.com','二风景','英语','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg',7),(51,'45',1,'六成新','3344的第三份商品',2,'3344@qq.com','三风景','篮球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg',5),(52,'76',1,'四成新','3344的第四份商品',1,'3344@qq.com','四风景','足球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg',6),(53,'88',1,'四成新','3344的第五份商品',1,'3344@qq.com','五风景','手机','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg',9),(54,'86',1,'八成新','3344的第六份商品',1,'3344@qq.com','六风景','笔记本','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg',4),(56,'56',1,'四成新','1122的第二份商品',1,'1122@qq.com','十风景','足球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg',4),(58,'78',1,'四成新','1122的',1,'1122@qq.com','七风景','手机','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg',7);
+insert  into `commodity`(`cID`,`cPrice`,`bargain`,`useTime`,`cDescription`,`isChecked`,`sellerID`,`cName`,`kName`,`thumbnail`,`cCount`) values (49,'14',1,'四成新','3344的第一份商品',2,'3344@qq.com','一风景','编程','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\49.jpg',6),(50,'56',1,'四成新','3344的第二份商品',2,'3344@qq.com','二风景','英语','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\50.jpg',7),(51,'45',1,'六成新','3344的第三份商品',2,'3344@qq.com','三风景','篮球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\51.jpg',5),(52,'76',1,'四成新','3344的第四份商品',1,'3344@qq.com','四风景','足球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\52.jpg',6),(53,'88',1,'四成新','3344的第五份商品',1,'3344@qq.com','五风景','手机','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\53.jpg',9),(54,'86',1,'八成新','3344的第六份商品',1,'3344@qq.com','六风景','笔记本','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\54.jpg',4),(56,'56',1,'四成新','1122的第二份商品',1,'1122@qq.com','十风景','足球','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\56.jpg',4),(58,'78',1,'四成新','1122的',1,'1122@qq.com','七风景','手机','H:\\Code\\Schoolsell\\target\\classes\\static\\thumbnail\\58.jpg',7),(59,'89',1,'四成新','第一张',1,'5566@qq.com','5566的图片','英语','H:\\Code\\isRunning\\server\\jar\\static\\thumbnail\\59.jpg',3),(60,'78',1,'四成新','第二张风景',1,'1122@qq.com','5566第二张','篮球','H:\\Code\\isRunning\\server\\jar\\static\\thumbnail\\60.jpg',8);
 
 /*Table structure for table `feedback` */
 
@@ -122,27 +122,61 @@ CREATE TABLE `jubao` (
 
 insert  into `jubao`(`juBaoID`,`juBaoDate`,`juBaoUserID`,`description`,`orderID`) values (2,'2018-08-06 09:08:24.00000','123','该商品质量很差',NULL);
 
+/*Table structure for table `jubaopicture` */
+
+DROP TABLE IF EXISTS `jubaopicture`;
+
+CREATE TABLE `jubaopicture` (
+  `jubaoPictureID` int(10) NOT NULL AUTO_INCREMENT,
+  `jubaoID` int(10) NOT NULL,
+  `photo` varchar(1024) COLLATE utf8_bin NOT NULL,
+  PRIMARY KEY (`jubaoPictureID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+/*Data for the table `jubaopicture` */
+
 /*Table structure for table `order` */
 
 DROP TABLE IF EXISTS `order`;
 
 CREATE TABLE `order` (
   `orderID` int(4) NOT NULL AUTO_INCREMENT,
-  `orderDate` datetime(5) NOT NULL,
-  `isEnd` tinyint(1) NOT NULL,
-  `endDate` datetime(5) DEFAULT NULL,
-  `buyerAddress` varchar(50) NOT NULL,
-  `amount` double(4,0) NOT NULL,
+  `orderDate` timestamp(5) NOT NULL,
+  `state` int(1) NOT NULL COMMENT '是否完成',
+  `endDate` timestamp(5) NULL DEFAULT NULL,
   `isOnline` tinyint(1) NOT NULL,
-  `cID` int(4) NOT NULL,
   `buyerID` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `sellerID` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `address` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `buyerPhone` varchar(50) NOT NULL,
+  `sellerPhone` varchar(50) NOT NULL,
+  `buyerName` varchar(20) NOT NULL,
+  `sellerName` varchar(20) NOT NULL,
   PRIMARY KEY (`orderID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 /*Data for the table `order` */
 
-insert  into `order`(`orderID`,`orderDate`,`isEnd`,`endDate`,`buyerAddress`,`amount`,`isOnline`,`cID`,`buyerID`,`sellerID`) values (1,'2018-08-06 11:18:26.00000',0,NULL,'江西赣州章贡区',1,0,0,'','');
+insert  into `order`(`orderID`,`orderDate`,`state`,`endDate`,`isOnline`,`buyerID`,`sellerID`,`address`,`buyerPhone`,`sellerPhone`,`buyerName`,`sellerName`) values (3,'2019-04-11 17:07:11.00000',-1,NULL,0,'1122@qq.com','3344@qq.com','432','15378675645','15256543456','小王','小李'),(4,'2019-04-11 17:11:30.00000',-1,NULL,0,'1122@qq.com','3344@qq.com','432','15378675645','15256543456','小王','小李'),(6,'2019-04-11 18:20:06.00000',-1,NULL,0,'3344@qq.com','3344@qq.com','456','15256543456','15256543456','小李','小李');
+
+/*Table structure for table `ordercommodity` */
+
+DROP TABLE IF EXISTS `ordercommodity`;
+
+CREATE TABLE `ordercommodity` (
+  `ocID` int(10) NOT NULL AUTO_INCREMENT,
+  `orderID` int(10) NOT NULL,
+  `cID` int(10) NOT NULL,
+  `amount` int(10) NOT NULL,
+  `cPrice` decimal(10,0) NOT NULL,
+  `cName` varchar(20) COLLATE utf8_bin NOT NULL,
+  `bargain` tinyint(1) NOT NULL,
+  PRIMARY KEY (`ocID`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+/*Data for the table `ordercommodity` */
+
+insert  into `ordercommodity`(`ocID`,`orderID`,`cID`,`amount`,`cPrice`,`cName`,`bargain`) values (1,2,49,1,'14','一风景',0),(2,3,49,1,'14','一风景',0),(3,4,49,1,'14','一风景',0),(4,5,49,1,'14','一风景',0),(5,6,50,1,'56','二风景',0);
 
 /*Table structure for table `picture` */
 
@@ -153,11 +187,11 @@ CREATE TABLE `picture` (
   `cID` int(4) NOT NULL,
   `picture` varchar(1024) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`pictureID`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8;
 
 /*Data for the table `picture` */
 
-insert  into `picture`(`pictureID`,`cID`,`picture`) values (42,40,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.Wg4C7jCHHCHWfca28140d7b201d86c208196c177d9f4.jpg'),(43,40,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.GExuGFZcHQZ6d4adef7c0fa987872884674aba886049.jpg'),(44,41,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.3bOYzfX9jqs79694c9e0b59d92c6296ef95763e77a8f.jpg'),(45,41,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.yLqCjudfFATt43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(46,42,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..x3ZTM3myfMAy9694c9e0b59d92c6296ef95763e77a8f.jpg'),(47,42,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..OzG6benm6lTG43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(48,43,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..95kDSoOpZedafca28140d7b201d86c208196c177d9f4.jpg'),(49,43,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..dRTafAHVB0ATd4adef7c0fa987872884674aba886049.jpg'),(50,44,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..mCjKzYm6Sbdwbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(51,44,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..HSfgPz83UsPyfca28140d7b201d86c208196c177d9f4.jpg'),(52,45,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..5Ggd9uRDHzoLc783bc2d8324d880d206224fe7c4c1e8.jpg'),(53,45,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..EEvpXCMDV0Zo7662f60ffa6dc8d85aad9df21b0fbc1c.jpg'),(54,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..4QtVetLt4fQA4bffa30b5fa60ff404d0a12fc15ac6fb.jpg'),(55,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..KAvBMdlOvEY29694c9e0b59d92c6296ef95763e77a8f.jpg'),(56,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..dD2XAL94Qo1j43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(57,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..OoTQc2YnsSXVbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(58,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..6843oLuwQgsmfca28140d7b201d86c208196c177d9f4.jpg'),(59,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..zknW0wD27Exxd4adef7c0fa987872884674aba886049.jpg'),(60,48,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..g75L76dqoB1P1d4d9f8e062650fbb8a98714697bf735.jpg'),(61,48,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..FrnlfX9lQIDY92a14dd5352e6348371dc34808b5e6b7.jpg'),(62,49,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg'),(63,49,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.QSKdtgeBHIe8d4adef7c0fa987872884674aba886049.jpg'),(64,50,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(65,50,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.WYvzk2K1bCwRd4adef7c0fa987872884674aba886049.jpg'),(66,51,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg'),(67,51,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.YwGA0LPx7SSL1d4d9f8e062650fbb8a98714697bf735.jpg'),(68,52,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.XtPTUSD9Qh2x43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(69,52,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.5EqbtSsdHcBS003d29ca7549f3efa335363a10934ee6.jpg'),(70,53,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.5RiODe9HVJsAbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(71,53,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.o8KfC11Ei0n0fca28140d7b201d86c208196c177d9f4.jpg'),(72,54,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.T5fHRnHsEAwe4bffa30b5fa60ff404d0a12fc15ac6fb.jpg'),(73,54,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.YfMwL5BdDqBf9694c9e0b59d92c6296ef95763e77a8f.jpg'),(74,55,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.d1csLE0IdhT292a14dd5352e6348371dc34808b5e6b7.jpg'),(75,55,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.0k2Evrr142ooc783bc2d8324d880d206224fe7c4c1e8.jpg'),(76,56,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.xxDMxiQj26Zobc9b2cb605df5c5315614c4a2bc1859a.jpg'),(77,56,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.kRIzrZk5K0Dufca28140d7b201d86c208196c177d9f4.jpg'),(78,57,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.z5XQ0EN0tDPS43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(79,57,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BKD0l8UjCg3P003d29ca7549f3efa335363a10934ee6.jpg'),(80,58,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.2CgiACus9Fnzc783bc2d8324d880d206224fe7c4c1e8.jpg'),(81,58,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.RV4osuNJsYSj7662f60ffa6dc8d85aad9df21b0fbc1c.jpg');
+insert  into `picture`(`pictureID`,`cID`,`picture`) values (42,40,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.Wg4C7jCHHCHWfca28140d7b201d86c208196c177d9f4.jpg'),(43,40,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.GExuGFZcHQZ6d4adef7c0fa987872884674aba886049.jpg'),(44,41,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.3bOYzfX9jqs79694c9e0b59d92c6296ef95763e77a8f.jpg'),(45,41,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.yLqCjudfFATt43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(46,42,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..x3ZTM3myfMAy9694c9e0b59d92c6296ef95763e77a8f.jpg'),(47,42,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..OzG6benm6lTG43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(48,43,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..95kDSoOpZedafca28140d7b201d86c208196c177d9f4.jpg'),(49,43,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..dRTafAHVB0ATd4adef7c0fa987872884674aba886049.jpg'),(50,44,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..mCjKzYm6Sbdwbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(51,44,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..HSfgPz83UsPyfca28140d7b201d86c208196c177d9f4.jpg'),(52,45,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..5Ggd9uRDHzoLc783bc2d8324d880d206224fe7c4c1e8.jpg'),(53,45,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..EEvpXCMDV0Zo7662f60ffa6dc8d85aad9df21b0fbc1c.jpg'),(54,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..4QtVetLt4fQA4bffa30b5fa60ff404d0a12fc15ac6fb.jpg'),(55,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..KAvBMdlOvEY29694c9e0b59d92c6296ef95763e77a8f.jpg'),(56,46,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..dD2XAL94Qo1j43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(57,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..OoTQc2YnsSXVbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(58,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..6843oLuwQgsmfca28140d7b201d86c208196c177d9f4.jpg'),(59,47,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..zknW0wD27Exxd4adef7c0fa987872884674aba886049.jpg'),(60,48,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..g75L76dqoB1P1d4d9f8e062650fbb8a98714697bf735.jpg'),(61,48,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a..FrnlfX9lQIDY92a14dd5352e6348371dc34808b5e6b7.jpg'),(62,49,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BrLi4jKIp32ufca28140d7b201d86c208196c177d9f4.jpg'),(63,49,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.QSKdtgeBHIe8d4adef7c0fa987872884674aba886049.jpg'),(64,50,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.oFw5sbgFfsjLbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(65,50,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.WYvzk2K1bCwRd4adef7c0fa987872884674aba886049.jpg'),(66,51,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.B0ed3m3YV7hLd4adef7c0fa987872884674aba886049.jpg'),(67,51,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.YwGA0LPx7SSL1d4d9f8e062650fbb8a98714697bf735.jpg'),(68,52,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.XtPTUSD9Qh2x43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(69,52,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.5EqbtSsdHcBS003d29ca7549f3efa335363a10934ee6.jpg'),(70,53,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.5RiODe9HVJsAbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(71,53,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.o8KfC11Ei0n0fca28140d7b201d86c208196c177d9f4.jpg'),(72,54,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.T5fHRnHsEAwe4bffa30b5fa60ff404d0a12fc15ac6fb.jpg'),(73,54,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.YfMwL5BdDqBf9694c9e0b59d92c6296ef95763e77a8f.jpg'),(74,55,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.d1csLE0IdhT292a14dd5352e6348371dc34808b5e6b7.jpg'),(75,55,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.0k2Evrr142ooc783bc2d8324d880d206224fe7c4c1e8.jpg'),(76,56,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.xxDMxiQj26Zobc9b2cb605df5c5315614c4a2bc1859a.jpg'),(77,56,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.kRIzrZk5K0Dufca28140d7b201d86c208196c177d9f4.jpg'),(78,57,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.z5XQ0EN0tDPS43fa00ddcfa0e42fd5ee72b4f7329862.jpg'),(79,57,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.BKD0l8UjCg3P003d29ca7549f3efa335363a10934ee6.jpg'),(80,58,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.2CgiACus9Fnzc783bc2d8324d880d206224fe7c4c1e8.jpg'),(81,58,'H:\\Code\\Schoolsell\\target\\classes\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.RV4osuNJsYSj7662f60ffa6dc8d85aad9df21b0fbc1c.jpg'),(82,59,'H:\\Code\\isRunning\\server\\jar\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.KuBvWsuYxq0Gbc9b2cb605df5c5315614c4a2bc1859a.jpg'),(83,59,'H:\\Code\\isRunning\\server\\jar\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.CpyNS7fvpTltfca28140d7b201d86c208196c177d9f4.jpg'),(84,59,'H:\\Code\\isRunning\\server\\jar\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.lLqjU3c7XUbzd4adef7c0fa987872884674aba886049.jpg'),(85,60,'H:\\Code\\isRunning\\server\\jar\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.gUTIVJlZgp6Pd4adef7c0fa987872884674aba886049.jpg'),(86,60,'H:\\Code\\isRunning\\server\\jar\\static\\commodityImg/wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.FWXA713EIsQo1d4d9f8e062650fbb8a98714697bf735.jpg');
 
 /*Table structure for table `shopcar` */
 
@@ -228,7 +262,7 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`userID`,`password`,`userName`,`realName`,`idNumber`,`phoneNumber`,`address`,`credibility`,`profilePhoto`,`isChecked`) values ('1122@qq.com','123','小王','王小小','367567877654565434','15378675645','432',10,'H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\1122@qq.com.jpg',-1),('3344@qq.com','123','小李','李丽丽','356545766876787656','15256543456','456',10,'H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\3344@qq.com.jpg',-1),('5566@qq.com','123','小李','李晓晓','390897788987896789','15909897890','563',10,'H:\\Code\\isRunning\\server\\Schoolsell\\target\\file:\\H:\\Code\\isRunning\\server\\Schoolsell\\target\\schoolsell-0.0.1-SNAPSHOT.jar!\\BOOT-INF\\classes!\\static\\userImg\\5566@qq.com.jpg',-1);
+insert  into `user`(`userID`,`password`,`userName`,`realName`,`idNumber`,`phoneNumber`,`address`,`credibility`,`profilePhoto`,`isChecked`) values ('1122@qq.com','123','小王','王小小','367567877654565434','15378675645','432',10,'H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\1122@qq.com.jpg',-1),('3344@qq.com','123','小李','李丽丽','356545766876787656','15256543456','456',10,'H:\\Code\\Schoolsell\\target\\classes\\static\\userImg\\3344@qq.com.jpg',-1),('5566@qq.com','123','小刘','刘潇潇','378987677890987876','15267897876','432',10,'H:\\Code\\isRunning\\server\\jar\\static\\userImg\\5566@qq.com.jpg',-1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
