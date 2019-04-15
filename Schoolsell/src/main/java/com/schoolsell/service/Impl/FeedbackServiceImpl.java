@@ -59,10 +59,10 @@ public class FeedbackServiceImpl implements FeedbackService {
     public List<String> selectQuery(String feedbackID) {
         List<String> list=new ArrayList<>();
         try {
-            String feedbackerName = userMapper.selectByPrimaryKey(feedbackID).getUsername();
-            String feedbackerphone = userMapper.selectByPrimaryKey(feedbackID).getPhonenumber();
+            String feedbackerName = userMapper.selectByPrimaryKey(feedbackID).getUserName();
+//            String feedbackerphone = userMapper.selectByPrimaryKey(feedbackID).getPhonenumber();
             list.add(feedbackerName);
-            list.add(feedbackerphone);
+//            list.add(feedbackerphone);
             return list;
         }catch (SQLException e) {
             throw new MySqlException("CRUD异常");

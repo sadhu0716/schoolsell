@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolsell.dao.WxuserMapper">
+    <resultMap id="BaseResultMap" type="com.schoolsell.entity.Wxuser">
+        <id column="wxID" jdbcType="INTEGER" property="wxID" />
+        <result column="userID" jdbcType="VARCHAR" property="userID" />
+        <result column="openID" jdbcType="VARCHAR" property="openID" />
+        <result column="sessionKey" jdbcType="VARCHAR" property="sessionKey" />
+    </resultMap>
+    <delete id="delete" parameterType="java.lang.Integer">
+    delete from wxuser
+    where wxID = #{wxID,jdbcType=INTEGER}
+  </delete>
+    <insert id="add" parameterType="com.schoolsell.entity.Wxuser" useGeneratedKeys="true" keyProperty="wxID" >
+    insert into wxuser (wxID, userID,
+      openID, sessionKey)
+    values (#{wxID,jdbcType=INTEGER}, #{userID,jdbcType=VARCHAR}, #{openID,jdbcType=VARCHAR},
+      #{sessionKey,jdbcType=VARCHAR})
+  </insert>
+    <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.Wxuser">
+    update wxuser
+    set userID = #{userID,jdbcType=VARCHAR},
+      openID = #{openID,jdbcType=VARCHAR},
+      sessionKey = #{sessionKey,jdbcType=VARCHAR}
+    where wxID = #{wxID,jdbcType=INTEGER}
+  </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select wxID , userID, openID, sessionKey
+    from wxuser
+    where wxID = #{wxID,jdbcType=INTEGER}
+  </select>
+    <update id="updateByUserID" parameterType="com.schoolsell.entity.Wxuser">
+    update wxuser
+    set openID = #{openID,jdbcType=VARCHAR},
+      sessionKey = #{sessionKey,jdbcType=VARCHAR}
+    where userID = #{userID,jdbcType=VARCHAR}
+  </update>
+    <select id="selectByUserID" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select wxID , userID, openID, sessionKey
+    from wxuser
+    where userID = #{userID,jdbcType=VARCHAR}
+  </select>
+    <select id="selectByOpenID" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select wxID , userID, openID, sessionKey
+    from wxuser
+    where openID = #{openID,jdbcType=VARCHAR}
+  </select>
+
+</mapper>

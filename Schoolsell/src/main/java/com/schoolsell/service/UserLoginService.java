@@ -13,14 +13,14 @@ public interface UserLoginService {
      * @param userid
      * @return
      */
-    String deleteByPrimaryKey(String userid);
+    int deleteByPrimaryKey(String userid);
 
     /**
      * 添加用户
      * @param record
      * @return
      */
-    String insert(User record);
+    int insert(User record);
 
     /**
      * 根据用户ID查找用户信息
@@ -40,14 +40,14 @@ public interface UserLoginService {
      * @param record
      * @return
      */
-    String updateByPrimaryKey(User record);
+    int updateByPrimaryKey(User record);
 
-    /**
-     *用户登录验证操作
-     * @param userId
-     * @param password
-     * @return
-     */
-    String userLogin(String userId,String password);
+//    /**
+//     *用户登录验证操作
+//     * @param userId
+//     * @param password
+//     * @return
+//     */
+//    int userLogin(String userId,String password);
 
 }

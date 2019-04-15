@@ -62,7 +62,7 @@ public class PictureSerimpl implements PictureService {
      * @throws SQLException
      */
     @Transactional
-    public Map<String, Object> select() throws SQLException {
+    public Map<String, Object> select() {
         List<Object> list = new ArrayList<>();
         Map<String, Object> map = new HashMap<>();
         try {

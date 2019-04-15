@@ -1,0 +1,250 @@
+[2019-04-13 19:59:24] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 20:01:35] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 7908 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:01:35] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:01:40] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:01:40] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:01:40] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:01:40] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:01:41] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.catalina.util.LifecycleBase] -- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:01:46] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:05:32] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 9952 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:05:32] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:05:36] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:05:36] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:05:36] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:05:36] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:05:36] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.catalina.util.LifecycleBase] -- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:05:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:06:57] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 2840 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:06:57] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:07:01] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:07:01] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:07:01] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:07:01] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:07:01] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.catalina.util.LifecycleBase] -- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:07:04] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:08:33] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 6784 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:08:33] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:08:38] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:08:38] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:08:38] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:08:38] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:08:38] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Pausing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.catalina.util.LifecycleBase] -- The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Stopping ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:08:40] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Destroying ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:12:21] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 12648 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:12:21] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:12:25] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:12:25] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:12:25] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:12:25] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:12:25] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:12:29] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:12:29] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.366 seconds (JVM running for 10.675)
+[2019-04-13 20:12:42] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@6a92d5b0
+[2019-04-13 20:12:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@19c8d5d0
+[2019-04-13 20:13:41] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 20:32:51] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 2232 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 20:32:51] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 20:32:55] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:32:55] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 20:32:55] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 20:32:55] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 20:32:55] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 20:32:57] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 20:32:57] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 7.451 seconds (JVM running for 9.49)
+[2019-04-13 20:33:23] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 20:33:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 20:33:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 20:33:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 20:33:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 20:33:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 20:33:25] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@68d3c5e8
+[2019-04-13 20:33:25] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 21:29:34] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 7972 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:29:35] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:29:39] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:29:39] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:29:39] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:29:39] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:29:39] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:29:41] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 21:31:05] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 14164 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:31:05] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:31:09] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:31:09] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:31:09] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:31:09] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:31:09] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:31:12] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:31:12] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.243 seconds (JVM running for 10.5)
+[2019-04-13 21:31:24] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 21:31:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 21:31:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 21:31:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 21:31:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 21:31:24] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 21:40:24] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 16016 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:40:24] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:40:30] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:40:31] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:40:31] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:40:31] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:40:31] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:40:36] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:40:36] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 13.029 seconds (JVM running for 14.939)
+[2019-04-13 21:40:42] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 21:40:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 21:40:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 21:40:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 21:40:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 21:40:42] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 21:40:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@31c99698
+[2019-04-13 21:40:43] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 21:41:45] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 8140 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:41:45] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:41:51] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:41:51] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:41:51] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:41:51] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:41:51] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:41:55] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:41:55] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 11.727 seconds (JVM running for 14.676)
+[2019-04-13 21:42:08] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 21:42:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 21:42:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 21:42:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 21:42:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 21:42:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 21:42:09] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 21:42:09] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 21:44:01] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 8364 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:44:01] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:44:05] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:44:05] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:44:05] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:44:05] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:44:05] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:44:06] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Stopping service [Tomcat]
+[2019-04-13 21:45:54] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 3864 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:45:54] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:45:58] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:45:58] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:45:58] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:45:58] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:45:58] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:46:02] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:46:02] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 9.09 seconds (JVM running for 11.346)
+[2019-04-13 21:46:06] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 21:46:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 21:46:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 21:46:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 21:46:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 21:46:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 21:46:08] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 21:46:08] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 21:47:19] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 11316 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 21:47:19] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 21:47:24] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:47:24] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 21:47:24] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 21:47:24] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 21:47:24] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 21:47:28] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 21:47:28] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 9.978 seconds (JVM running for 12.041)
+[2019-04-13 21:47:32] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 21:47:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 21:47:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 21:47:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 21:47:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 21:47:32] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 21:47:33] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 21:47:34] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 21:47:34] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@4ccca92f
+[2019-04-13 21:47:34] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 22:12:13] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 15704 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 22:12:13] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 22:12:18] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:12:18] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 22:12:18] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 22:12:18] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 22:12:18] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 22:12:20] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:12:20] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.629 seconds (JVM running for 11.31)
+[2019-04-13 22:12:23] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 22:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 22:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 22:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 22:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 22:12:23] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 22:12:24] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 22:12:24] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 22:13:56] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 9400 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 22:13:56] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 22:14:00] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:14:00] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 22:14:00] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 22:14:00] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 22:14:00] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 22:14:03] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:14:03] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 8.816 seconds (JVM running for 11.374)
+[2019-04-13 22:14:06] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 22:14:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 22:14:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 22:14:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 22:14:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 22:14:06] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 22:14:07] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 22:14:08] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 22:14:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@5e9e0ccb
+[2019-04-13 22:14:08] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
+[2019-04-13 22:14:53] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Starting SchoolsellApplication on DESKTOP-12K0HGL with PID 16100 (H:\GitHub\schoolsell\Schoolsell-local\target\classes started by xinyun in H:\GitHub\schoolsell\Schoolsell-local)
+[2019-04-13 22:14:53] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- No active profile set, falling back to default profiles: default
+[2019-04-13 22:14:57] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Initializing ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:14:57] -- [INFO ]:[org.apache.catalina.core.StandardService] -- Starting service [Tomcat]
+[2019-04-13 22:14:57] -- [INFO ]:[org.apache.catalina.core.StandardEngine] -- Starting Servlet Engine: Apache Tomcat/8.5.32
+[2019-04-13 22:14:57] -- [INFO ]:[org.apache.catalina.core.AprLifecycleListener] -- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\Download\win_tools\install_tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:\Download\win_tools\xftp\install\;H:\Download\win_tools\xshell\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;H:\Download\win_tools\MySQL\mysql-8.0.15-winx64\bin;H:\Download\win_tools\maven\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;"H:\Download\win_tools\install_tools\jdk\bin;H:\Download\win_tools\install_tools\jdk\jre\bin";H:\Download\win_tools\git\Git\cmd;C:\Users\xinyun\AppData\Local\Microsoft\WindowsApps;I:\Tools\IDEA\IntelliJ IDEA 2018.3.5\bin;;;.]
+[2019-04-13 22:14:57] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring embedded WebApplicationContext
+[2019-04-13 22:15:00] -- [INFO ]:[org.apache.coyote.http11.Http11NioProtocol] -- Starting ProtocolHandler ["http-nio-8080"]
+[2019-04-13 22:15:00] -- [INFO ]:[com.schoolsell.SchoolsellApplication] -- Started SchoolsellApplication in 7.656 seconds (JVM running for 10.066)
+[2019-04-13 22:15:03] -- [INFO ]:[org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] -- Initializing Spring FrameworkServlet 'dispatcherServlet'
+[2019-04-13 22:15:03] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /********************用户发起请求****************/
+[2019-04-13 22:15:03] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- URL : http://127.0.0.1:8080/schoolsell/wxLogin
+[2019-04-13 22:15:03] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- HTTP_METHOD : POST
+[2019-04-13 22:15:03] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- IP : 127.0.0.1
+[2019-04-13 22:15:03] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- CLASS_METHOD : com.schoolsell.controller.WeixinController.wxLogin
+[2019-04-13 22:15:04] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Starting...
+[2019-04-13 22:15:04] -- [INFO ]:[com.zaxxer.hikari.HikariDataSource] -- HikariPool-1 - Start completed.
+[2019-04-13 22:15:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- 方法返回值:com.schoolsell.util.IMoocJSONResult@30145718
+[2019-04-13 22:15:04] -- [INFO ]:[com.schoolsell.util.myAspect.LoginAspect] -- /**********************请求结束******************/
