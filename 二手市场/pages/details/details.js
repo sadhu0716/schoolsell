@@ -71,7 +71,7 @@ Page({
 
     // var detaildata = JSON.stringify(this.data)
     wx.navigateTo({
-      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail + '&sellerID=' + this.data.sellerid,
+      url: '../immeBuy/immeBuy?num=' + this.data.num + '&price=' + this.data.price + '&name=' + this.data.name + '&cid=' + this.data.cid + '&thumbnail=' + this.data.thumbnail+'&sellerID='+this.data.sellerid,
     })
     console.log("详细页面的值：" + this.data.name)
   },
@@ -214,7 +214,6 @@ Page({
     // var price = that.data.price;
     app.globalData.name = that.data.name;
     app.globalData.price = that.data.price;
-
     wx.navigateTo({
       url: "../bargain/bargain",
     })
@@ -273,34 +272,34 @@ Page({
           bargain: e.data.commodityDetail.bargain
         })
         console.log(self.data.sellerid);
-        self.getSecondPic(self);
+        // self.getSecondPic(self);
         console.log("bargain的值为" + self.data.bargain)
       }
     });
     
     // self.getPicture();
   },
-  getSecondPic: function(e) {
-    var self=e
-    wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/getStoreCredit?userid=' + self.data.sellerid,
-      header: {
-        "Content-Type": "application/json"
-      },
-      success: function(e) {
-        var credit = [];
-        var temp = 5;     //总共五颗星
-        for (var i = 0; i < (e.data.credit) / 10; i++) {
-          credit.push('../images/liked.png');       //信誉值每多10分，加一颗星
-          temp = temp - 1
-        };
-        for (var i = 0; i < temp; i++) {
-          credit.push('../images/like.png');
-        }
-        self.setData({
-          userStars: credit
-        })
-      }
-    })
-  },
+  // getSecondPic: function(e) {
+  //   var self=e
+  //   wx.request({
+  //     url: 'http://localhost:8080/schoolsell/getStoreCredit?userid=' + self.data.sellerid,
+  //     header: {
+  //       "Content-Type": "application/json"
+  //     },
+  //     success: function(e) {
+  //       var credit = [];
+  //       var temp = 5;     //总共五颗星
+  //       for (var i = 0; i < (e.data.credit) / 10; i++) {
+  //         credit.push('../images/liked.png');       //信誉值每多10分，加一颗星
+  //         temp = temp - 1
+  //       };
+  //       for (var i = 0; i < temp; i++) {
+  //         credit.push('../images/like.png');
+  //       }
+  //       self.setData({
+  //         userStars: credit
+  //       })
+  //     }
+  //   })
+  // },
 })

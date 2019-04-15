@@ -20,5 +20,8 @@ App({
   aData: {
     show: false
   },
+  setGlobalUserInfo: function (user) {
+    wx.setStorageSync("userInfo", user)
+  }
 
 })

@@ -6,7 +6,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    sellerID:'',
+    sellerID: '',
     cid: 0,
     name: '',
     num: 1,
@@ -15,8 +15,8 @@ Page({
     image: '../images/java.png',
     newdate: null,
     username: '',
-    userphone: '',
-    useraddress: '',
+    // userphone: '',
+    // useraddress: '',
     radioItems: [{
         name: 'ONLINE',
         value: '线上支付'
@@ -46,18 +46,18 @@ Page({
       username: e.detail.value
     })
   },
-  bindPhonechange: function(e) {
-    var self = this;
-    self.setData({
-      userphone: e.detail.value
-    })
-  },
-  bindAddresschange: function(e) {
-    var self = this;
-    self.setData({
-      useraddress: e.detail.value
-    })
-  },
+  // bindPhonechange: function(e) {
+  //   var self = this;
+  //   self.setData({
+  //     userphone: e.detail.value
+  //   })
+  // },
+  // bindAddresschange: function(e) {
+  //   var self = this;
+  //   self.setData({
+  //     useraddress: e.detail.value
+  //   })
+  // },
   buybtn: function() { //下单
     var self = this;
     // wx.requestPayment({
@@ -73,7 +73,7 @@ Page({
     //     console.log('fail')
     //   }
     // });
-    // 给服务器提交订单信息，生成待付款订单
+    // 给服务器提交订单信息，生成待付款订单                   //修改
     wx.request({
       url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/orderSuccess',
       method: 'GET',
@@ -81,16 +81,17 @@ Page({
         "orderDate": utils.datetimeFormat_1(new Date()),
         "buyerID": app.appData.userinfo.userID,
         "sellerID": self.data.sellerID,
-        "address": self.data.useraddress,
-        "buyerPhone": self.data.userphone,
+        // "address": self.data.useraddress,
+        // "buyerPhone":self.data.userphone,
         "buyerName": self.data.username,
         "cid": self.data.cid,
         "amount": self.data.num,
         "cName": self.data.name,
         "cPrice": self.data.price
       },
-      success: function (res) {
+      success: function(res) {
         var orderID = res.data.orderID;
+        console.log("订单编号为: "+orderID);
         wx.showToast({
           title: '下单成功',
           duration: 2000
@@ -100,7 +101,7 @@ Page({
         })
       }
 
-    })
+    }) //停
     console.log("self.data数据为" + JSON.stringify(self.data));
   },
 
@@ -153,7 +154,8 @@ Page({
 
     var self = this;
 
-    console.log("从商品详情传过来的options值为" + JSON.stringify(options));
+    // console.log("从商品详情传过来的options值为" + JSON.stringify(options));
+    console.log("从商品详情处传过来的options.name值为:" + options.name + "  cid:" + options.cid + "  sellerID=" + options.sellerID);
     //     this.data.bean = JSON.parse(options.detaildata) 
     // console.log("上个界面传值："+options.detaildata)
     // console.log("全部数据！！"+this.data.bean)
@@ -165,19 +167,22 @@ Page({
       image: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommodityThumbnail/' + options.thumbnail,
       cid: options.cid,
     });
+    console.log("传入的用户ID： " + app.appData.userinfo.userID)
+    var get_userinfo = wx.getStorageSync("userInfo");
+    var get_userName = get_userinfo.nickName;
     wx.request({
-      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/schoolsell/profilemsg',
+      url: 'https://www.ykyschoolsell.cn:8443/schoolsell-war/profilemsg',
       data: {
         "userID": app.appData.userinfo.userID
       },
       method: "GET",
       success: function(e) {
         self.setData({
-          username: e.data.username,
-          userphone: e.data.phonenumber,
-          useraddress: e.data.address
+          username: get_userName,
+          // userphone: e.data.phonenumber,
+          // useraddress: e.data.address
         })
-        console.log("电话号码" + self.data.userphone)
+        console.log("收货人姓名: " + self.data.username);
       }
     })
     //从购物车传到订单界面的值

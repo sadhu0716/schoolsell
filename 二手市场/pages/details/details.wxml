@@ -31,11 +31,11 @@
   <view style='text-align:center'>商品描述</view>
   <view class='goodsInfo' style='text-align:left'>{{goodsInfo}}</view>
   <view class="separate"></view>
-  <view class='info'>
+  <!-- <view class='info'>
     <text style='text-align:center'>信誉值</text>
     <!-- 商品星级 -->
     <!-- 评星的 -->
-    <view class="right">
+    <!-- <view class="right">
       <text class='starText' >商铺评级：</text>
       <view data-index="{{index}}" class="star" wx:for="{{userStars}}" wx:key="index" >
 
@@ -43,11 +43,8 @@
 
       </view>
     </view>
-
     <!-- <text class="text-remark">收货之后才能评价</text> -->
-
-
-  </view>
+  <!-- </view> --> 
   <view style='text-align:center'>商品图片</view>
   <block wx:for-items="{{detailImg}}" wx:key="name">
     <image class="image_detail" src="https://www.ykyschoolsell.cn:8443/schoolsell-war/getCommoditydetail/{{item}}" />

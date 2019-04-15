@@ -139,7 +139,7 @@ p{
 
 .cate-container {
   color: #fff;
-}
+  }
 
 /* 分割线 */
 

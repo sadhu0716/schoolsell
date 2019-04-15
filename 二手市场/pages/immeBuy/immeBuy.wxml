@@ -6,14 +6,14 @@
         <text>收货人姓名：</text>
         <input  class='buyerInfoThreeInput' bindinput='bindNamechange' value='{{username}}'></input>
       </view>
-      <view class='buyerInfoThree'>
+      <!-- <view class='buyerInfoThree'>
         <text>收货人电话：</text>
         <input value='{{userphone}}' bindinput='bindPhonechange' class='buyerInfoThreeInput'></input>
       </view>
       <view class='buyerInfoThree'>
         <text>收货人地址：</text>
         <input value='{{useraddress}}' bindinput='bindAddresschange' class='buyerInfoThreeInput'></input>
-      </view>
+      </view> -->
     </view>
     <view class='separator'></view>
     <view style='text-align:center'>商品信息</view>

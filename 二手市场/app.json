@@ -67,5 +67,6 @@
         "selectedIconPath": "pages/image/u31.png"
       }
     ]
-  }
+  },
+  "debug":true
 }

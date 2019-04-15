@@ -9,6 +9,17 @@
   position: relative;
 }
 
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+
 .portrait {
   height: 150rpx;
   width: 150rpx;
