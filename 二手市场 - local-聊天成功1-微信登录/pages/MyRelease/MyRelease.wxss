@@ -1,0 +1,115 @@
+.pageall{
+  width: 100%;
+  height: 1215rpx;
+}
+.tab{
+  float: left; 
+  width: 33.3%;
+  text-align: center;
+  padding: 10rpx 0; 
+   color: #808080;
+   background-color: #FFFFE0
+  }
+
+.topTabSwiper{
+  border-top: 1px solid #ccc; 
+  border-bottom: 1px solid #ccc;
+  
+  }
+
+
+.tabBorer{
+  border-bottom: 1px solid #f00; 
+ 
+  }
+
+.swiper{
+  width: 100%;
+   /* height: 100vh  */
+   height: 100%
+  }
+ .scroll-views{
+   height: 100%
+ }
+ .swiper-items{
+   height: 100%
+ }
+
+  .group{
+    /* height: 100%; */
+     margin-top: 15rpx; 
+    /* height: 170rpx; */
+    width: 100%;
+     border: 1px solid #C0C0C0;
+  /* border-radius: 10%; */
+    position: relative
+  }
+  .image{
+    height: 150rpx;
+    width: 150rpx;
+    margin-left: 20rpx;
+    margin-top: 10rpx;
+    
+    
+  }
+  .textname{
+  
+    position: absolute;
+    bottom: 100rpx;
+    left: 200rpx
+  }
+  .textprice{
+    
+    position: absolute;
+    bottom: 30rpx;
+    left: 200rpx
+  }
+  .textcount{
+     position: absolute;
+    bottom: 30rpx;
+    left: 400rpx
+  }
+  .nextimage{
+     height: 60rpx;
+   width: 50rpx;
+   position: absolute;
+   right: 10rpx ;
+   top: 60rpx
+  }
+  /* .btn{
+    position: absolute;
+   
+    height: 80rpx
+  } */
+  .changbtn{
+     width: 140rpx;
+     position: absolute;
+     margin-top: 10rpx;
+     border-radius: 15%;
+     left: 590rpx;
+     bottom: 10rpx
+  }
+  .downbtn{
+     width: 140rpx;
+     position: absolute;
+     margin-top: 10rpx;
+     border-radius: 15%;
+     left: 590rpx;
+     bottom: 10rpx
+
+
+  }
+  .line{
+     margin-top:5rpx;    
+    width: 100%;
+  height: 2rpx;
+  background: #808080;
+  }
+  .top-nav-bar {
+  font-size: 30rpx;
+  color: #808080;
+}
+
+   
+   
+

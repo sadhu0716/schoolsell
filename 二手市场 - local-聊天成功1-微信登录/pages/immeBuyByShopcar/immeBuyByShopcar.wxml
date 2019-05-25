@@ -1,0 +1,69 @@
+<!--pages/orderList/orderList.wxml-->
+<scroll-view class='container'>
+  <view class='all'>
+    <view class='buyerInfo'>
+      <view style='text-align:center'>收货人信息</view>
+      <!-- <view class='buyerInfoThree'>
+        <text>收货人姓名：</text>
+        <input class='buyerInfoThreeInput' bindinput='bindNamechange' value='{{username}}'></input>
+      </view> -->
+      <view class='buyerInfoThree'>
+        <text>收货人电话：</text>
+        <input value='{{userphone}}' bindinput='bindPhonechange' class='buyerInfoThreeInput'></input>
+      </view>
+      <!-- <view class='buyerInfoThree'>
+        <text>收货人地址：</text>
+        <input value='{{useraddress}}' bindinput='bindAddresschange' class='buyerInfoThreeInput'></input>
+      </view> -->
+    </view>
+    <view class='separator'></view>
+    <view style='text-align:center'>商品信息</view>
+    <view class='separator'></view>
+
+    <view class='titlePriceNum' wx:for='{{commditys}}'>
+
+      <image class="picture" src="http://localhost:8080/getCommodityThumbnail/{{item.cid}}.jpg"></image>
+      <view class='titlePrice'>
+        <text class='textTitle'>名称: {{item.title}}</text>
+        <text class='textPrice'>价格:￥{{item.price}}</text>
+        <text class='partNum'>数量: {{item.num}}</text>
+      </view>
+
+      <!-- 增加减少数量按钮 -->
+      <!-- <view class='numPartsOuter'>  -->
+      <!-- <view class='numParts'> -->
+      <!-- <text class='partMinus' bindtap="minusCount">-</text> -->
+      <!-- <text>数量</text> -->
+      <!-- <text class='partNum'>{{item.num}}</text> -->
+      <!-- <text class='partAdd' bindtap="addCount">+</text> -->
+      <!-- </view> -->
+      <!-- </view> -->
+
+    </view>
+
+
+    <view class='separator'></view>
+  </view>
+  <!-- 单选框线上线下支付 -->
+  <form bindsubmit='buybtn'>
+    <radio-group class="radio-group" bindchange="radioChange">支付方式：
+      <label class='radio' wx:for="{{radioItems}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+      </label>
+
+    </radio-group>
+    <view class='separator'></view>
+  </form>
+  <view class='bottom'>
+    <view class='totalLeft'>
+      <!-- wx:if 是否全选显示不同图标 -->
+      <!-- <icon wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" />
+      <icon wx:else type="circle" color="white" bindtap="selectAll" /> -->
+      <text>总价</text>
+
+      <!-- 总价 -->
+      <text class='totalPrice'>￥{{totalPrice}}</text>
+    </view>
+      <button class='buy' bindtap='buybtn'>下单</button>
+  </view>
+</scroll-view>

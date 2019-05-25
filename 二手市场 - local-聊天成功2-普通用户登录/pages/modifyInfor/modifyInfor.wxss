@@ -1,0 +1,70 @@
+/* pages/modifyInfor/modifyInfor.wxss */
+/* pages/profile/profile.wxss */
+
+/* pages/ profile/ profile.wxss */
+
+/* .header {
+  width: 100%;
+  height: 350rpx;
+  background-color: #40e0d0;
+  position: relative;
+}
+
+.portrait {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  border: 1px solid red;
+}
+
+.toptext {
+  float: right;
+  margin-right: 15rpx;
+  font-size: 30rpx;
+  color: #808080;
+} */
+
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  position: relative;
+}
+
+ .myorder-text {
+  float: left;
+  font-size: 30rpx;
+  margin: 20rpx;
+  width: 40%;
+} 
+
+.myorderlook-text {
+  font-size: 30rpx;
+  color: #808080;
+  position: absolute;
+  right: 0rpx;
+  width: 60%;
+  bottom: 20rpx;
+  float: right
+}
+
+.line {
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+}
+.btn{
+  
+  width: 60%;
+  height: 90rpx;
+  position: absolute;
+  top: 150rpx;
+  left: 20%
+ 
+
+}

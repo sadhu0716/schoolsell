@@ -1,0 +1,54 @@
+<view class='header'>
+  <view>
+    <image class='userinfo-avatar' src='{{picURL}}'></image>
+  </view>
+</view>
+<view class='order'>
+  <text class="myorder-text">账号</text>
+  <text class="myorderlook-text">{{userID}}</text>
+</view>
+<view class="line"></view>
+
+<!-- <view class='order' >
+      <text class="myorder-text">微信号</text>
+      <text class="myorderlook-text">{{username}}</text>
+      <image src='../image/next.png' class='nextimage'></image>
+</view>
+<view class="line"></view> -->
+
+<view class='order'>
+  <text class="myorder-text">性别</text>
+  <text class="myorderlook-text">{{gender}}</text>
+</view>
+<view class="line"></view>
+
+<view class='order'>
+  <text class="myorder-text">微信号</text>
+  <text class="myorderlook-text">{{userName}}</text>
+</view>
+<view class="line"></view>
+
+<!-- <view class='order'bindtap='phonechange'>
+      <text class="myorder-text">微信号</text>
+      <text class="myorderlook-text">{{phone}}</text>
+      <image src='../image/next.png' class='nextimage'></image>
+</view> -->
+<!-- <view class="line"></view> -->
+
+<!-- <view class='order'>
+      <text class="myorder-text">身份证号</text>
+      <text class="myorderlook-text">{{IDnumber}}</text>
+</view> -->
+<!-- <view class="line"></view> -->
+
+<!-- <view class='order'bindtap='addersschange'>
+      <text class="myorder-text">{{adderssname}}</text>
+      <text class="myorderlook-text">{{adderss}}</text>
+      <image src='../image/next.png' class='nextimage'></image>
+</view> -->
+
+<!-- <view class='order'>
+      <text class="myorder-text">微信号</text>
+      <text class="myorderlook-text">{{wxNumber}}</text>
+</view> -->
+<!-- <view class="line"></view> -->

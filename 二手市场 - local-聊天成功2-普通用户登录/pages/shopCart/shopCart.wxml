@@ -1,0 +1,50 @@
+<!--shopCart/shopCart.wxml-->
+<view class="cart-box">
+  <scroll-view scroll-y='true' class='scroll'>
+    <view class='separater'></view>
+    <!-- wx:for 渲染购物车列表 -->
+    <view class='smallBox' wx:for="{{carts}}" wx:key="id">
+
+      <!-- wx:if 是否选择显示不同图标 -->
+      <icon class='icon1' wx:if="{{item.selected}}" type="success" color="red" bindtap="selectList" data-index="{{index}}" />
+      <icon class='icon1' wx:else type="circle" bindtap="selectList" data-index="{{index}}" />
+
+      <!-- 点击商品图片可跳转到商品详情 -->
+      <navigator url="../details/details?cid={{item.cid}}">
+        <!-- &price={{item.price}}&name={{item.title}}&num={{item.num}}&sellerid={{item.sellerid}} -->
+        <image class="picture" src="http://localhost:8080/getCommodityThumbnail/{{item.cid}}.jpg"></image>
+      </navigator>
+
+      <text class='textTitle'>名称:{{item.title}}</text>
+      <text class='textPrice'>￥{{item.price}}</text>
+
+      <!-- 增加减少数量按钮 -->
+      <view class='numParts'>
+        <text class='partMinus' bindtap="minusCount" data-index="{{index}}">-</text>
+        <text class='partNum'>{{item.num}}</text>
+        <text class='partAdd' bindtap="addCount" data-index="{{index}}">+</text>
+      </view>
+
+      <!-- 删除按钮 -->
+      <text class='delete' bindtap="deleteList" data-index="{{index}}"> × </text>
+    </view>
+  </scroll-view>
+
+
+  <!-- 底部操作栏 -->
+  <view class='bottom'>
+    <view class='totalLeft'>
+      <!-- wx:if 是否全选显示不同图标 -->
+      <icon wx:if="{{selectAllStatus}}" type="success" color="red" bindtap="selectAll" />
+      <icon wx:else type="circle" bindtap="selectAll" />
+      <text>全选</text>
+
+      <!-- 总价 -->
+      <text class='totalPrice'>￥{{totalPrice}}</text>
+    </view>
+    <view>
+      <button class='buy' bindtap='btnBuy'>结算</button>
+    </view>
+
+  </view>
+</view>

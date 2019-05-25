@@ -1,0 +1,46 @@
+
+<view class='news'>
+  <view class='xiahuaxian1 xiahuaxia'></view>
+  <view class='new_top_txt'>您正在与{{acceptid}}进行沟通</view>
+  <view class="historycon">
+    <scroll-view scroll-y="true" style="height: 400px;"  scroll-top="{{scrollTop}}" scroll-with-animation scroll-into-view='{{lastId}}'  scroll-y='1'   class="history" id='history'  >
+     <block wx:for="{{newsList}}"  wx:key="newsList{{ index }}" >
+      <block wx:if="{{item.type == 1}}"  >
+          
+      <view >
+            <text class='chat-time'>{{item.date}}</text>
+          </view>
+          <view class='own-record' >
+            <view class='own-record-content'>{{item.context}}</view>
+            <view class='own-record-content-triangle'></view>
+            <image class='own-head-img' src='{{picsend}}'></image>
+          </view>
+         <view class='kongge' id='msg{{index}}'></view>
+      </block>
+      
+      <block  wx:else >
+      
+       <view >
+            <text class='chat-time'>{{item.date}}</text>
+          </view>
+          <view class='other-record' >
+            <image class='other-head-img' src='{{picget}}'></image>
+            <view class='other-record-content-triangle'></view>
+            <view class='other-record-content'>
+            {{item.context}}</view>
+          </view>
+          <view class='kongge' id='msg{{index}}'></view>  
+      </block>
+
+      </block>
+    </scroll-view>
+  </view>
+</view>
+<!-- <view class='hei' id="hei"></view> -->
+<view class="sendmessage">
+  
+  <input type="emoji" bindinput="bindChange" confirm-type="done" value='{{myinput}}' placeholder=""   />
+  <button class='btn' catchtap="add" class='sendbt' >发送</button>
+  
+</view>
+

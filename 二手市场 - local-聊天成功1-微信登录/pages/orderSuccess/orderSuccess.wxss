@@ -1,0 +1,17 @@
+/* pages/orderSuccess/orderSuccess.wxss */
+.all{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 800rpx;
+  margin-top: 100rpx;
+  
+
+}
+.twoButton{
+display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600rpx;
+}

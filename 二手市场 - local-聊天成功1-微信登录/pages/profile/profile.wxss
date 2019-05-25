@@ -1,0 +1,76 @@
+/* pages/profile/profile.wxss */
+
+/* pages/ profile/ profile.wxss */
+
+.header {
+  width: 100%;
+  height: 350rpx;
+  background-color: #40e0d0;
+  position: relative;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+
+
+.portrait {
+  height: 150rpx;
+  width: 150rpx;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  border: 1px solid red;
+}
+
+.toptext {
+  float: right;
+  margin-right: 15rpx;
+  font-size: 30rpx;
+  color: #808080;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  position: relative;
+}
+
+.myorder-text {
+  float: left;
+  font-size: 30rpx;
+  margin: 20rpx;
+  width: 40%;
+}
+
+.myorderlook-text {
+  font-size: 30rpx;
+  color: #808080;
+  position: absolute;
+  right: 80rpx;
+  width: 60%;
+  bottom: 20rpx;
+  text-align: right;
+}
+
+.line {
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+}
+.nextimage{
+   height: 27rpx;
+   width: 20rpx;
+   position: absolute;
+   right: 10rpx   
+}
