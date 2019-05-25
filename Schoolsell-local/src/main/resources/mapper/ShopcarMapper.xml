@@ -12,7 +12,7 @@
     delete from shopcar
     where shopCarID = #{shopcarid,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="com.schoolsell.entity.Shopcar">
+  <insert id="insert" parameterType="com.schoolsell.entity.Shopcar" keyProperty="shopcarid" useGeneratedKeys="true" >
     insert into shopcar (shopCarID, userID, cID, 
       amount, isFinish)
     values (#{shopcarid,jdbcType=INTEGER}, #{userid,jdbcType=VARCHAR}, #{cid,jdbcType=INTEGER}, 

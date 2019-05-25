@@ -1,0 +1,14 @@
+
+   <image class='feedbackimage' src='../image/fankui.png'></image>
+     <text class='text'>反馈意见</text>
+   
+
+   <view>
+     <textarea class='textarea' bindinput='getsuggest' value='{{form_info}}' placeholder='请输入你宝贵的建议或意见'></textarea>
+   </view>
+   
+   <view class='tip'>
+      <text class='texttip'>欢迎您为我们提出宝贵建议和意见，您留下的任何信息将用来改善我们的软件</text>
+   </view>
+   <button  type="primary" class='submitbtn' bindtap='registerBtn'>提交</button>
+

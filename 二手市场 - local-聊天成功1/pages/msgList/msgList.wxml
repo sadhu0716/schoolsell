@@ -1,0 +1,18 @@
+<!--pages/msgList/msgList.wxml-->
+
+<scroll-view scroll-y="true" class='all'>
+  <view class='msgList' bindtap='navmsgList' wx:for="{{msgList}}" id="{{item.name}}" >
+    <view class='image-user'  >
+      <image src='http://localhost:8080/getimage/{{item.name}}.jpg' class='image'></image>
+      <text>{{item.name}}</text>
+    </view>
+    <view class='imageRight'>
+      <view >{{item.msgDetail}}</view>
+      <text  class='imageRightTime'  >{{item.msgTime}}</text>
+    </view>
+    <text class='imageRightNum'>{{item.num}}</text>
+  </view>
+
+  
+
+</scroll-view>

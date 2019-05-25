@@ -1,0 +1,35 @@
+/* pages/report/report.wxss */
+
+.all {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 800rpx;
+  margin-top: 100rpx;
+}
+
+.reportText {
+  height: 400rpx;
+  border: 1rpx solid black;
+  border-radius: 10px;
+  width: 99%;
+}
+
+.btn {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 500rpx;
+  align-items: center;
+  /* height: 100rpx; */
+}
+
+.submit {
+  width: 450rpx;
+  margin-top: 100rpx;
+}
+.text{
+  color: #808080;
+   font-size: 30rpx;
+}

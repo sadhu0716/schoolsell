@@ -69,12 +69,12 @@ public class SchoolsellApplicationTests {
         }
     }
 
-    @Test
-    public void TestPicture(){
-        String filePath=userLoginService.selectByPrimaryKey("891993651@qq.com").getProfilephoto();
-        ClassPathResource resource=new ClassPathResource(filePath);
-        System.out.println(filePath);
-    }
+//    @Test
+//    public void TestPicture(){
+//        String filePath=userLoginService.selectByPrimaryKey("891993651@qq.com").getProfilephoto();
+//        ClassPathResource resource=new ClassPathResource(filePath);
+//        System.out.println(filePath);
+//    }
 
     @Test
     public void getUserPicTimes(){

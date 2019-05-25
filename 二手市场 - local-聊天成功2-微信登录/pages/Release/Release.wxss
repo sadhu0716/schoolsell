@@ -1,0 +1,94 @@
+    
+
+
+.all{
+background-color: #F5F5F5
+
+}    
+.inputname{
+  /* border: 1px solid 	#D3D3D3; */
+  width: 100%;
+  height: 70rpx;
+  margin-top:20rpx;
+  background-color: 	#FFFFFF
+}
+
+.inputdescribe{
+ /* border: 1px solid 	#D3D3D3; */
+  width: 100%;
+  height: 280rpx;
+   background-color: 	#FFFFFF
+  
+
+}
+.line{
+ width: 100%;
+  height: 2rpx;
+  background: 	#D3D3D3;
+}
+.textname{
+  width: 100%;
+   font-size: 30rpx;
+   color: #808080;
+   padding-top: 10rpx;
+   padding-left: 15rpx;
+   /* border: 1px solid blue */
+}
+
+ .textname1{
+   /* width: 100%; */
+   /* height: 300rpx; */
+   font-size: 30rpx;
+   color: #808080;
+   /* padding-top: 20rpx; */
+   padding-left: 450rpx;
+   /* border: 1px solid red */
+}
+.count{
+     width: 100%;
+  height: 70rpx;
+  background-color: 	#FFFFFF;
+  position: relative
+}
+.inputcount{
+  
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+  width: 40%;
+  text-align: center;
+   /* border: 1px solid black */
+}
+.chosekind{
+  width: 100%;
+  height: 80rpx;
+  position: relative;
+   background-color: 	#FFFFFF;
+  margin-top: 20rpx
+}
+.nextimage{
+  height: 27rpx;
+   width: 20rpx;
+   position: absolute;
+   right: 10rpx;
+   top: 30rpx
+
+}
+.inputuertime{
+  width: 100%;
+  height: 80rpx;
+  position: relative;
+   background-color: 	#FFFFFF;
+  
+}
+.inputprice{
+   width: 100%;
+  height: 70rpx;
+  background-color: 	#FFFFFF
+
+}
+ .releasebtn{
+  width: 70%;
+  margin-top: 170rpx
+  
+}

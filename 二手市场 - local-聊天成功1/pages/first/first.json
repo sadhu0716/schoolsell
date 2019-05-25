@@ -1,0 +1,14 @@
+{
+
+  
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+ 
+    "navigationBarTitleText": "校园二手市场",
+    "enablePullDownRefresh": true
+    
+  
+  
+}

@@ -2,6 +2,7 @@ package com.schoolsell.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.ResourceUtils;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -92,6 +93,16 @@ public class MyPictureConfigration extends WebMvcConfigurationSupport {
 //                    addResourceLocations(gitPath);
 
         super.addResourceHandlers(registry);
+    }
+
+    /**
+     * 解决ajax跨域问题
+     * @param registry
+     */
+    @Override
+    public void addCorsMappings(CorsRegistry registry) {
+        super.addCorsMappings(registry);
+        registry.addMapping("/**");
     }
 
 

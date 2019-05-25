@@ -26,21 +26,28 @@ public class UserLoginServiceImpl implements UserLoginService {
      */
     @Transactional
     @Override
-    public String deleteByPrimaryKey(String userid) {
-        if(userid!=null&&!"".equals(userid)){
-            try{
-                if(userMapper.selectByPrimaryKey(userid)!=null){
-                    userMapper.deleteByPrimaryKey(userid);
-                    return SqlEnum.SQL_SUCCESS.getMessage();
-                }else{
-                    return SqlEnum.USER_NOT_EXIST.getMessage();
-                }
-            }catch (SQLException e){
-                throw new MySqlException(SqlEnum.SQL_DELETE_WRONG.getMessage());
-            }
-        }else{
-            return SqlEnum.USER_ISNULL.getMessage();
+    public int deleteByPrimaryKey(String userid) {
+//        if(userid!=null&&!"".equals(userid)){
+//            try{
+//                if(userMapper.selectByPrimaryKey(userid)!=null){
+//                    userMapper.deleteByPrimaryKey(userid);
+//                    return SqlEnum.SQL_SUCCESS.getMessage();
+//                }else{
+//                    return SqlEnum.USER_NOT_EXIST.getMessage();
+//                }
+//            }catch (SQLException e){
+//                throw new MySqlException(SqlEnum.SQL_DELETE_WRONG.getMessage());
+//            }
+//        }else{
+//            return SqlEnum.USER_ISNULL.getMessage();
+//        }
+
+        try{
+            return userMapper.deleteByPrimaryKey(userid);
+        }catch (SQLException e){
+            throw new MySqlException("用户表由主键删除用户异常!!!");
         }
+
     }
 
     /**
@@ -50,24 +57,30 @@ public class UserLoginServiceImpl implements UserLoginService {
      */
     @Transactional
     @Override
-    public String insert(User record) {
-        if(record.getUserid()!=null&&record.getPassword()!=null&&
-                record.getRealname()!=null&&record.getIdnumber()!=null&&
-                record.getPhonenumber()!=null&&record.getIdnumber()!=null&&
-                record.getCredibility()!=null){
-            try {
-                if (userMapper.selectByPrimaryKey(record.getUserid()) == null) {
-                    userMapper.insert(record);
-                    return SqlEnum.SQL_SUCCESS.getMessage();
-                } else {
-                    return SqlEnum.USER_IS_EXIST.getMessage();
-                }
-            }catch (SQLException e){
-                throw new MySqlException(SqlEnum.SQL_INSERT_WRONG.getMessage());
-            }
+    public int insert(User record) {
+//        if(record.getUserID()!=null&&record.getPassword()!=null&&
+//                record.getRealname()!=null&&record.getIdnumber()!=null&&
+//                record.getPhonenumber()!=null&&record.getIdnumber()!=null&&
+//                record.getCredibility()!=null){
+//            try {
+//                if (userMapper.selectByPrimaryKey(record.getUserid()) == null) {
+//                    userMapper.insert(record);
+//                    return SqlEnum.SQL_SUCCESS.getMessage();
+//                } else {
+//                    return SqlEnum.USER_IS_EXIST.getMessage();
+//                }
+//            }catch (SQLException e){
+//                throw new MySqlException(SqlEnum.SQL_INSERT_WRONG.getMessage());
+//            }
+//
+//        }else{
+//            return SqlEnum.USER_REGISTER_WRONG.getMessage();
+//        }
 
-        }else{
-            return SqlEnum.USER_REGISTER_WRONG.getMessage();
+        try{
+            return userMapper.insert(record);
+        }catch (SQLException e){
+            throw new MySqlException("添加用户异常!!!");
         }
     }
 
@@ -107,91 +120,98 @@ public class UserLoginServiceImpl implements UserLoginService {
      */
     @Transactional
     @Override
-    public String updateByPrimaryKey(User record) {
-        if(record.getUserid()!=null&&record.getPassword()!=null&&
-                record.getRealname()!=null&&record.getIdnumber()!=null&&
-                record.getPhonenumber()!=null&&record.getIdnumber()!=null&&
-                record.getCredibility()!=null){
-            try{
-                if(userMapper.selectByPrimaryKey(record.getUserid())!=null){
-                    userMapper.updateByPrimaryKey(record);
-                    return SqlEnum.SQL_SUCCESS.getMessage();
-                }else{
-                    return SqlEnum.USER_NOT_EXIST.getMessage();
-                }
-            }catch (SQLException e){
-                throw new MySqlException(SqlEnum.SQL_UPDATE_WRONG.getMessage());
-            }
-        }else{
-            return SqlEnum.USER_UPDATE_WRONG.getMessage();
-        }
-    }
+    public int updateByPrimaryKey(User record) {
+//        if(record.getUserid()!=null&&record.getPassword()!=null&&
+//                record.getRealname()!=null&&record.getIdnumber()!=null&&
+//                record.getPhonenumber()!=null&&record.getIdnumber()!=null&&
+//                record.getCredibility()!=null){
+//            try{
+//                if(userMapper.selectByPrimaryKey(record.getUserid())!=null){
+//                    userMapper.updateByPrimaryKey(record);
+//                    return SqlEnum.SQL_SUCCESS.getMessage();
+//                }else{
+//                    return SqlEnum.USER_NOT_EXIST.getMessage();
+//                }
+//            }catch (SQLException e){
+//                throw new MySqlException(SqlEnum.SQL_UPDATE_WRONG.getMessage());
+//            }
+//        }else{
+//            return SqlEnum.USER_UPDATE_WRONG.getMessage();
+//        }
 
-    /**
-     * 登录
-     * @param userId
-     * @param password
-     * @return
-     */
-    @Transactional
-    @Override
-    public String userLogin(String userId, String password) {
-        if(userId!=null&&!"".equals(userId)){
-            try{
-                if(userMapper.selectByPrimaryKey(userId)!=null){
-                    if(password.equals(userMapper.selectByPrimaryKey(userId).getPassword())){
-                        return LoginEnum.LOGIN_SUCCESS.getMessage();
-                    }else{
-                        return LoginEnum.LOGIN_PASSWORD_WRONG.getMessage();
-                    }
-                }else{
-                    return LoginEnum.LOGIN_USER_NOT_EXIST.getMessage();
-                }
-
-            }catch (SQLException e){
-                throw new MySqlException(SqlEnum.SQL_QUERY_WRONG.getMessage());
-            }
-        }else{
-            return LoginEnum.LOGIN_USERNAME_ISNULL.getMessage();
+        try{
+            return userMapper.updateByPrimaryKey(record);
+        }catch (SQLException e){
+            throw new MySqlException("添加用户异常!!!");
         }
 
     }
 
-    /**
-     * 更改用户信息
-     * @param userID
-     * @param mark
-     * @param newmsg
-     * @return
-     * @throws SQLException
-     */
-    @Transactional
-    public Integer updatemsg(String userID, String mark, String newmsg){
-        User user=new User();
-        user.setUserid(userID);
-        try {
-            if (mark.equals("昵称")) {
-                user.setUsername(newmsg);
-                userMapper.updateuserName(user);
-                return 1;
-            } else if (mark.equals("电话号码")) {
-                String phone = userMapper.selectByPrimaryKey(userID).getPhonenumber();
-                if (phone.equals(newmsg)) {
-                    return -1;
-                } else {
-                    user.setPhonenumber(newmsg);
-                    userMapper.updatephone(user);
-                    return 1;
-                }
-            } else if (mark.equals("地址")) {
-                user.setAddress(newmsg);
-                userMapper.updateaddress(user);
-                return 1;
-            } else {
-                return 0;
-            }
-        }catch (SQLException e) {
-            throw new MySqlException("CRUD异常");
-        }
-    }
+//    /**
+//     * 登录
+//     * @param userId
+//     * @param password
+//     * @return
+//     */
+//    @Transactional
+//    @Override
+//    public String userLogin(String userId, String password) {
+//        if(userId!=null&&!"".equals(userId)){
+//            try{
+//                if(userMapper.selectByPrimaryKey(userId)!=null){
+//                    if(password.equals(userMapper.selectByPrimaryKey(userId).getPassword())){
+//                        return LoginEnum.LOGIN_SUCCESS.getMessage();
+//                    }else{
+//                        return LoginEnum.LOGIN_PASSWORD_WRONG.getMessage();
+//                    }
+//                }else{
+//                    return LoginEnum.LOGIN_USER_NOT_EXIST.getMessage();
+//                }
+//
+//            }catch (SQLException e){
+//                throw new MySqlException(SqlEnum.SQL_QUERY_WRONG.getMessage());
+//            }
+//        }else{
+//            return LoginEnum.LOGIN_USERNAME_ISNULL.getMessage();
+//        }
+//
+//    }
+//
+//    /**
+//     * 更改用户信息
+//     * @param userID
+//     * @param mark
+//     * @param newmsg
+//     * @return
+//     * @throws SQLException
+//     */
+//    @Transactional
+//    public Integer updatemsg(String userID, String mark, String newmsg){
+//        User user=new User();
+//        user.setUserid(userID);
+//        try {
+//            if (mark.equals("昵称")) {
+//                user.setUsername(newmsg);
+//                userMapper.updateuserName(user);
+//                return 1;
+//            } else if (mark.equals("电话号码")) {
+//                String phone = userMapper.selectByPrimaryKey(userID).getPhonenumber();
+//                if (phone.equals(newmsg)) {
+//                    return -1;
+//                } else {
+//                    user.setPhonenumber(newmsg);
+//                    userMapper.updatephone(user);
+//                    return 1;
+//                }
+//            } else if (mark.equals("地址")) {
+//                user.setAddress(newmsg);
+//                userMapper.updateaddress(user);
+//                return 1;
+//            } else {
+//                return 0;
+//            }
+//        }catch (SQLException e) {
+//            throw new MySqlException("CRUD异常");
+//        }
+//    }
 }

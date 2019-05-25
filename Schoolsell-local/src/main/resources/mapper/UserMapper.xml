@@ -2,73 +2,56 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.schoolsell.dao.UserMapper">
   <resultMap id="BaseResultMap" type="com.schoolsell.entity.User">
-    <id column="userID" jdbcType="VARCHAR" property="userid" />
-    <result column="password" jdbcType="VARCHAR" property="password" />
-    <result column="userName" jdbcType="VARCHAR" property="username" />
-    <result column="realName" jdbcType="VARCHAR" property="realname" />
-    <result column="idNumber" jdbcType="VARCHAR" property="idnumber" />
-    <result column="phoneNumber" jdbcType="VARCHAR" property="phonenumber" />
-    <result column="address" jdbcType="VARCHAR" property="address" />
-    <result column="credibility" jdbcType="INTEGER" property="credibility" />
-    <result column="profilePhoto" jdbcType="VARCHAR" property="profilephoto" />
-    <result column="isChecked" jdbcType="INTEGER" property="ischecked" />
+    <id column="userID" jdbcType="VARCHAR" property="userID" />
+    <result column="filePath" jdbcType="VARCHAR" property="filePath" />
+    <result column="gender" jdbcType="VARCHAR" property="gender" />
+    <result column="userName" jdbcType="VARCHAR" property="userName" />
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
     delete from user
-    where userID = #{userid,jdbcType=VARCHAR}
+    where userID = #{userID,jdbcType=VARCHAR}
   </delete>
   <insert id="insert" parameterType="com.schoolsell.entity.User">
-    insert into user (userID, `password`, userName, 
-      realName, idNumber, phoneNumber, 
-      address, credibility, profilePhoto, 
-      isChecked)
-    values (#{userid,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, 
-      #{realname,jdbcType=VARCHAR}, #{idnumber,jdbcType=VARCHAR}, #{phonenumber,jdbcType=VARCHAR}, 
-      #{address,jdbcType=VARCHAR}, #{credibility,jdbcType=INTEGER}, #{profilephoto,jdbcType=VARCHAR}, 
-      #{ischecked,jdbcType=INTEGER})
+    insert into user (userID , filePath,
+      gender, userName)
+    values (#{userID,jdbcType=VARCHAR}, #{filePath,jdbcType=VARCHAR}, #{gender,jdbcType=VARCHAR},
+      #{userName,jdbcType=VARCHAR})
   </insert>
   <update id="updateByPrimaryKey" parameterType="com.schoolsell.entity.User">
     update user
-    set `password` = #{password,jdbcType=VARCHAR},
-      userName = #{username,jdbcType=VARCHAR},
-      realName = #{realname,jdbcType=VARCHAR},
-      idNumber = #{idnumber,jdbcType=VARCHAR},
-      phoneNumber = #{phonenumber,jdbcType=VARCHAR},
-      address = #{address,jdbcType=VARCHAR},
-      credibility = #{credibility,jdbcType=INTEGER},
-      profilePhoto = #{profilephoto,jdbcType=VARCHAR},
-      isChecked = #{ischecked,jdbcType=INTEGER}
-    where userID = #{userid,jdbcType=VARCHAR}
+    set userID = #{userID,jdbcType=VARCHAR},
+      filePath = #{filePath,jdbcType=VARCHAR},
+      gender = #{gender,jdbcType=VARCHAR},
+      userName = #{userName,jdbcType=VARCHAR}
+    where userID = #{userID,jdbcType=VARCHAR}
   </update>
   <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
-    select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, 
-    profilePhoto, isChecked
+    select userID, filePath, gender, userName
     from user
-    where userID = #{userid,jdbcType=VARCHAR}
+    where userID = #{userID,jdbcType=VARCHAR}
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
-    select userID, `password`, userName, realName, idNumber, phoneNumber, address, credibility, 
-    profilePhoto, isChecked
+    select userID , filePath , gender, userName
     from user
   </select>
   <update id="updateuserName" parameterType="com.schoolsell.entity.User">
     update user
     set
-    userName = #{username,jdbcType=VARCHAR}
-    where userID = #{userid,jdbcType=VARCHAR}
+    userName = #{userName,jdbcType=VARCHAR}
+    where userID = #{userID,jdbcType=VARCHAR}
   </update>
 
-  <update id="updatephone" parameterType="com.schoolsell.entity.User">
-    update user
-    set
-    phoneNumber = #{phonenumber,jdbcType=VARCHAR}
-    where userID = #{userid,jdbcType=VARCHAR}
-  </update>
+  <!--<update id="updatephone" parameterType="com.schoolsell.entity.User">-->
+    <!--update user-->
+    <!--set-->
+    <!--phoneNumber = #{phonenumber,jdbcType=VARCHAR}-->
+    <!--where userID = #{userid,jdbcType=VARCHAR}-->
+  <!--</update>-->
 
-  <update id="updateaddress" parameterType="com.schoolsell.entity.User">
-    update user
-    set
-    address = #{address,jdbcType=VARCHAR}
-    where userID = #{userid,jdbcType=VARCHAR}
-  </update>
+  <!--<update id="updateaddress" parameterType="com.schoolsell.entity.User">-->
+    <!--update user-->
+    <!--set-->
+    <!--address = #{address,jdbcType=VARCHAR}-->
+    <!--where userID = #{userid,jdbcType=VARCHAR}-->
+  <!--</update>-->
 </mapper>

@@ -1,0 +1,51 @@
+
+    <view class='header'>
+      
+      </view> 
+      
+
+        <view class='order' bindtap='click'>
+          <text class="myorder-text">全部订单</text>
+          <text class="myorderlook-text">查看我的订单</text>
+          <image class='nextimage' src='../image/next.png'></image>
+        </view>
+         <view class="line"></view>
+         
+        <view class='order1' bindtap='clicktoMyRelease'>
+          <text class="myorder-text" >我的发布</text> 
+          <image class='nextimage' src='../image/next.png'></image> 
+        </view>
+         <view class="line"></view>
+
+         <view class='order1' bindtap='clicktoprofile'>
+          <text class="myorder-text">我的信息</text> 
+          <image class='nextimage' src='../image/next.png'></image> 
+        </view>
+         <view class="line"></view>
+
+         
+
+          <view class='order1' bindtap='clicktofeedback'>
+          <text class="myorder-text">反馈</text>  
+          <image class='nextimage' src='../image/next.png'></image>
+        </view>
+        <view class="line"></view>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

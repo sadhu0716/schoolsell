@@ -1,11 +1,13 @@
 package com.schoolsell.controller;
 
+import com.schoolsell.entity.Bigkind;
 import com.schoolsell.entity.Commodity;
 import com.schoolsell.entity.Picture;
 import com.schoolsell.entity.User;
 import com.schoolsell.entity.other.PictureCount;
 import com.schoolsell.exception.MyOtherException;
 import com.schoolsell.exception.MySqlException;
+import com.schoolsell.service.Impl.BigKindImpl;
 import com.schoolsell.service.Impl.CommodityServiceImpl;
 import com.schoolsell.service.Impl.PictureSerimpl;
 import com.schoolsell.service.Impl.UserLoginServiceImpl;
@@ -47,6 +49,8 @@ public class CommodityController {
 
     @Autowired
     CommodityServiceImpl commodityServiceimpl;
+    @Autowired
+    BigKindImpl bigKindimpl;
 
     @Autowired
     PictureSerimpl pictureSerimpl;
@@ -176,7 +180,7 @@ public class CommodityController {
         //获取formdata
         String userID = request.getParameter("userID");
         String cName = request.getParameter("cName");
-        String userName = userLoginServiceimpl.selectByPrimaryKey(userID).getUsername();
+        String userName = userLoginServiceimpl.selectByPrimaryKey(userID).getUserName();
         String fileName = file.getOriginalFilename();
         System.out.println("传详情图时的PicturePath:" + PictureCount.getPicturePath());  //*************
 
@@ -236,28 +240,50 @@ public class CommodityController {
     }
 
     /**
-     * 首页显示图片
+     * 首页显示图片与轮播图
      *
      * @return
      * @throws MySqlException
      */
     @RequestMapping("/firstpic")
     @ResponseBody
-    public JSONArray firstpic() throws MySqlException {
-        List<Commodity> commodityList = commodityServiceimpl.selectAll();
-        List<Commodity> commodities = CommodityUtil.getListPicture(commodityList, "首页");        //获取八张图片
-        JSONArray jsonArray = JSONArray.fromObject(commodities);
-        return jsonArray;
+    public Map<String,Object> firstpic() throws MySqlException {
+        //轮播图
+        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> pictureList = pictureSerimpl.select();
+        map.put("result", pictureList);
+
+        //首页图片
+//        List<Commodity> commodityList = commodityServiceimpl.selectAll();
+//        List<Commodity> commodities = CommodityUtil.getListPicture(commodityList, "首页");        //获取八张图片
+//
+//        map.put("pic",commodities);
+        return map;
+    }
+
+    /*
+   获取所有首页商品信息和首页大类
+    */
+    @RequestMapping("/getAllPicture")
+    @ResponseBody
+    public Map<String,Object> getAllPicture() throws MySqlException{
+        Map<String,Object> map=new HashMap<>();
+        List<Commodity> commodities=commodityServiceimpl.selectAll();
+        map.put("all",commodities);
+
+        List<Bigkind> bigkindList = bigKindimpl.selectAll();
+        map.put("first",bigkindList);
+        return map;
     }
 
     @RequestMapping("/leaveFirst")
     @ResponseBody
-    public JSONArray leaveFirst() throws MySqlException{
+    public Map<String,Object> leaveFirst() throws MySqlException{
         PictureCount.setGetPictureCount(0);
         Map<String,Object> map=new HashMap<>();
         map.put("result","清零");
-        JSONArray jsonArray=JSONArray.fromObject(map);
-        return jsonArray;
+//        JSONArray jsonArray=JSONArray.fromObject(map);
+        return map;
     }
 
     /**
@@ -300,19 +326,19 @@ public class CommodityController {
 //购物车
 
 
-    //传入userid返回信誉值
-    @ResponseBody
-    @RequestMapping("/getStoreCredit")
-    public Object getStoreCredit(String userid) {
-        System.out.println("userID:" + userid);
-        User user = userLoginServiceimpl.selectByPrimaryKey(userid);
-        System.out.println("信誉值User:" + user);
-        Integer credity = user.getCredibility();
-        System.out.println("信誉值credity:" + credity);
-        Map<String, Object> map = new HashMap<>();
-        map.put("credit", credity);
-        return map;
-    }
+//    //传入userid返回信誉值
+//    @ResponseBody
+//    @RequestMapping("/getStoreCredit")
+//    public Object getStoreCredit(String userid) {
+//        System.out.println("userID:" + userid);
+//        User user = userLoginServiceimpl.selectByPrimaryKey(userid);
+//        System.out.println("信誉值User:" + user);
+//        Integer credity = user.getCredibility();
+//        System.out.println("信誉值credity:" + credity);
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("credit", credity);
+//        return map;
+//    }
 
     /**
      * 获取所有userID的商品发布

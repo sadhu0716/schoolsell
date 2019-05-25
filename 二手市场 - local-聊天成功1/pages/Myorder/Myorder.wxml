@@ -1,0 +1,229 @@
+<!--pages/Myorder/Myorder.wxml-->
+
+<view class='allpage'>
+  <view class='top-nav'>
+    <view class='top-nav-bar'>
+      <view class='textbar {{currentData == 0 ? "active" : ""}}' data-current='0' bindtap='clickchang'>全部</view>
+      <view class='textbar {{currentData == 1 ? "active" : ""}}' data-current='1' bindtap='clickchang'>{{textbarname2}}</view>
+      <view class='textbar {{currentData == 2 ? "active" : ""}}' data-current='2' bindtap='clickchang'>{{textbarname3}}</view>
+      <view class='textbar {{currentData == 3 ? "active" : ""}}' data-current='3' bindtap='clickchang'>{{textbarname4}}</view>
+      <view class='textbar {{currentData == 4 ? "active" : ""}}' data-current='4' bindtap='clickchang'>{{textbarname5}}</view>
+    </view>
+  </view>
+  <swiper current="{{currentData}}" duration='300' class='bttom-nav' bindchange="bindchange" style="height:{{winHeight - 31}}px">
+    <!-- 全部 -->
+    <swiper-item class="swiper-items">
+      <scroll-view scroll-y="true" class='scroll-views'>
+        <view wx:for="{{alloreder}}" wx:key="{{only}}">
+          <view wx:if="{{alloreder[index]!=null&&alloreder[index].orderID!=null}}" class='part'>
+            <view class='parttop top-nav-bar'>
+              <text>{{textname0}}</text>
+              <text class='orderID'>{{orderID}}{{item.orderID}}</text>
+              <text class='orderID' >------</text>
+              <text class='orderID'>{{orderPhone}}{{item.buyerPhone}}</text>
+            </view>
+            <view class='line'></view>
+            <view wx:for="{{alloreder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
+              <!-- <view wx:if="{{daifukuanorder[index].commoditymsg[index]!=null}}"> -->
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <view class='textlength'>
+                <text class='name top-nav-bar'>{{item.Cname}}</text>
+                <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
+                <text class='count top-nav-bar'>x{{item.count}}</text>
+              </view>
+              <!-- </view> -->
+            </view>
+            <view class='line'></view>
+            <view class='reference'>
+              <text class='orderdate top-nav-bar'>{{orderdate}}{{item.orderdate}}</text>
+              <text class='orderaddress top-nav-bar'>{{address}}{{item.address}}</text>
+              <text class='orderaddress1 top-nav-bar'>{{sellername}}{{item.sellerName}}</text>
+              <text class='orderaddress2 top-nav-bar'>{{buyername}}{{item.buyerName}}</text>
+              <!-- <text class='orderaddress3 top-nav-bar'>{{buyerphone}}{{item.buyerPhone}}</text>
+              <text class='orderaddress4 top-nav-bar'>{{sellerphone}}{{item.sellerPhone}}</text> -->
+              <view class='line'></view>
+              <!-- <view class='partbttom'>
+                <button class='btn top-nav-bar'>{{okbtn1}}</button>
+              </view> -->
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <!-- 待付款 -->
+    <swiper-item class="swiper-items">
+      <scroll-view scroll-y="true" class='scroll-views'>
+        <view wx:for="{{daifukuanorder}}" wx:key="{{only}}">
+          <view wx:if="{{daifukuanorder[index]!=null&&daifukuanorder[index].orderID!=null}}" class='part'>
+            <view class='parttop top-nav-bar'>
+              <text>{{textname1}}</text>
+              <text class='orderID'>{{orderID}}{{item.orderID}}</text>
+              <text class='orderID' >------</text>
+              <text class='orderID'>{{orderPhone}}{{item.buyerPhone}}</text>
+            </view>
+            <view class='line'></view>
+            <view wx:for="{{daifukuanorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
+              <!-- <view wx:if="{{daifukuanorder[index].commoditymsg[index]!=null}}"> -->
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <view class='textlength'>
+                <text class='name top-nav-bar'>{{item.Cname}}</text>
+                <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
+                <text class='count top-nav-bar'>x{{item.count}}</text>
+              </view>
+              <!-- </view> -->
+            </view>
+            <view class='line'></view>
+            <view class='reference'>
+              <text class='orderdate top-nav-bar'>{{orderdate}}{{item.orderdate}}</text>
+              <text class='orderaddress top-nav-bar'>{{address}}{{item.address}}</text>
+              <text class='orderaddress1 top-nav-bar'>{{sellername}}{{item.sellerName}}</text>
+              <text class='orderaddress2 top-nav-bar'>{{buyername}}{{item.buyerName}}</text>
+              <!-- <text class='orderaddress3 top-nav-bar'>{{buyerphone}}{{item.buyerPhone}}</text>
+              <text class='orderaddress4 top-nav-bar'>{{sellerphone}}{{item.sellerPhone}}</text> -->
+              <view class='line'></view>
+              <view class='partbttom'>
+                <button class='btn top-nav-bar' bindtap='queren' data-orderid='{{item.orderID}}'>{{okbtn1}}</button>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <!-- 待收货 -->
+    <swiper-item class="swiper-items">
+      <scroll-view scroll-y="true" class='scroll-views'>
+        <view wx:for="{{daishouhuoorder}}" wx:key="{{only}}">
+          <view wx:if="{{daishouhuoorder[index]!=null&&daishouhuoorder[index].orderID!=null}}" class='part'>
+            <view class='parttop top-nav-bar'>
+              <text>{{textname2}}</text>
+              <text class='orderID'>{{orderID}}{{item.orderID}}</text>
+              <text class='orderID' >------</text>
+              <text class='orderID'>{{orderPhone}}{{item.buyerPhone}}</text>
+            </view>
+            <view class='line'></view>
+            <view wx:for="{{daishouhuoorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
+              <!-- <view wx:if="{{daishouhuoorder[index].commoditymsg[index]!=null}}"> -->
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <view class='textlength'>
+                <text class='name top-nav-bar'>{{item.Cname}}</text>
+                <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
+                <text class='count top-nav-bar'>x{{item.count}}</text>
+              </view>
+              <!-- </view> -->
+            </view>
+            <view class='line'></view>
+            <view class='reference'>
+              <text class='orderdate top-nav-bar'>{{orderdate}}{{item.orderdate}}</text>
+              <text class='orderaddress top-nav-bar'>{{address}}{{item.address}}</text>
+              <text class='orderaddress1 top-nav-bar'>{{sellername}}{{item.sellerName}}</text>
+              <text class='orderaddress2 top-nav-bar'>{{buyername}}{{item.buyerName}}</text>
+              <!-- <text class='orderaddress3 top-nav-bar'>{{buyerphone}}{{item.buyerPhone}}</text>
+              <text class='orderaddress4 top-nav-bar'>{{sellerphone}}{{item.sellerPhone}}</text> -->
+              <view class='line'></view>
+              <view class='partbttom'>
+                <button class='btn top-nav-bar' bindtap='totakegoods' data-orderid='{{item.orderID}}'>{{okbtn2}}</button>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+    <!-- 待发货 -->
+    <swiper-item class="swiper-items">
+      <scroll-view scroll-y="true" class='scroll-views'>
+        <view wx:for="{{daifahuoorder}}" wx:key="{{only}}">
+          <view wx:if="{{daifahuoorder[index]!=null&&daifahuoorder[index].orderID!=null}}" class='part'>
+            <view class='parttop top-nav-bar'>
+              <text>{{textname3}}</text>
+              <text class='orderID'>{{orderID}}{{item.orderID}}</text>
+              <text class='orderID' >------</text>
+              <text class='orderID'>{{orderPhone}}{{item.buyerPhone}}</text>
+            </view>
+            <view class='line'></view>
+            <view wx:for="{{daifahuoorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
+              <!-- <view wx:if="{{daifahuoorder[index].commoditymsg[index]!=null}}"> -->
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <view class='textlength'>
+                <text class='name top-nav-bar'>{{item.Cname}}</text>
+                <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
+                <text class='count top-nav-bar'>x{{item.count}}</text>
+              </view>
+              <!-- </view> -->
+            </view>
+            <view class='line'></view>
+            <view class='reference'>
+              <text class='orderdate top-nav-bar'>{{orderdate}}{{item.orderdate}}</text>
+              <text class='orderaddress top-nav-bar'>{{address}}{{item.address}}</text>
+              <text class='orderaddress1 top-nav-bar'>{{sellername}}{{item.sellerName}}</text>
+              <text class='orderaddress2 top-nav-bar'>{{buyername}}{{item.buyerName}}</text>
+              <!-- <text class='orderaddress3 top-nav-bar'>{{buyerphone}}{{item.buyerPhone}}</text>
+              <text class='orderaddress4 top-nav-bar'>{{sellerphone}}{{item.sellerPhone}}</text> -->
+              <view class='line'></view>
+              <view class="hide{{showView?'show':''}}">
+                <view class="partbttom">
+                  <button class='btn top-nav-bar' bindtap='tosendgoods' data-orderid='{{item.orderID}}'>{{okbtn3}}</button>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+
+    <!-- 待评论 -->
+    <swiper-item class="swiper-items">
+      <scroll-view scroll-y="true" class='scroll-views'>
+        <view wx:for="{{daipinglunorder}}" wx:key="{{only}}">
+          <view wx:if="{{daipinglunorder[index]!=null&&daipinglunorder[index].orderID!=null}}" class='part'>
+            <view class='parttop top-nav-bar'>
+              <text>{{textname4}}</text>
+              <text class='orderID'>{{orderID}}{{item.orderID}}</text>
+              <text class='orderID' >------</text>
+              <text class='orderID'>{{orderPhone}}{{item.buyerPhone}}</text>
+            </view>
+            <view class='line'></view>
+            <view wx:for="{{daipinglunorder[index].commoditymsg}}" wx:key="{{only}}" class='partmid'>
+              <!-- <view wx:if="{{daipinglunorder[index].commoditymsg[index]!=null}}"> -->
+              <image src='http://localhost:8080/getThumbnail/{{item.cid}}.jpg?time=new Date()' class='image'></image>
+              <view class='textlength'>
+                <text class='name top-nav-bar'>{{item.Cname}}</text>
+                <text class='price top-nav-bar'>¥{{item.Cprice}}</text>
+                <text class='count top-nav-bar'>x{{item.count}}</text>
+                <view class='partbttom'>
+                  <!-- <button class='btncomment top-nav-bar ' bindtap='tocomment' data-id="{{item.cid}}" data-cname="{{item.Cname}}" data-sellerid="{{item.sellerid}}">{{okbtn4}}</button> -->
+                  <button class='btnjubao top-nav-bar' bindtap='toreport' data-id="{{item.cid}}" data-cname="{{item.Cname}}" data-buyerid="{{item.buyerid}}" data-ocid='{{item.ocid}}'>{{okbtn5}}</button>
+                </view>
+              </view>
+              <view class='line'></view>
+              <!-- </view> -->
+            </view>
+            <view class='line'></view>
+            <view class='reference'>
+              <text class='orderdate top-nav-bar'>{{orderdate}}{{item.orderdate}}</text>
+              <text class='orderaddress top-nav-bar'>{{address}}{{item.address}}</text>
+              <text class='orderaddress1 top-nav-bar'>{{sellername}}{{item.sellerName}}</text>
+              <text class='orderaddress2 top-nav-bar'>{{buyername}}{{item.buyerName}}</text>
+              <!-- <text class='orderaddress3 top-nav-bar'>{{buyerphone}}{{item.buyerPhone}}</text>
+              <text class='orderaddress4 top-nav-bar'>{{sellerphone}}{{item.sellerPhone}}</text> -->
+              <view class='line'></view>
+              <view class='partbttom'>
+                <view class='partbttom'>
+                  <button class='btncomment top-nav-bar ' bindtap='tocomment' data-id="{{item.sellerid}}" data-orderid="{{item.orderID}}">{{okbtn4}}</button>
+                  <!-- <button class='btnjubao top-nav-bar' bindtap='toreport' data-id="{{item.sellerid}}"  data-orderid="{{item.orderID}}">{{okbtn5}}</button> -->
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+
+
+
+
+
+
+
+
+</view>

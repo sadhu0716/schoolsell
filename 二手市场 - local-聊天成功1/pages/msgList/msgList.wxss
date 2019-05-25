@@ -1,0 +1,61 @@
+/* pages/msgList/msgList.wxss */
+
+.msgList{
+  /* border-top: 1rpx solid black;
+  border-bottom: 1rpx solid black; */
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  width:100%;
+  margin-top: 10rpx;
+  height:200rpx;
+  background-color: #f2f2f2;
+
+}
+.image-user{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* margin:3%; */
+}
+.image{
+  width: 140rpx;
+  height: 140rpx;
+  border: 0 solid #ffffff;
+    border-radius:100px;
+    /* box-shadow: 4px 1px 1px #cccccc; */
+}
+
+.imageRight{
+  /* border: 1rpx solid black; */
+  width:55%;
+  height: 70%;
+  border-radius:20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F0F8FF;
+ overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+
+.imageRightTime{
+  font-weight:lighter; 
+  font-size:30rpx;
+}
+.imageRightNum{
+  background-color:#87CEFA;
+ width: 50rpx;
+ height: 50rpx;
+ 
+ border-radius: 50%;
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+ color: white;
+
+}

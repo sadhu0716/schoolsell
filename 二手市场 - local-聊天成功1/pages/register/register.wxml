@@ -1,0 +1,63 @@
+
+ <view class='container'> 
+<!-- <scroll-view scroll-y='true'> -->
+  <view class='image'>
+    <button bindtap="upload"> 选择头像 </button>
+ 
+  <block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+    <image src="{{item }}" bindtap="listenerButtonPreviewImage" data-index="{{index}}" class='chooseimg'/>
+  </block>
+  </view>
+  <view class='changeInfo'>
+    <view class='changeInfoName'>
+    <input placeholder='请输入邮箱账号' bindblur='getEamilValue' name= "userID" />
+  </view>
+
+  <view class='changeInfoName'>
+    <input placeholder='请输入昵称' bindblur='getNameValue' name= "username" />
+  </view>
+
+  <!-- <view class='changeInfoName'>
+    <input placeholder='请输入手机号' bindblur='getPhoneValue' name="phonenumber" />
+  </view>
+ 
+  <view class='changeInfoName'>
+    <input placeholder='请输验证码' bindblur='getCodeValue' name="code" style='width:70%;' />
+    <button class='codeBtn' bindtap='getVerificationCode' disabled='{{disabled}}'>获取验证码</button>
+  </view> -->
+
+  <view class='changeInfoName'>
+    <input placeholder='请输入密码' password="true" bindblur='getpassword' name="password"/>
+  </view>
+
+  <view class='changeInfoName'>
+    <input placeholder='请确认密码' password="true" bindblur='getrepassword' name="repassword" />
+  </view>
+ 
+  <!-- <view class='changeInfoName'>
+    <input placeholder='请输入真实姓名' bindblur='getrealname' name="realname" />
+  </view>
+ 
+  <view class='changeInfoName'>
+    <input placeholder='请输入身份证号' bindblur='getIDnumber' name="IDnumber" />
+  </view> -->
+ 
+  <view class='changeInfoName'>
+    <input placeholder='请输入住址' bindblur='getaddress' name="address" />
+  </view>
+
+</view>
+<!-- <label class='radiolab'>
+<checkbox-group bindchange="checkboxChange">
+  <checkbox class='checkbox' value='radio1' checked='{{checked}}'></checkbox>
+  <text class='label_01'>同 意 校 园 二 手 市 场 注 册 协 议</text>
+    </checkbox-group>
+</label> -->
+<!-- <view class='btn'>
+  <button class='btnres' bindtap='registerBtn' type="primary" form-type	="submit">注册</button>
+</view> -->
+<!-- </scroll-view> -->
+<view class='btn'>
+  <button class='btnres' bindtap='registerBtn' type="primary" form-type	="submit">注册</button>
+</view>
+ </view> 

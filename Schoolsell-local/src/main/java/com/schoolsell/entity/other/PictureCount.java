@@ -11,6 +11,16 @@ public class PictureCount {
 
     public static int BigkindCount=0;           //大类图片加载更多时图片位置
 
+    public static String userID;            //临时保存的用户ID
+
+    public static void setUserID(String userID) {
+        PictureCount.userID = userID;
+    }
+
+    public static String getUserID() {
+        return userID;
+    }
+
     public static void setBigkindCount(int bigkindCount) {
         BigkindCount = bigkindCount;
     }

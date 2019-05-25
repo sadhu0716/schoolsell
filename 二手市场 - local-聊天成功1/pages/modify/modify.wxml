@@ -1,0 +1,14 @@
+<view class='count' >
+ <text class='textname'  >请填写新的商品数量：</text>
+ <input class='input' bindinput='inputCount'>{{count}}</input>
+ </view>
+ <view class='line'></view>
+
+ <view class='count' >
+ <text class='textname'  >请填写新的商品价格：</text>
+ <input class='input' bindinput='inputPrice'>{{pirce}}</input>
+ </view>
+ <view class='line'></view>
+<view  class='releasebtn'>
+   <button type='primary' bindtap='clicktorelease'>{{OKbtn}}</button>
+   </view>

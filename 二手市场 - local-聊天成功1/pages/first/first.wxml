@@ -1,0 +1,77 @@
+<!-- <view class="page">
+  <view class="page__bd">
+    <view class="weui-search-bar">
+      <view class="weui-search-bar__form">
+        <view class="weui-search-bar__box">
+          <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+          <input type="text" class="weui-search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+          <view class="weui-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+            <icon type="clear" size="14"></icon>
+          </view>
+        </view>
+        <label class="weui-search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+          <icon class="weui-icon-search" type="search" size="14"></icon>
+          <view class="weui-search-bar__text">搜索</view>
+        </label>
+      </view>
+      <view class="weui-search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+    <view class="weui-cells searchbar-result" wx:if="{{inputVal.length > 0}}">
+      <navigator url=" " class="weui-cell" hover-class="weui-cell_active">
+      </navigator>
+    </view>
+  </view>
+</view> -->
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <view wx:for="{{navbars}}" wx:key="unique" bindtap='todetail' id='{{item.cID}}'>
+    <view wx:if="{{navbars[index]!=null}}">
+      <!-- <text>{{item.cID}}</text> -->
+      <swiper-item>
+        <image src='http://localhost:8080/getCommoditydetail/{{item.url}}?time=new Date()' />
+      </swiper-item>
+    </view>
+  </view>
+</swiper>
+
+<!-- 分类导航 -->
+<view class="navs">
+  <view wx:for-items="{{menus}}" wx:key="name" bindtap='clicktoclassifyGoods' id="{{item.bigkindId}}" class='nav-url'>
+    <view class="nav-item" data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+      <image src="http://localhost:8080/getBigkindImg/{{item.name}}.jpg" class="nav-image" />
+      <text class='nav-item-text '>{{item.name}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="separate"></view>
+<!-- 新品上市 -->
+<view class="cate-container" >
+  <view class="category-title">
+    <text class="name">最新商品</text>
+    <view class="line_flag"></view>
+  </view>
+  <scroll-view scroll-y="true" bindscrolltolower="loadMore" style='height:100vh'>
+    <view class="goods">
+      <block wx:for-items="{{newGoods}}" wx:key="name">
+        <!-- <view wx:if="{{newGoods[index]!=null}}"> -->
+        <view class="goods-item" bindtap='todetail' id='{{item.cID}}' data-type="{{item.name}}" data-typeid="{{item.typeId}}">
+          <view class='content_item'>
+            <image src='http://localhost:8080/getThumbnail/{{item.cID}}.jpg' class="goods-image" bindload="imageLoad" style="width:{{imgwidth}}rpx; height:{{imgheight }}rpx;" />
+            <text>{{item.name}}</text>
+            <view class='goods-price'>
+              {{item.price}}元
+            </view>
+            <!-- <p>{{item.newprice}}</p> -->
+          </view>
+        </view>
+        <!-- </view> -->
+      </block>
+    </view>
+  </scroll-view>
+</view>
+
+<view class="weui-loadmore" hidden="{{hidden}}">
+  <view class="weui-loading"></view>
+  <view class="weui-loadmore__tips">努力加载中</view>
+</view>

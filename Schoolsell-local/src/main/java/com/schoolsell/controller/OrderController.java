@@ -65,9 +65,9 @@ public class OrderController {
         int Amount=Integer.parseInt(amount);
         int state=-1;
         boolean isOnline=false;
-        String sellerPhone=userLoginService.selectByPrimaryKey(sellerID).getPhonenumber();
-        String sellerName=userLoginService.selectByPrimaryKey(sellerID).getUsername();
-        Order order=new Order(order_date,state,isOnline,buyerID,sellerID,address,buyerPhone,sellerPhone,buyerName,sellerName);
+//        String sellerPhone=userLoginService.selectByPrimaryKey(sellerID).getPhonenumber();
+        String sellerName=userLoginService.selectByPrimaryKey(sellerID).getUserName();
+        Order order=new Order(order_date,state,isOnline,buyerID,sellerID,buyerName,sellerName);
         orderServiceImpl.insert(order);
         int orderID=order.getOrderid();
         Ordercommodity ordercommodity=new Ordercommodity(orderID,cID,Amount,cprice,cName,false);

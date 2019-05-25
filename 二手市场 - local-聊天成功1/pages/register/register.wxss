@@ -1,0 +1,86 @@
+.container {
+  align-items: center;
+  
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chooseimg{
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 150rpx;
+  height: 150rpx;
+ display: flex;
+ align-self: center;
+ margin-top: 15rpx
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 20rpx;
+  border-radius: 50%;
+}
+/*复选框*/
+.radiolab {
+  /* border: 1px solid blue; */
+  position: absolute;
+  height: 60rpx;
+  bottom: 0rpx;
+  left: 40rpx;
+}
+
+.checkbox {
+  zoom: 60%;
+}
+
+.label_01 {
+  font-size: 25rpx;
+}
+/*注册按钮*/
+.btn {
+  position: absolute;
+  left: 20%;
+  bottom:-120rpx;
+  /* border: 1px solid red; */
+  /* margin-top: 20rpx; */
+  height: 90rpx;
+  width: 60%;
+  
+}
+
+.changeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 50rpx auto;
+}
+/*输入框*/
+.changeInfoName {
+  border: 1px solid #808080;
+  position: relative;
+  height: 80rpx;
+  width: 100%;
+  border-radius: 10rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+/*验证码按钮*/
+.codeBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #bbb;
+  width: 30%;
+  font-size: 25rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.changeInfoName input {
+  width: 100%;
+  height: 80rpx;
+}

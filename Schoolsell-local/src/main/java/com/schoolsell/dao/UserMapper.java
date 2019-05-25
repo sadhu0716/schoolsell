@@ -19,9 +19,9 @@ public interface UserMapper {
     int updateByPrimaryKey(User record) throws SQLException;
 
     int updateuserName(User record) throws SQLException;
-
-    int updatephone(User record) throws SQLException;
-
-    int updateaddress(User record) throws SQLException;
+//
+//    int updatephone(User record) throws SQLException;
+//
+//    int updateaddress(User record) throws SQLException;
 
 }

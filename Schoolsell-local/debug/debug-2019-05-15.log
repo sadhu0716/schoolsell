@@ -1,0 +1,1006 @@
+[2019-05-15 20:36:40] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\AdministratorMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\BigkindMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\ChatreportMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\CommodityMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\FeedbackMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\JubaoMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\JubaopictureMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\OrdercommodityMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\OrderMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\PictureMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\ShopcarMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\SmallkindMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\UserMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\WxuserMapper.class]
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaopictureMapper' and 'com.schoolsell.dao.JubaopictureMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaopictureMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'wxuserMapper' and 'com.schoolsell.dao.WxuserMapper' mapperInterface
+[2019-05-15 20:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+[2019-05-15 20:36:46] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubaopicture matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Wxuser matches criteria [is assignable to Object]
+[2019-05-15 20:36:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\AdministratorMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\BigkindMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\ChatreportMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\CommodityMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\FeedbackMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\JubaoMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\JubaopictureMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\OrdercommodityMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\OrderMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\PictureMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\ShopcarMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\SmallkindMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\UserMapper.xml]'
+[2019-05-15 20:36:47] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\WxuserMapper.xml]'
+[2019-05-15 20:38:43] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-15 20:38:43] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-15 20:38:43] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-15 20:38:43] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 0][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:38:43] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 117.170.51.124:64010<->183.232.103.145:443
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023ZgwQN1IenO81CJhSN1WwPQN1ZgwQD&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023ZgwQN1IenO81CJhSN1WwPQN1ZgwQD&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Host: api.weixin.qq.com
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Connection: Keep-Alive
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023ZgwQN1IenO81CJhSN1WwPQN1ZgwQD&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-15 20:38:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Date: Wed, 15 May 2019 12:38:45 GMT[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Content-Length: 82[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "[\r][\n]"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "{"session_key":"J7N62oMylMI0tZrAfAN3fg==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << HTTP/1.1 200 OK
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Connection: keep-alive
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Content-Type: text/plain
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Date: Wed, 15 May 2019 12:38:45 GMT
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Content-Length: 82
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 0][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-0: set socket timeout to 0
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 0][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-0: Close connection
+[2019-05-15 20:38:45] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2019-05-15 20:38:45] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6cce1ca
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47450266]
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1916869692 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:38:46] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+[2019-05-15 20:38:46] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@682f1d23
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@c9c2152
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a63f1fe
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1120762b
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a0c619e
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@552d1261
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4eb13ad0
+[2019-05-15 20:38:46] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47450266]
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47450266]
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47450266]
+[2019-05-15 20:38:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47450266]
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@70663bdd
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@42c91681
+[2019-05-15 20:38:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58616fea]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@532146422 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1385759898 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3] from current transaction
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58616fea]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58616fea]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58616fea]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58616fea]
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d694d64] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@971762388 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3] from current transaction
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3] from current transaction
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e5362c3]
+[2019-05-15 20:38:49] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:38:49] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d694d64]
+[2019-05-15 20:39:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 1][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 117.170.51.124:64128<->183.232.103.145:443
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DCPjA13wGEb08aNkA16jSjA1DCPjt&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DCPjA13wGEb08aNkA16jSjA1DCPjt&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 >> Host: api.weixin.qq.com
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 >> Connection: Keep-Alive
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DCPjA13wGEb08aNkA16jSjA1DCPjt&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 >> "[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "Date: Wed, 15 May 2019 12:39:16 GMT[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "Content-Length: 82[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "[\r][\n]"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-1 << "{"session_key":"3TQ+3jhS4QqGkawWtMMvYA==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 << HTTP/1.1 200 OK
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 << Connection: keep-alive
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 << Content-Type: text/plain
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 << Date: Wed, 15 May 2019 12:39:16 GMT
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-1 << Content-Length: 82
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 1][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-1: set socket timeout to 0
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 1][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-1: Close connection
+[2019-05-15 20:39:16] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a0f1e56]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1178593913 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:39:16] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-15 20:39:16] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-15 20:39:16] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a0f1e56]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a0f1e56]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a0f1e56]
+[2019-05-15 20:39:16] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a0f1e56]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@17138605 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@141186a2]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@4586185 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd] from current transaction
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@141186a2]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@141186a2]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@141186a2]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@141186a2]
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd] from current transaction
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@313cf50b] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@503366231 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@313cf50b]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd] from current transaction
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:39:19] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:19] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bfde8dd]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a52dfc]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2035833875 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where cID = ? 
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- ==> Parameters: 61(Integer)
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- <==      Total: 1
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a52dfc]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a52dfc]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a52dfc]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37a52dfc]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1907057c]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@823115125 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 61(Integer)
+[2019-05-15 20:39:36] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 3
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1907057c]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1907057c]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1907057c]
+[2019-05-15 20:39:36] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1907057c]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe88a73]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1216408909 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@62319588 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe88a73]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe88a73]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe88a73]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fe88a73]
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd] from current transaction
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ac5f4a5] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1258566656 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ac5f4a5]
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd] from current transaction
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd] from current transaction
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:39:38] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:38] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@324e78cd]
+[2019-05-15 20:39:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:40:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:40:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:41:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2733824d] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@696990917 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2733824d]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3dd15ee7]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1993796594 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectAll] -- ==>  Preparing: select smallKindID, smallKindName, bigKindID, smallKindPicture from smallkind 
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:41:35] -- [DEBUG]:[com.schoolsell.dao.SmallkindMapper.selectAll] -- <==      Total: 6
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3dd15ee7]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3dd15ee7]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3dd15ee7]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3dd15ee7]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Setting default value: 0.0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] -- Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigDecimalConverter] --     No conversion required, value is already a BigDecimal
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] -- Converting 'BigInteger' value '0' to type 'BigInteger'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BigIntegerConverter] --     No conversion required, value is already a BigInteger
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Setting default value: false
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] -- Converting 'Boolean' value 'false' to type 'Boolean'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.BooleanConverter] --     No conversion required, value is already a Boolean
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] -- Converting 'Integer' value '0' to type 'Byte'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ByteConverter] --     Converted to Byte value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Setting default value:  
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] -- Converting 'Character' value ' ' to type 'Character'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.CharacterConverter] --     No conversion required, value is already a Character
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] -- Converting 'Integer' value '0' to type 'Double'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.DoubleConverter] --     Converted to Double value '0.0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] -- Converting 'Integer' value '0' to type 'Float'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.FloatConverter] --     Converted to Float value '0.0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] -- Converting 'Integer' value '0' to type 'Integer'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.IntegerConverter] --     No conversion required, value is already a Integer
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] -- Converting 'Integer' value '0' to type 'Long'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.LongConverter] --     Converted to Long value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Setting default value: 0
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] -- Converting 'Integer' value '0' to type 'Short'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ShortConverter] --     Converted to Short value '0'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Setting default value: 
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.StringConverter] -- Converting 'String' value '' to type 'String'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Z@7483e0ef
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'boolean[]' value '[Z@7483e0ef' to type 'boolean[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a boolean[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [B@13759dbd
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'byte[]' value '[B@13759dbd' to type 'byte[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a byte[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [C@5806a75c
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'char[]' value '[C@5806a75c' to type 'char[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a char[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [D@69a7f0b
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'double[]' value '[D@69a7f0b' to type 'double[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a double[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [F@6d7563af
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'float[]' value '[F@6d7563af' to type 'float[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a float[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [I@52d283c9
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'int[]' value '[I@52d283c9' to type 'int[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a int[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [J@3f83f288
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'long[]' value '[J@3f83f288' to type 'long[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a long[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [S@6a34b054
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'short[]' value '[S@6a34b054' to type 'short[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a short[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigDecimal;@2c9adea6
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@2c9adea6' to type 'BigDecimal[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigDecimal[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.math.BigInteger;@6a90dc37
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@6a90dc37' to type 'BigInteger[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a BigInteger[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Boolean;@4aa7645f
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Boolean[]' value '[Ljava.lang.Boolean;@4aa7645f' to type 'Boolean[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Boolean[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Byte;@55edb4f
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Byte[]' value '[Ljava.lang.Byte;@55edb4f' to type 'Byte[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Byte[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Character;@7fcb4aac
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Character[]' value '[Ljava.lang.Character;@7fcb4aac' to type 'Character[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Character[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Double;@13d65006
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Double[]' value '[Ljava.lang.Double;@13d65006' to type 'Double[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Double[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Float;@62a24bbf
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Float[]' value '[Ljava.lang.Float;@62a24bbf' to type 'Float[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Float[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Integer;@11557007
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Integer[]' value '[Ljava.lang.Integer;@11557007' to type 'Integer[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Integer[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Long;@34eed6ab
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Long[]' value '[Ljava.lang.Long;@34eed6ab' to type 'Long[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Long[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Short;@1519f650
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Short[]' value '[Ljava.lang.Short;@1519f650' to type 'Short[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Short[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.String;@6516b8ff
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'String[]' value '[Ljava.lang.String;@6516b8ff' to type 'String[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a String[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.lang.Class;@5ff93912
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Class[]' value '[Ljava.lang.Class;@5ff93912' to type 'Class[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Class[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Date;@1d60f7c8
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Date[]' value '[Ljava.util.Date;@1d60f7c8' to type 'Date[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Date[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.util.Calendar;@1790a01f
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'Calendar[]' value '[Ljava.util.Calendar;@1790a01f' to type 'Calendar[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a Calendar[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.io.File;@1b73531f
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.io.File[]' value '[Ljava.io.File;@1b73531f' to type 'java.io.File[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.io.File[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Date;@47e4f0e1
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@47e4f0e1' to type 'java.sql.Date[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Date[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Time;@7ed3c882
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@7ed3c882' to type 'java.sql.Time[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Time[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.sql.Timestamp;@7ac24b71
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@7ac24b71' to type 'java.sql.Timestamp[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.sql.Timestamp[]
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Setting default value: [Ljava.net.URL;@29819a93
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] -- Converting 'java.net.URL[]' value '[Ljava.net.URL;@29819a93' to type 'java.net.URL[]'
+[2019-05-15 20:41:35] -- [DEBUG]:[org.apache.commons.beanutils.converters.ArrayConverter] --     No conversion required, value is already a java.net.URL[]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67194b1e]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@829818368 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==>  Preparing: insert into commodity (cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- ==> Parameters: null, 56(BigDecimal), true(Boolean), 四成新(String), 第一章风景(String), 1(Integer), -498702880@qq.com(String), 后+第一张(String), 足球(String), H:\GitHub\schoolsell\Schoolsell-local\target\classes\static\thumbnail\wx31174c6b66d0721a.o6zAJsz2ACsFCLynD3x-Azx1VlwE.up8LG21diyKAc783bc2d8324d880d206224fe7c4c1e8.jpg(String), 3(Integer)
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.insert] -- <==    Updates: 1
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67194b1e]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67194b1e]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67194b1e]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67194b1e]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@468e7a04]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@2113913229 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.updateThumbnailByCommodity] -- ==>  Preparing: update commodity set thumbnail=? where cID=? 
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.updateThumbnailByCommodity] -- ==> Parameters: H:\GitHub\schoolsell\Schoolsell-local\target\classes\static\thumbnail\66.jpg(String), 66(Integer)
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.updateThumbnailByCommodity] -- <==    Updates: 1
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@468e7a04]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@468e7a04]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@468e7a04]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@468e7a04]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b6a38f]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@481401001 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where thumbnail=? 
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: H:\GitHub\schoolsell\Schoolsell-local\target\classes\static\thumbnail\66.jpg(String)
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 1
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b6a38f]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b6a38f]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b6a38f]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50b6a38f]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a1bd0a]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1172907495 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where thumbnail=? 
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- ==> Parameters: H:\GitHub\schoolsell\Schoolsell-local\target\classes\static\thumbnail\66.jpg(String)
+[2019-05-15 20:41:42] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByUserIDWithCName] -- <==      Total: 1
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a1bd0a]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a1bd0a]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a1bd0a]
+[2019-05-15 20:41:42] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a1bd0a]
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c585fd] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@295386463 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, filePath, gender, userName from user where userID = ? 
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: -498702880@qq.com(String)
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 0
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13c585fd]
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fec7e7d] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@12702475 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will not be managed by Spring
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==>  Preparing: select userID, filePath, gender, userName from user where userID = ? 
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- ==> Parameters: -498702880@qq.com(String)
+[2019-05-15 20:41:44] -- [DEBUG]:[com.schoolsell.dao.UserMapper.selectByPrimaryKey] -- <==      Total: 0
+[2019-05-15 20:41:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fec7e7d]
+[2019-05-15 20:41:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f1153a]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1621707264 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@38681284 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f1153a]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f1153a]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f1153a]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26f1153a]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64477050] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1318379410 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will not be managed by Spring
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463] from current transaction
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64477050]
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463] from current transaction
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463] from current transaction
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:41:51] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:41:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@346ba463]
+[2019-05-15 20:42:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:42:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:43:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:43:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:44:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 2][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 117.170.51.124:64950<->183.232.103.145:443
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023JP2lH1H2n700CjZjH1VqQkH1JP2lU&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023JP2lH1H2n700CjZjH1VqQkH1JP2lU&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 >> Host: api.weixin.qq.com
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 >> Connection: Keep-Alive
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 >> Accept-Encoding: gzip,deflate
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=023JP2lH1H2n700CjZjH1VqQkH1JP2lU&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 >> "[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "Content-Type: text/plain[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "Date: Wed, 15 May 2019 12:44:44 GMT[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "Content-Length: 82[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "[\r][\n]"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-2 << "{"session_key":"GizaiFXQDvzPlBD281ruyg==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 << HTTP/1.1 200 OK
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 << Connection: keep-alive
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 << Content-Type: text/plain
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 << Date: Wed, 15 May 2019 12:44:44 GMT
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-2 << Content-Length: 82
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 2][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-2: set socket timeout to 0
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 2][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-2: Close connection
+[2019-05-15 20:44:44] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d419b69]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@540529165 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:44:44] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-15 20:44:44] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-15 20:44:44] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d419b69]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d419b69]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d419b69]
+[2019-05-15 20:44:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d419b69]
+[2019-05-15 20:44:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f4e5f7]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@663274010 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@653020824 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f4e5f7]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f4e5f7]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f4e5f7]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f4e5f7]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f208] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1634494466 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will not be managed by Spring
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0] from current transaction
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f208]
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0] from current transaction
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0] from current transaction
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:44:46] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:44:46] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cfecfe0]
+[2019-05-15 20:45:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 3][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 117.170.51.124:65105<->183.232.103.145:443
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=02387Xa41q8ftS1fAT941NRMa4187XaZ&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=02387Xa41q8ftS1fAT941NRMa4187XaZ&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 >> Host: api.weixin.qq.com
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 >> Connection: Keep-Alive
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 >> Accept-Encoding: gzip,deflate
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=02387Xa41q8ftS1fAT941NRMa4187XaZ&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 >> "[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "Content-Type: text/plain[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "Date: Wed, 15 May 2019 12:45:29 GMT[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "Content-Length: 82[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "[\r][\n]"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-3 << "{"session_key":"GizaiFXQDvzPlBD281ruyg==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 << HTTP/1.1 200 OK
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 << Connection: keep-alive
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 << Content-Type: text/plain
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 << Date: Wed, 15 May 2019 12:45:29 GMT
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-3 << Content-Length: 82
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 3][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-3: set socket timeout to 0
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 3][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-3: Close connection
+[2019-05-15 20:45:28] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d93832]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@290108677 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:45:28] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-15 20:45:28] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-15 20:45:28] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d93832]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d93832]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d93832]
+[2019-05-15 20:45:28] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52d93832]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@267085701 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e1c0eda]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1143136566 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73] from current transaction
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73] from current transaction
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e1c0eda]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73] from current transaction
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e1c0eda]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e1c0eda]
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7e1c0eda]
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60a5f3c9] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@870155706 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will not be managed by Spring
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b76dd73]
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:30] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:45:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60a5f3c9]
+[2019-05-15 20:45:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 4][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 117.170.51.124:65186<->183.232.103.145:443
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033vimVI1KlRk30q5rTI1wZCVI1vimVq&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033vimVI1KlRk30q5rTI1wZCVI1vimVq&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 >> Host: api.weixin.qq.com
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 >> Connection: Keep-Alive
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 >> Accept-Encoding: gzip,deflate
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033vimVI1KlRk30q5rTI1wZCVI1vimVq&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 >> "[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "Content-Type: text/plain[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "Date: Wed, 15 May 2019 12:45:55 GMT[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "Content-Length: 82[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "[\r][\n]"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-4 << "{"session_key":"GizaiFXQDvzPlBD281ruyg==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 << HTTP/1.1 200 OK
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 << Connection: keep-alive
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 << Content-Type: text/plain
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 << Date: Wed, 15 May 2019 12:45:55 GMT
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-4 << Content-Length: 82
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 4][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-4: set socket timeout to 0
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 4][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-4: Close connection
+[2019-05-15 20:45:55] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2820e92f]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@744932514 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:45:55] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-15 20:45:55] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-15 20:45:55] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2820e92f]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2820e92f]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2820e92f]
+[2019-05-15 20:45:55] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2820e92f]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcaa70]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1132632302 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@937265315 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcaa70]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcaa70]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcaa70]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fcaa70]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27467006] was not registered for synchronization because synchronization is not active
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1892997608 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will not be managed by Spring
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 14
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6] from current transaction
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27467006]
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6] from current transaction
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6] from current transaction
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-15 20:45:57] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:45:57] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55d48c6]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@458d8814]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1959909926 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity where cID = ? 
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- ==> Parameters: 66(Integer)
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectByPrimaryKey] -- <==      Total: 1
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@458d8814]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@458d8814]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@458d8814]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@458d8814]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108ff1d3]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1661330813 wrapping com.mysql.jdbc.JDBC4Connection@682f1d23] will be managed by Spring
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 66(Integer)
+[2019-05-15 20:46:08] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 0
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108ff1d3]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108ff1d3]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108ff1d3]
+[2019-05-15 20:46:08] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@108ff1d3]
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b2372]
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@3374296 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:46:10] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.updateIsbrowseBysendidandacceptid] -- ==>  Preparing: update chatreport set isbrowse = 1 where sendid = ? and acceptid = ? 
+[2019-05-15 20:46:10] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.updateIsbrowseBysendidandacceptid] -- ==> Parameters: -498702880@qq.com(String), -498702880@qq.com(String)
+[2019-05-15 20:46:10] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.updateIsbrowseBysendidandacceptid] -- <==    Updates: 0
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b2372]
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b2372]
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b2372]
+[2019-05-15 20:46:10] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@240b2372]
+[2019-05-15 20:46:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539539cf]
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@469031747 wrapping com.mysql.jdbc.JDBC4Connection@6cce1ca] will be managed by Spring
+[2019-05-15 20:46:30] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- ==>  Preparing: select chatid, sendid, acceptid, context, `date`, isbrowse from chatreport where acceptid = ? and isbrowse=? 
+[2019-05-15 20:46:30] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- ==> Parameters: -498702880@qq.com(String), false(Boolean)
+[2019-05-15 20:46:30] -- [DEBUG]:[com.schoolsell.dao.ChatreportMapper.selectByAccpetidAndisBrowse] -- <==      Total: 0
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539539cf]
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539539cf]
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539539cf]
+[2019-05-15 20:46:30] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539539cf]
+[2019-05-15 20:46:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:47:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:47:46] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-15 20:48:16] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)

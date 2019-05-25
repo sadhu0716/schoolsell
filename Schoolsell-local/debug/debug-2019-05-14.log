@@ -1,0 +1,396 @@
+[2019-05-14 01:36:40] -- [DEBUG]:[com.schoolsell.SchoolsellApplication] -- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\AdministratorMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\BigkindMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\ChatreportMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\CommodityMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\FeedbackMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\JubaoMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\JubaopictureMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\OrdercommodityMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\OrderMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\PictureMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\ShopcarMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\SmallkindMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\UserMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Identified candidate component class: file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\com\schoolsell\dao\WxuserMapper.class]
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'administratorMapper' and 'com.schoolsell.dao.AdministratorMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'administratorMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'bigkindMapper' and 'com.schoolsell.dao.BigkindMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'bigkindMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'chatreportMapper' and 'com.schoolsell.dao.ChatreportMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'chatreportMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'commodityMapper' and 'com.schoolsell.dao.CommodityMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'commodityMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'feedbackMapper' and 'com.schoolsell.dao.FeedbackMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'feedbackMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaoMapper' and 'com.schoolsell.dao.JubaoMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaoMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'jubaopictureMapper' and 'com.schoolsell.dao.JubaopictureMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'jubaopictureMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'ordercommodityMapper' and 'com.schoolsell.dao.OrdercommodityMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'ordercommodityMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'orderMapper' and 'com.schoolsell.dao.OrderMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'pictureMapper' and 'com.schoolsell.dao.PictureMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'pictureMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'shopcarMapper' and 'com.schoolsell.dao.ShopcarMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'shopcarMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'smallkindMapper' and 'com.schoolsell.dao.SmallkindMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'smallkindMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'userMapper' and 'com.schoolsell.dao.UserMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Creating MapperFactoryBean with name 'wxuserMapper' and 'com.schoolsell.dao.WxuserMapper' mapperInterface
+[2019-05-14 01:36:42] -- [DEBUG]:[org.mybatis.spring.mapper.ClassPathMapperScanner] -- Enabling autowire by type for MapperFactoryBean with name 'wxuserMapper'.
+[2019-05-14 01:36:44] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- Driver class com.mysql.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.logging.LogFactory] -- Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.VFS] -- Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Administrator matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Bigkind matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Chatreport matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Commodity matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Feedback matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubao matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Jubaopicture matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Order matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Ordercommodity matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.other.PictureCount matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Picture matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Shopcar matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Smallkind matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.User matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.apache.ibatis.io.ResolverUtil] -- Checking to see if class com.schoolsell.entity.Wxuser matches criteria [is assignable to Object]
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Scanned package: 'com.schoolsell.entity' for aliases
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\AdministratorMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\BigkindMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\ChatreportMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\CommodityMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\FeedbackMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\JubaoMapper.xml]'
+[2019-05-14 01:36:44] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\JubaopictureMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\OrdercommodityMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\OrderMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\PictureMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\ShopcarMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\SmallkindMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\UserMapper.xml]'
+[2019-05-14 01:36:45] -- [DEBUG]:[org.mybatis.spring.SqlSessionFactoryBean] -- Parsed mapper file: 'file [H:\GitHub\schoolsell\Schoolsell-local\target\classes\mapper\WxuserMapper.xml]'
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.client.protocol.RequestAddCookies] -- CookieSpec selected: default
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.client.protocol.RequestAuthCache] -- Auth cache not set in the context
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection request: [route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection leased: [id: 0][route: {s}->https://api.weixin.qq.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Opening connection {s}->https://api.weixin.qq.com:443
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connecting to api.weixin.qq.com/183.232.103.145:443
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Connecting socket to api.weixin.qq.com/183.232.103.145:443 with timeout 0
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2019-05-14 01:37:49] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Starting handshake
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] -- Secure session established
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated protocol: TLSv1.2
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer principal: CN=mp.weixin.qq.com, OU=R&D, O=Shenzhen Tencent Computer Systems Company Limited, L=Shenzhen, ST=Guangdong, C=CN
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  peer alternative names: [mp.weixin.qq.com, api.weixin.qq.com, a.weixin.qq.com, hk.mp.weixin.qq.com, minigame.weixin.qq.com, ad.weixin.qq.com, developers.weixin.qq.com, rd.wechatapp.com, api2.weixin.qq.com, hk.open.weixin.qq.com, sz.open.weixin.qq.com, servicewechat.com, game.weixin.qq.com, long.open.weixin.qq.com, open.weixin.qq.com, sh.api.weixin.qq.com, sz.api.weixin.qq.com, as.weixin.qq.com, hk.api.weixin.qq.com, sz.mp.weixin.qq.com, mp.weixinbridge.com]
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.conn.ssl.SSLConnectionSocketFactory] --  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.DefaultHttpClientConnectionOperator] -- Connection established 172.20.10.2:58709<->183.232.103.145:443
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Executing request GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DQVDn1ICCVq0Uz9Dn1YM2En1DQVDs&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Target auth state: UNCHALLENGED
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Proxy auth state: UNCHALLENGED
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DQVDn1ICCVq0Uz9Dn1YM2En1DQVDs&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Host: api.weixin.qq.com
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Connection: Keep-Alive
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "GET /sns/jscode2session?grant_type=authorization_code&appid=wx31174c6b66d0721a&js_code=033DQVDn1ICCVq0Uz9Dn1YM2En1DQVDs&secret=991bbc77a760a02f329e49e90d5fac10 HTTP/1.1[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Host: api.weixin.qq.com[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6 (Java/1.8.0_201)[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 >> "[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Date: Mon, 13 May 2019 17:37:49 GMT[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "Content-Length: 82[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "[\r][\n]"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.wire] -- http-outgoing-0 << "{"session_key":"4ldLsD9qOXKTE5DFqJGIEg==","openid":"oRyko40CSJIIk8KH_CiHqyfx3-GI"}"
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << HTTP/1.1 200 OK
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Connection: keep-alive
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Content-Type: text/plain
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Date: Mon, 13 May 2019 17:37:49 GMT
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.headers] -- http-outgoing-0 << Content-Length: 82
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.execchain.MainClientExec] -- Connection can be kept alive indefinitely
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection [id: 0][route: {s}->https://api.weixin.qq.com:443] can be kept alive indefinitely
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-0: set socket timeout to 0
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection released: [id: 0][route: {s}->https://api.weixin.qq.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager is shutting down
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.DefaultManagedHttpClientConnection] -- http-outgoing-0: Close connection
+[2019-05-14 01:37:50] -- [DEBUG]:[org.apache.http.impl.conn.PoolingHttpClientConnectionManager] -- Connection manager shut down
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- HikariPool-1 - configuration:
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- allowPoolSuspension.............false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- autoCommit......................true
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- catalog.........................none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionInitSql...............none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTestQuery.............none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- connectionTimeout...............30000
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSource......................none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceClassName.............none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceJNDI..................none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- dataSourceProperties............{password=<masked>}
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- driverClassName................."com.mysql.jdbc.Driver"
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckProperties...........{}
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- healthCheckRegistry.............none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- idleTimeout.....................600000
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailFast..........true
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- initializationFailTimeout.......1
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- isolateInternalQueries..........false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbc4ConnectionTest.............false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- jdbcUrl.........................jdbc:mysql://127.0.0.1:3306/schoolsell?useUnicode=true&characterEncoding=utf-8&useSSL=false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- leakDetectionThreshold..........0
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maxLifetime.....................1800000
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- maximumPoolSize.................10
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricRegistry..................none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- metricsTrackerFactory...........none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- minimumIdle.....................10
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- password........................<masked>
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- poolName........................"HikariPool-1"
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- readOnly........................false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- registerMbeans..................false
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutor...............none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- scheduledExecutorService........internal
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- schema..........................none
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- threadFactory...................internal
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- transactionIsolation............default
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- username........................"root"
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.HikariConfig] -- validationTimeout...............5000
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6399223b
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55e22cc3]
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1403246811 wrapping com.mysql.jdbc.JDBC4Connection@6399223b] will be managed by Spring
+[2019-05-14 01:37:51] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==>  Preparing: select wxID , userID, openID, sessionKey from wxuser where openID = ? 
+[2019-05-14 01:37:51] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- ==> Parameters: oRyko40CSJIIk8KH_CiHqyfx3-GI(String)
+[2019-05-14 01:37:51] -- [DEBUG]:[com.schoolsell.dao.WxuserMapper.selectByOpenID] -- <==      Total: 1
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55e22cc3]
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55e22cc3]
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55e22cc3]
+[2019-05-14 01:37:51] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55e22cc3]
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1b5fd486
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a57a704
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@268b5025
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5d546c2c
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@701f7836
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6387effd
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@6b929293
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@41655d30
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1610ccdf
+[2019-05-14 01:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@192391050 wrapping com.mysql.jdbc.JDBC4Connection@6399223b] will be managed by Spring
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2152c3]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@1087977907 wrapping com.mysql.jdbc.JDBC4Connection@1b5fd486] will be managed by Spring
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==>  Preparing: select cID, cPrice, bargain, useTime, cDescription, isChecked, sellerID, cName, kName, thumbnail, cCount from commodity 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- ==> Parameters: 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.CommodityMapper.selectAll] -- <==      Total: 13
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6] from current transaction
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2152c3]
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2152c3]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2152c3]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a2152c3]
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 49(Integer)
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6] from current transaction
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 50(Integer)
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6] from current transaction
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==>  Preparing: select pictureID, cID, picture from picture where cID = ? 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- ==> Parameters: 51(Integer)
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Creating a new SqlSession
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3710a162] was not registered for synchronization because synchronization is not active
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.transaction.SpringManagedTransaction] -- JDBC Connection [HikariProxyConnection@22420762 wrapping com.mysql.jdbc.JDBC4Connection@1b5fd486] will not be managed by Spring
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==>  Preparing: select bigKindID, bigKindName, bigKindPicture from bigkind 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- ==> Parameters: 
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.PictureMapper.selectByCid] -- <==      Total: 2
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a87fde6]
+[2019-05-14 01:37:53] -- [DEBUG]:[com.schoolsell.dao.BigkindMapper.selectAll] -- <==      Total: 3
+[2019-05-14 01:37:53] -- [DEBUG]:[org.mybatis.spring.SqlSessionUtils] -- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3710a162]
+[2019-05-14 01:38:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:38:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:39:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:39:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:40:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:40:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:41:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:41:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:42:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:42:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:43:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:43:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:44:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:44:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:45:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:45:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:46:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:46:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:47:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:47:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:48:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:48:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:49:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:49:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:50:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:50:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:51:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:51:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:52:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:52:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:53:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:53:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:54:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:54:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:55:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:55:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:56:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:56:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:57:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:57:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:58:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:58:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:59:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 01:59:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:00:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:00:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:01:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:01:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:02:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:02:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:03:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:03:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:04:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:04:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:05:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:05:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:06:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:06:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:07:13] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1b5fd486: (connection has passed maxLifetime)
+[2019-05-14 02:07:13] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7a67671f
+[2019-05-14 02:07:18] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6399223b: (connection has passed maxLifetime)
+[2019-05-14 02:07:18] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@e904bb2
+[2019-05-14 02:07:19] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@41655d30: (connection has passed maxLifetime)
+[2019-05-14 02:07:19] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@63a93438
+[2019-05-14 02:07:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:07:28] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6b929293: (connection has passed maxLifetime)
+[2019-05-14 02:07:28] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10f22366
+[2019-05-14 02:07:38] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5d546c2c: (connection has passed maxLifetime)
+[2019-05-14 02:07:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@fe607a4
+[2019-05-14 02:07:38] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@268b5025: (connection has passed maxLifetime)
+[2019-05-14 02:07:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2acb7773
+[2019-05-14 02:07:40] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1610ccdf: (connection has passed maxLifetime)
+[2019-05-14 02:07:40] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5f042d65
+[2019-05-14 02:07:42] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@a57a704: (connection has passed maxLifetime)
+[2019-05-14 02:07:42] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4c696756
+[2019-05-14 02:07:43] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@6387effd: (connection has passed maxLifetime)
+[2019-05-14 02:07:43] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@163b122a
+[2019-05-14 02:07:43] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:07:49] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@701f7836: (connection has passed maxLifetime)
+[2019-05-14 02:07:49] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1afd2e40
+[2019-05-14 02:07:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:08:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:08:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:09:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:09:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:10:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:10:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:11:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:11:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:12:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:12:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:13:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:13:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:14:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:14:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:15:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:15:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:16:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:16:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:17:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:17:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:18:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:18:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:19:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:19:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:20:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:20:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:21:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:21:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:22:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:22:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:23:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:23:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:24:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:24:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:25:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:25:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:26:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:26:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:27:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:27:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:28:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:28:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:29:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:29:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:30:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:30:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:31:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:31:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:32:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:32:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:33:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:33:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:34:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:34:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:35:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:35:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:36:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:36:40] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@e904bb2: (connection has passed maxLifetime)
+[2019-05-14 02:36:40] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1a5eaf68
+[2019-05-14 02:36:50] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7a67671f: (connection has passed maxLifetime)
+[2019-05-14 02:36:50] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@301ef382
+[2019-05-14 02:36:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:37:05] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@63a93438: (connection has passed maxLifetime)
+[2019-05-14 02:37:05] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2ee7e3
+[2019-05-14 02:37:06] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5f042d65: (connection has passed maxLifetime)
+[2019-05-14 02:37:06] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@74a3ffc6
+[2019-05-14 02:37:10] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@10f22366: (connection has passed maxLifetime)
+[2019-05-14 02:37:10] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5863580a
+[2019-05-14 02:37:10] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@1afd2e40: (connection has passed maxLifetime)
+[2019-05-14 02:37:10] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@214ddf6f
+[2019-05-14 02:37:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:37:24] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@fe607a4: (connection has passed maxLifetime)
+[2019-05-14 02:37:24] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7242270
+[2019-05-14 02:37:26] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4c696756: (connection has passed maxLifetime)
+[2019-05-14 02:37:26] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@73ae3f73
+[2019-05-14 02:37:27] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2acb7773: (connection has passed maxLifetime)
+[2019-05-14 02:37:27] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@645d4492
+[2019-05-14 02:37:38] -- [DEBUG]:[com.zaxxer.hikari.pool.PoolBase] -- HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@163b122a: (connection has passed maxLifetime)
+[2019-05-14 02:37:38] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@67b7f56d
+[2019-05-14 02:37:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:38:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:38:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:39:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:39:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:40:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:40:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:41:21] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2019-05-14 02:41:51] -- [DEBUG]:[com.zaxxer.hikari.pool.HikariPool] -- HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
